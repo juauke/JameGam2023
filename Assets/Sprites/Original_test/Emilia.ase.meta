@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 76
       width: 17
       height: 27
-    spriteID: 5334eae409d9f3046b290200cae562d9
+    spriteID: 1df0ff58817355b49a198b2406ee14c5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 4
       width: 18
       height: 26
-    spriteID: ea963c4b4d8ddba499b554581be4a1df
+    spriteID: d350139b279f3fb49882038447f94f2e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -167,10 +167,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 72
-      y: 181
+      y: 216
       width: 17
       height: 26
-    spriteID: 7047c967a83f38a47a19e87257a65432
+    spriteID: 79e91ca084f756c48bcc8bd5ecd817b3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -178,7 +178,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 72, y: 181}
+    uvTransform: {x: 72, y: 216}
   - name: Emilia_Frame_3
     originalName: 
     pivot: {x: 0.61538464, y: 0}
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 198
       width: 26
       height: 27
-    spriteID: 611ff66cb70f62642981b48888531afa
+    spriteID: e65d7b70e22a3734f946327fea010834
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 4
       width: 26
       height: 27
-    spriteID: c29f2a1e8a5a1c6468615c7dda21a28f
+    spriteID: c2cd829cfded5924aaca9453fca1316d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -230,7 +230,7 @@ ScriptedImporter:
       y: 39
       width: 26
       height: 27
-    spriteID: 949e88a8b36312147b60395602fead99
+    spriteID: 0b09c1c702ba6f24d83de88d3eac0dab
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -250,7 +250,7 @@ ScriptedImporter:
       y: 74
       width: 26
       height: 27
-    spriteID: e83ceb8c56d1b404b808651e1b77096b
+    spriteID: 9a9af48fb94a4344f8b8801abb485459
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -270,7 +270,7 @@ ScriptedImporter:
       y: 82
       width: 26
       height: 28
-    spriteID: 50eea2835b7d6d54eb93222a493f2dad
+    spriteID: a239eea37cd39184581214a8921b2b46
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -290,7 +290,7 @@ ScriptedImporter:
       y: 109
       width: 26
       height: 27
-    spriteID: d524f1379973a3c438912e012ced1a9a
+    spriteID: 1c3f19c2670acd940bae9d3c4056a70a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -301,16 +301,16 @@ ScriptedImporter:
     uvTransform: {x: 38, y: 109}
   - name: Emilia_Frame_9
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.47058824, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 97
       y: 38
-      width: 18
-      height: 24
-    spriteID: dace8c1b4697f7841a2e80bd625b0daf
+      width: 17
+      height: 26
+    spriteID: 08b441f4d31f82e4b9573aa7deb63eb6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -326,11 +326,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 72
-      y: 4
+      x: 97
+      y: 72
       width: 17
-      height: 28
-    spriteID: ad3a2bbb9d716d24f9115b5c8da5d50a
+      height: 26
+    spriteID: f43eabae388fcf1439322b845edd3f7d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -338,168 +338,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 72, y: 4}
+    uvTransform: {x: 97, y: 72}
   - name: Emilia_Frame_11
-    originalName: 
-    pivot: {x: 0.47058824, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 72
-      y: 40
-      width: 17
-      height: 28
-    spriteID: 4a136ea732a48b546bae57cd82a26682
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 72, y: 40}
-  - name: Emilia_Frame_12
-    originalName: 
-    pivot: {x: 0.5909091, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 38
-      y: 144
-      width: 22
-      height: 27
-    spriteID: 6b75c5231d0bee04682f9dfedb61557c
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 38, y: 144}
-  - name: Emilia_Frame_13
-    originalName: 
-    pivot: {x: 0.61538464, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 4
-      width: 26
-      height: 31
-    spriteID: b8232fea1b8b7b4428b43ea451cf5a61
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 4}
-  - name: Emilia_Frame_14
-    originalName: 
-    pivot: {x: 0.54545456, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 118
-      width: 22
-      height: 32
-    spriteID: 42764a3a753f20b4bb920183b40b3594
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 118}
-  - name: Emilia_Frame_15
-    originalName: 
-    pivot: {x: 0.54545456, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 158
-      width: 22
-      height: 32
-    spriteID: fae5f597ccc22f043bdad7db857062bc
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 158}
-  - name: Emilia_Frame_16
-    originalName: 
-    pivot: {x: 0.61538464, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 43
-      width: 26
-      height: 31
-    spriteID: c94bd5587bc13874597994c9c7570eeb
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 43}
-  - name: Emilia_Frame_17
-    originalName: 
-    pivot: {x: 0.5714286, y: -0.03846154}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 38
-      y: 179
-      width: 21
-      height: 26
-    spriteID: 2f69b42f14664804796c8e275a3c714d
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 38, y: 179}
-  - name: Emilia_Frame_18
-    originalName: 
-    pivot: {x: 0.5714286, y: -0.03846154}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 38
-      y: 213
-      width: 21
-      height: 26
-    spriteID: 9394b9cd4df098c448dadd3d33bd45bf
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 38, y: 213}
-  - name: Emilia_Frame_19
     originalName: 
     pivot: {x: 0.47058824, y: 0}
     alignment: 9
@@ -510,7 +350,7 @@ ScriptedImporter:
       y: 111
       width: 17
       height: 27
-    spriteID: d0a2240ebf2e0ad419aaa41d6cd214a2
+    spriteID: 3781a47489887c44eb37cb9580335c0e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -519,7 +359,47 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 72, y: 111}
-  - name: Emilia_Frame_20
+  - name: Emilia_Frame_12
+    originalName: 
+    pivot: {x: 0.47058824, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 97
+      y: 106
+      width: 17
+      height: 26
+    spriteID: de2112d1813a44142bb02d9e4e9c833c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 97, y: 106}
+  - name: Emilia_Frame_13
+    originalName: 
+    pivot: {x: 0.47058824, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 97
+      y: 140
+      width: 17
+      height: 26
+    spriteID: 87599c7be215e49408ecba3a0560682c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 97, y: 140}
+  - name: Emilia_Frame_14
     originalName: 
     pivot: {x: 0.47058824, y: 0}
     alignment: 9
@@ -530,7 +410,7 @@ ScriptedImporter:
       y: 146
       width: 17
       height: 27
-    spriteID: a1cc5c363598d78468524d786721684c
+    spriteID: ccff413c8ad61f64495e5cfab3ca7e5d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -539,7 +419,227 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 72, y: 146}
+  - name: Emilia_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 97
+      y: 174
+      width: 18
+      height: 24
+    spriteID: debb5c789d703d34c9d402f9d7c944f0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 97, y: 174}
+  - name: Emilia_Frame_16
+    originalName: 
+    pivot: {x: 0.47058824, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 72
+      y: 4
+      width: 17
+      height: 28
+    spriteID: 976e3fefbb8f48f44bc42ba3deeb7187
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 72, y: 4}
+  - name: Emilia_Frame_17
+    originalName: 
+    pivot: {x: 0.47058824, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 72
+      y: 40
+      width: 17
+      height: 28
+    spriteID: 63b9574b583a348448ea399e8729ab83
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 72, y: 40}
+  - name: Emilia_Frame_18
+    originalName: 
+    pivot: {x: 0.5909091, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 38
+      y: 144
+      width: 22
+      height: 27
+    spriteID: b95ee6f4cfdebf545993082daac325d8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 38, y: 144}
+  - name: Emilia_Frame_19
+    originalName: 
+    pivot: {x: 0.61538464, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 26
+      height: 31
+    spriteID: 7e397ceab09421a48a0e4d4489f6d577
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Emilia_Frame_20
+    originalName: 
+    pivot: {x: 0.54545456, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 118
+      width: 22
+      height: 32
+    spriteID: ad090d01f77e9f74dab50132240feebe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 118}
   - name: Emilia_Frame_21
+    originalName: 
+    pivot: {x: 0.54545456, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 158
+      width: 22
+      height: 32
+    spriteID: 789769474df5ee24f9b769e23d57c497
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 158}
+  - name: Emilia_Frame_22
+    originalName: 
+    pivot: {x: 0.61538464, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 43
+      width: 26
+      height: 31
+    spriteID: cc7b4f8ba1544614cb33b3aaedeffd28
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 43}
+  - name: Emilia_Frame_23
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.03846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 38
+      y: 179
+      width: 21
+      height: 26
+    spriteID: ebc06f71b1341c04cb21f2c5ad759f97
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 38, y: 179}
+  - name: Emilia_Frame_24
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.03846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 38
+      y: 213
+      width: 21
+      height: 26
+    spriteID: 4aa88dd56ae702c4dbb6b0a71352c773
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 38, y: 213}
+  - name: Emilia_Frame_25
+    originalName: 
+    pivot: {x: 0.47058824, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 72
+      y: 181
+      width: 17
+      height: 27
+    spriteID: 538769f845d7c65469f13a6d4519ebb2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 72, y: 181}
+  - name: Emilia_Frame_26
     originalName: 
     pivot: {x: 0.51724136, y: 0}
     alignment: 9
@@ -550,7 +650,7 @@ ScriptedImporter:
       y: 4
       width: 29
       height: 11
-    spriteID: 62a506439e8928740a5859034706c20f
+    spriteID: 9afac6b1bcc71d34e8bac0cef673bb23
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -559,7 +659,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 123, y: 4}
-  - name: Emilia_Frame_22
+  - name: Emilia_Frame_27
     originalName: 
     pivot: {x: 0.51724136, y: 0}
     alignment: 9
@@ -570,7 +670,7 @@ ScriptedImporter:
       y: 23
       width: 29
       height: 11
-    spriteID: cbe26a3d8d6a77f4c8f49d31cbbcc12f
+    spriteID: 099b6638020c8d74ab97efcb589c54ac
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -579,7 +679,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 123, y: 23}
-  - name: Emilia_Frame_23
+  - name: Emilia_Frame_28
     originalName: 
     pivot: {x: 0.51724136, y: 0}
     alignment: 9
@@ -590,7 +690,7 @@ ScriptedImporter:
       y: 42
       width: 29
       height: 11
-    spriteID: b1ceaa0e72ee603439015960d0f9f303
+    spriteID: a62b3090dfcae27498ba230c41ac421d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -599,7 +699,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 123, y: 42}
-  - name: Emilia_Frame_24
+  - name: Emilia_Frame_29
     originalName: 
     pivot: {x: 0.51724136, y: 0}
     alignment: 9
@@ -610,7 +710,7 @@ ScriptedImporter:
       y: 61
       width: 29
       height: 11
-    spriteID: 2d1f5334c7b38874e9c13c20d446eb3e
+    spriteID: ec9263301caef7f43a029de33d35687d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -619,7 +719,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 123, y: 61}
-  - name: Emilia_Frame_25
+  - name: Emilia_Frame_30
     originalName: 
     pivot: {x: 0.51724136, y: 0}
     alignment: 9
@@ -630,7 +730,7 @@ ScriptedImporter:
       y: 80
       width: 29
       height: 11
-    spriteID: 82b8f5bed9c3a0242b90b676739e2cb2
+    spriteID: b848a5997db731a468453018705bbb07
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -639,7 +739,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 123, y: 80}
-  - name: Emilia_Frame_26
+  - name: Emilia_Frame_31
     originalName: 
     pivot: {x: 0.51724136, y: 0}
     alignment: 9
@@ -650,7 +750,7 @@ ScriptedImporter:
       y: 99
       width: 29
       height: 11
-    spriteID: e4aff151ba1ec9f449b90847fdf32ac4
+    spriteID: 15ae3d02d4b644b46aaed45acb34303c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -659,7 +759,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 123, y: 99}
-  - name: Emilia_Frame_27
+  - name: Emilia_Frame_32
     originalName: 
     pivot: {x: 0.51724136, y: 0}
     alignment: 9
@@ -670,7 +770,7 @@ ScriptedImporter:
       y: 118
       width: 29
       height: 11
-    spriteID: 466595dd188d16245bdba1f31e701a94
+    spriteID: fa86d1f7d7aafae4c87726482b52ad19
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -679,7 +779,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 123, y: 118}
-  - name: Emilia_Frame_28
+  - name: Emilia_Frame_33
     originalName: 
     pivot: {x: 0.51724136, y: 0}
     alignment: 9
@@ -690,7 +790,7 @@ ScriptedImporter:
       y: 137
       width: 29
       height: 11
-    spriteID: bbc54fbcfa55ef64198904f31eeca292
+    spriteID: 43b378ac656edb848b81faa2e086db4d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -699,7 +799,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 123, y: 137}
-  - name: Emilia_Frame_29
+  - name: Emilia_Frame_34
     originalName: 
     pivot: {x: 0.51724136, y: 0}
     alignment: 9
@@ -710,7 +810,7 @@ ScriptedImporter:
       y: 156
       width: 29
       height: 11
-    spriteID: ec32cf4664e42ac47a04781e3c2c1dd2
+    spriteID: cb1c035661d7fa44f9451ac925ab5eea
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -719,7 +819,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 123, y: 156}
-  - name: Emilia_Frame_30
+  - name: Emilia_Frame_35
     originalName: 
     pivot: {x: 0.51724136, y: 0}
     alignment: 9
@@ -730,7 +830,7 @@ ScriptedImporter:
       y: 175
       width: 29
       height: 11
-    spriteID: 1043aef117cf05f4a90ae17de7ab83da
+    spriteID: 4635876b060424b46888096258d6a850
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -739,6 +839,26 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 123, y: 175}
+  - name: Emilia_Frame_36
+    originalName: 
+    pivot: {x: 0.51724136, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 123
+      y: 194
+      width: 29
+      height: 11
+    spriteID: 81d7793d5df4754408f8201dd180fde3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 123, y: 194}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -755,7 +875,7 @@ ScriptedImporter:
         y: 0
         width: 17
         height: 27
-      spriteId: 5334eae409d9f3046b290200cae562d9
+      spriteId: 1df0ff58817355b49a198b2406ee14c5
     - name: Emilia_Frame_1
       frameIndex: 1
       cellRect:
@@ -763,7 +883,7 @@ ScriptedImporter:
         y: 0
         width: 18
         height: 26
-      spriteId: ea963c4b4d8ddba499b554581be4a1df
+      spriteId: d350139b279f3fb49882038447f94f2e
     - name: Emilia_Frame_2
       frameIndex: 2
       cellRect:
@@ -771,7 +891,7 @@ ScriptedImporter:
         y: 0
         width: 17
         height: 26
-      spriteId: 7047c967a83f38a47a19e87257a65432
+      spriteId: 79e91ca084f756c48bcc8bd5ecd817b3
     - name: Emilia_Frame_3
       frameIndex: 3
       cellRect:
@@ -779,7 +899,7 @@ ScriptedImporter:
         y: 0
         width: 26
         height: 27
-      spriteId: 611ff66cb70f62642981b48888531afa
+      spriteId: e65d7b70e22a3734f946327fea010834
     - name: Emilia_Frame_4
       frameIndex: 4
       cellRect:
@@ -787,7 +907,7 @@ ScriptedImporter:
         y: 0
         width: 26
         height: 27
-      spriteId: c29f2a1e8a5a1c6468615c7dda21a28f
+      spriteId: c2cd829cfded5924aaca9453fca1316d
     - name: Emilia_Frame_5
       frameIndex: 5
       cellRect:
@@ -795,7 +915,7 @@ ScriptedImporter:
         y: 1
         width: 26
         height: 27
-      spriteId: 949e88a8b36312147b60395602fead99
+      spriteId: 0b09c1c702ba6f24d83de88d3eac0dab
     - name: Emilia_Frame_6
       frameIndex: 6
       cellRect:
@@ -803,7 +923,7 @@ ScriptedImporter:
         y: 0
         width: 26
         height: 27
-      spriteId: e83ceb8c56d1b404b808651e1b77096b
+      spriteId: 9a9af48fb94a4344f8b8801abb485459
     - name: Emilia_Frame_7
       frameIndex: 7
       cellRect:
@@ -811,7 +931,7 @@ ScriptedImporter:
         y: 0
         width: 26
         height: 28
-      spriteId: 50eea2835b7d6d54eb93222a493f2dad
+      spriteId: a239eea37cd39184581214a8921b2b46
     - name: Emilia_Frame_8
       frameIndex: 8
       cellRect:
@@ -819,143 +939,143 @@ ScriptedImporter:
         y: 0
         width: 26
         height: 27
-      spriteId: d524f1379973a3c438912e012ced1a9a
+      spriteId: 1c3f19c2670acd940bae9d3c4056a70a
     - name: Emilia_Frame_9
       frameIndex: 9
       cellRect:
-        x: 7
+        x: 8
         y: 0
-        width: 18
-        height: 24
-      spriteId: dace8c1b4697f7841a2e80bd625b0daf
+        width: 17
+        height: 26
+      spriteId: 08b441f4d31f82e4b9573aa7deb63eb6
     - name: Emilia_Frame_10
       frameIndex: 10
       cellRect:
         x: 8
         y: 0
         width: 17
-        height: 28
-      spriteId: ad3a2bbb9d716d24f9115b5c8da5d50a
+        height: 26
+      spriteId: f43eabae388fcf1439322b845edd3f7d
     - name: Emilia_Frame_11
       frameIndex: 11
       cellRect:
         x: 8
         y: 0
         width: 17
-        height: 28
-      spriteId: 4a136ea732a48b546bae57cd82a26682
+        height: 27
+      spriteId: 3781a47489887c44eb37cb9580335c0e
     - name: Emilia_Frame_12
       frameIndex: 12
+      cellRect:
+        x: 8
+        y: 0
+        width: 17
+        height: 26
+      spriteId: de2112d1813a44142bb02d9e4e9c833c
+    - name: Emilia_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 8
+        y: 0
+        width: 17
+        height: 26
+      spriteId: 87599c7be215e49408ecba3a0560682c
+    - name: Emilia_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 8
+        y: 0
+        width: 17
+        height: 27
+      spriteId: ccff413c8ad61f64495e5cfab3ca7e5d
+    - name: Emilia_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 7
+        y: 0
+        width: 18
+        height: 24
+      spriteId: debb5c789d703d34c9d402f9d7c944f0
+    - name: Emilia_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 8
+        y: 0
+        width: 17
+        height: 28
+      spriteId: 976e3fefbb8f48f44bc42ba3deeb7187
+    - name: Emilia_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 8
+        y: 0
+        width: 17
+        height: 28
+      spriteId: 63b9574b583a348448ea399e8729ab83
+    - name: Emilia_Frame_18
+      frameIndex: 18
       cellRect:
         x: 3
         y: 0
         width: 22
         height: 27
-      spriteId: 6b75c5231d0bee04682f9dfedb61557c
-    - name: Emilia_Frame_13
-      frameIndex: 13
-      cellRect:
-        x: 0
-        y: 0
-        width: 26
-        height: 31
-      spriteId: b8232fea1b8b7b4428b43ea451cf5a61
-    - name: Emilia_Frame_14
-      frameIndex: 14
-      cellRect:
-        x: 4
-        y: 0
-        width: 22
-        height: 32
-      spriteId: 42764a3a753f20b4bb920183b40b3594
-    - name: Emilia_Frame_15
-      frameIndex: 15
-      cellRect:
-        x: 4
-        y: 0
-        width: 22
-        height: 32
-      spriteId: fae5f597ccc22f043bdad7db857062bc
-    - name: Emilia_Frame_16
-      frameIndex: 16
-      cellRect:
-        x: 0
-        y: 0
-        width: 26
-        height: 31
-      spriteId: c94bd5587bc13874597994c9c7570eeb
-    - name: Emilia_Frame_17
-      frameIndex: 17
-      cellRect:
-        x: 4
-        y: 1
-        width: 21
-        height: 26
-      spriteId: 2f69b42f14664804796c8e275a3c714d
-    - name: Emilia_Frame_18
-      frameIndex: 18
-      cellRect:
-        x: 4
-        y: 1
-        width: 21
-        height: 26
-      spriteId: 9394b9cd4df098c448dadd3d33bd45bf
+      spriteId: b95ee6f4cfdebf545993082daac325d8
     - name: Emilia_Frame_19
       frameIndex: 19
       cellRect:
-        x: 8
+        x: 0
         y: 0
-        width: 17
-        height: 27
-      spriteId: d0a2240ebf2e0ad419aaa41d6cd214a2
+        width: 26
+        height: 31
+      spriteId: 7e397ceab09421a48a0e4d4489f6d577
     - name: Emilia_Frame_20
       frameIndex: 20
       cellRect:
+        x: 4
+        y: 0
+        width: 22
+        height: 32
+      spriteId: ad090d01f77e9f74dab50132240feebe
+    - name: Emilia_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 4
+        y: 0
+        width: 22
+        height: 32
+      spriteId: 789769474df5ee24f9b769e23d57c497
+    - name: Emilia_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 0
+        y: 0
+        width: 26
+        height: 31
+      spriteId: cc7b4f8ba1544614cb33b3aaedeffd28
+    - name: Emilia_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 4
+        y: 1
+        width: 21
+        height: 26
+      spriteId: ebc06f71b1341c04cb21f2c5ad759f97
+    - name: Emilia_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 4
+        y: 1
+        width: 21
+        height: 26
+      spriteId: 4aa88dd56ae702c4dbb6b0a71352c773
+    - name: Emilia_Frame_25
+      frameIndex: 25
+      cellRect:
         x: 8
         y: 0
         width: 17
         height: 27
-      spriteId: a1cc5c363598d78468524d786721684c
-    - name: Emilia_Frame_21
-      frameIndex: 21
-      cellRect:
-        x: 1
-        y: 0
-        width: 29
-        height: 11
-      spriteId: 62a506439e8928740a5859034706c20f
-    - name: Emilia_Frame_22
-      frameIndex: 22
-      cellRect:
-        x: 1
-        y: 0
-        width: 29
-        height: 11
-      spriteId: cbe26a3d8d6a77f4c8f49d31cbbcc12f
-    - name: Emilia_Frame_23
-      frameIndex: 23
-      cellRect:
-        x: 1
-        y: 0
-        width: 29
-        height: 11
-      spriteId: b1ceaa0e72ee603439015960d0f9f303
-    - name: Emilia_Frame_24
-      frameIndex: 24
-      cellRect:
-        x: 1
-        y: 0
-        width: 29
-        height: 11
-      spriteId: 2d1f5334c7b38874e9c13c20d446eb3e
-    - name: Emilia_Frame_25
-      frameIndex: 25
-      cellRect:
-        x: 1
-        y: 0
-        width: 29
-        height: 11
-      spriteId: 82b8f5bed9c3a0242b90b676739e2cb2
+      spriteId: 538769f845d7c65469f13a6d4519ebb2
     - name: Emilia_Frame_26
       frameIndex: 26
       cellRect:
@@ -963,7 +1083,7 @@ ScriptedImporter:
         y: 0
         width: 29
         height: 11
-      spriteId: e4aff151ba1ec9f449b90847fdf32ac4
+      spriteId: 9afac6b1bcc71d34e8bac0cef673bb23
     - name: Emilia_Frame_27
       frameIndex: 27
       cellRect:
@@ -971,7 +1091,7 @@ ScriptedImporter:
         y: 0
         width: 29
         height: 11
-      spriteId: 466595dd188d16245bdba1f31e701a94
+      spriteId: 099b6638020c8d74ab97efcb589c54ac
     - name: Emilia_Frame_28
       frameIndex: 28
       cellRect:
@@ -979,7 +1099,7 @@ ScriptedImporter:
         y: 0
         width: 29
         height: 11
-      spriteId: bbc54fbcfa55ef64198904f31eeca292
+      spriteId: a62b3090dfcae27498ba230c41ac421d
     - name: Emilia_Frame_29
       frameIndex: 29
       cellRect:
@@ -987,7 +1107,7 @@ ScriptedImporter:
         y: 0
         width: 29
         height: 11
-      spriteId: ec32cf4664e42ac47a04781e3c2c1dd2
+      spriteId: ec9263301caef7f43a029de33d35687d
     - name: Emilia_Frame_30
       frameIndex: 30
       cellRect:
@@ -995,7 +1115,55 @@ ScriptedImporter:
         y: 0
         width: 29
         height: 11
-      spriteId: 1043aef117cf05f4a90ae17de7ab83da
+      spriteId: b848a5997db731a468453018705bbb07
+    - name: Emilia_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 1
+        y: 0
+        width: 29
+        height: 11
+      spriteId: 15ae3d02d4b644b46aaed45acb34303c
+    - name: Emilia_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 1
+        y: 0
+        width: 29
+        height: 11
+      spriteId: fa86d1f7d7aafae4c87726482b52ad19
+    - name: Emilia_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 1
+        y: 0
+        width: 29
+        height: 11
+      spriteId: 43b378ac656edb848b81faa2e086db4d
+    - name: Emilia_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 1
+        y: 0
+        width: 29
+        height: 11
+      spriteId: cb1c035661d7fa44f9451ac925ab5eea
+    - name: Emilia_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 1
+        y: 0
+        width: 29
+        height: 11
+      spriteId: 4635876b060424b46888096258d6a850
+    - name: Emilia_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 1
+        y: 0
+        width: 29
+        height: 11
+      spriteId: 81d7793d5df4754408f8201dd180fde3
     linkedCells: []
     parentIndex: -1
   platformSettings: []

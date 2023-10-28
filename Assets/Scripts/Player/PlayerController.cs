@@ -1,7 +1,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class PlayerController : MonoBehaviour
 {
@@ -44,6 +46,8 @@ public class PlayerController : MonoBehaviour
     public int amountOfJumps = 1;
 
     public float movementSpeed = 10.0f;
+    public float movementSpeedForward = 10.0f;
+    public float movementSpeedBackward = 5f;
     public float jumpForce = 16.0f;
     public float groundCheckRadius;
     public float wallCheckDistance;
@@ -59,6 +63,7 @@ public class PlayerController : MonoBehaviour
     public float dashSpeed;
     public float distanceBetweenImages;
     public float dashCoolDown;
+    public float dashEpsilon = 0.5f;
 
     private float fallStartHeight;
     public float minimumFallDamageHeight = 10f;
@@ -75,7 +80,8 @@ public class PlayerController : MonoBehaviour
 
     public LayerMask whatIsGround;
 
-
+    private GrapplinHook lastGrapplinCreated;
+    private Vector3 prevPosition;
     [SerializeField] public PlayerAudioManager audioManager;
     [SerializeField] private GrapplinHook grapplinHook;
 
@@ -94,10 +100,6 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (grapplinHook.grapplinHit)
-        {
-            Debug.Log(grapplinHook.grapplinTarget);
-        }
         CheckInput();
         CheckMovementDirection();
         UpdateAnimations();
@@ -108,14 +110,17 @@ public class PlayerController : MonoBehaviour
         CheckKnockback();
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter2D(Collision2D col)
     {
-        if (grapplinHook.grapplinHit)
+        if (!lastGrapplinCreated.IsUnityNull() && lastGrapplinCreated.grapplinHit)
         {
-            grapplinHook.grapplinHit = false;
+            lastGrapplinCreated.grapplinHit = false;
             isDashing = false;
             canMove = true;
             canFlip = true;
+            Destroy(lastGrapplinCreated);
+            Debug.Log("normalement ça a suppr (collision)");
+            rb.velocity = Vector2.zero;
         }
     }
 
@@ -215,13 +220,13 @@ public class PlayerController : MonoBehaviour
 
     private void CheckMovementDirection()
     {
-        if (isFacingRight && movementInputDirection < 0)
+        if (movementInputDirection < 0)
         {
-            Flip();
+            movementSpeed = movementSpeedBackward;
         }
-        else if (!isFacingRight && movementInputDirection > 0)
+        else if (movementInputDirection > 0)
         {
-            Flip();
+            movementSpeed = movementSpeedForward;
         }
 
         if (Mathf.Abs(rb.velocity.x) >= 0.01f)
@@ -305,8 +310,8 @@ public class PlayerController : MonoBehaviour
 
         PlayerAfterImagePool.Instance.GetFromPool();
         lastImageXpos = transform.position.x;
-        GameObject grapplinCreated= Instantiate(grapplinHook.gameObject, transform);
-        grapplinCreated.SetActive(true);
+        lastGrapplinCreated = GrapplinHook.Instantiate(grapplinHook, transform);
+        lastGrapplinCreated.gameObject.SetActive(true);
     }
 
     public int GetFacingDirection()
@@ -318,26 +323,32 @@ public class PlayerController : MonoBehaviour
     {
         if (isDashing)
         {
-            if (grapplinHook.grapplinHit)
+            if (lastGrapplinCreated.grapplinHit)
             {
                 canMove = false;
                 canFlip = false;
-                rb.velocity = dashSpeed * grapplinHook.grapplinTarget;
+                rb.velocity = dashSpeed * ((lastGrapplinCreated.grapplinTarget - transform.position).normalized);
 
                 if (Mathf.Abs(transform.position.x - lastImageXpos) > distanceBetweenImages)
                 {
                     PlayerAfterImagePool.Instance.GetFromPool();
                     lastImageXpos = transform.position.x;
                 }
+                
+                if (!prevPosition.IsUnityNull() && prevPosition== transform.position)
+                {
+                    lastGrapplinCreated.grapplinHit = false;
+                    isDashing = false;
+                    canMove = true;
+                    canFlip = true;
+                    Destroy(lastGrapplinCreated);
+                    Debug.Log("normalement ça a suppr (frames)");
+                    rb.velocity = Vector2.zero;
+                }
+
+                prevPosition = transform.position;
             }
 
-            if (isGrounded || isTouchingWall)
-            {
-                grapplinHook.grapplinHit = false;
-                isDashing = false;
-                canMove = true;
-                canFlip = true;
-            }
         }
     }
 
@@ -454,7 +465,7 @@ public class PlayerController : MonoBehaviour
         canFlip = true;
     }
 
-    private void Flip()
+    public void Flip()
     {
         if (!isWallSliding && canFlip && !knockback)
         {
