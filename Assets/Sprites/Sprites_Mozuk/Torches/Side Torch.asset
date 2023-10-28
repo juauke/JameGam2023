@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: Side Torch
   m_EditorClassIdentifier: 
   m_AnimatedSprites:
-  - {fileID: -849775557, guid: ee7da594391dff847a89d69d8cfd1957, type: 3}
-  - {fileID: 1588336374, guid: ee7da594391dff847a89d69d8cfd1957, type: 3}
-  - {fileID: 596439304, guid: ee7da594391dff847a89d69d8cfd1957, type: 3}
-  - {fileID: -1999353727, guid: ee7da594391dff847a89d69d8cfd1957, type: 3}
-  - {fileID: -1340150137, guid: ee7da594391dff847a89d69d8cfd1957, type: 3}
-  m_MinSpeed: 100
-  m_MaxSpeed: 100
+  - {fileID: -1883316389, guid: bdad5552ed2be7448a08afc9416ea66b, type: 3}
+  - {fileID: 2128958556, guid: bdad5552ed2be7448a08afc9416ea66b, type: 3}
+  - {fileID: 2093789232, guid: bdad5552ed2be7448a08afc9416ea66b, type: 3}
+  - {fileID: -795862480, guid: bdad5552ed2be7448a08afc9416ea66b, type: 3}
+  - {fileID: -644591110, guid: bdad5552ed2be7448a08afc9416ea66b, type: 3}
+  m_MinSpeed: 10
+  m_MaxSpeed: 10
   m_AnimationStartTime: 0
   m_AnimationStartFrame: 0
   m_TileColliderType: 0

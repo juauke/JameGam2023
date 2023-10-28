@@ -2,11 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NextLvl : MonoBehaviour
+public class Level : MonoBehaviour
 {
     [SerializeField] private Transform Checkpoint;
     [SerializeField] private Transform nextCheckpoint;
-    
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log(collision.gameObject.tag);
