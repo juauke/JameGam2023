@@ -1,0 +1,836 @@
+fileFormatVersion: 2
+guid: 1a920115f9a39c74f8f52333c4b6fbda
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Dango_with_Vanish_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 22
+      width: 22
+      height: 13
+    spriteID: a168e5ea399cc9545a1de14eb84ccdf0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 22}
+  - name: Dango_with_Vanish_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.30769232}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 43
+      width: 20
+      height: 13
+    spriteID: d44c242d7d0488b4a8a90d2c15d817ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 43}
+  - name: Dango_with_Vanish_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.42857146}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 64
+      width: 18
+      height: 14
+    spriteID: 373d941985667f347aa076d86d4cb772
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 64}
+  - name: Dango_with_Vanish_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 64
+      width: 16
+      height: 16
+    spriteID: e7205c259a5a05b41af2cba4bad3e55c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 64}
+  - name: Dango_with_Vanish_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 5d12c5b896175344fa9e6852546bd8f5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 64}
+  - name: Dango_with_Vanish_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 306640913d710224184f8dcb7c8513b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 64}
+  - name: Dango_with_Vanish_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: -0.42857146}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 102
+      y: 64
+      width: 18
+      height: 14
+    spriteID: 6cfdf3da54af796429b1e49db0dde30b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 102, y: 64}
+  - name: Dango_with_Vanish_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -0.30769232}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 43
+      width: 20
+      height: 13
+    spriteID: 4a74c20750efb474a8a6f88a900ddc35
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 43}
+  - name: Dango_with_Vanish_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 34
+      y: 22
+      width: 22
+      height: 13
+    spriteID: f7461cad16e12df44809b01a16523d33
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 34, y: 22}
+  - name: Dango_with_Vanish_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 30
+      height: 10
+    spriteID: a5e20f392c481cb48a89450a30d583cc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Dango_with_Vanish_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 4
+      width: 32
+      height: 8
+    spriteID: 5dbac9bf88f5dad4087732f2e442da98
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 4}
+  - name: Dango_with_Vanish_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 4
+      width: 30
+      height: 10
+    spriteID: ebae478010fd1d443b58343a1afb9b11
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 4}
+  - name: Dango_with_Vanish_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 22
+      width: 22
+      height: 13
+    spriteID: e28c37d6263c19340829d752285d0027
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 64, y: 22}
+  - name: Dango_with_Vanish_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 94
+      y: 22
+      width: 22
+      height: 12
+    spriteID: 86c6931b00e81044b9bd93e31164b872
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 94, y: 22}
+  - name: Dango_with_Vanish_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 43
+      width: 22
+      height: 11
+    spriteID: 8c417b2f52eff684ab33c8adce4adead
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 43}
+  - name: Dango_with_Vanish_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 90
+      y: 43
+      width: 22
+      height: 10
+    spriteID: f2d007108fa0e7d4d9711f81b310c7fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 90, y: 43}
+  - name: Dango_with_Vanish_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: -0.44444445}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 88
+      width: 22
+      height: 9
+    spriteID: 72ba8baef9e18c2498cae471a15af972
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 88}
+  - name: Dango_with_Vanish_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: -0.625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 34
+      y: 88
+      width: 22
+      height: 8
+    spriteID: d6359090520652c4382fafb0e8380ae1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 34, y: 88}
+  - name: Dango_with_Vanish_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: -0.8571429}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 88
+      width: 20
+      height: 7
+    spriteID: 3aae334121893bd4790101e9f139aae9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 64, y: 88}
+  - name: Dango_with_Vanish_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: -1.1666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 92
+      y: 88
+      width: 20
+      height: 6
+    spriteID: d0a4620b7fa8cbe4591fe0f4f1915110
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 92, y: 88}
+  - name: Dango_with_Vanish_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: -1.6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 105
+      width: 18
+      height: 5
+    spriteID: 8367af5ea94f77742813aabbd51015cf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 105}
+  - name: Dango_with_Vanish_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: -2.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 105
+      width: 16
+      height: 4
+    spriteID: 833ab085c0fa33b41a03789f3eca4f46
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 105}
+  - name: Dango_with_Vanish_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: -3.3333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 105
+      width: 14
+      height: 3
+    spriteID: 06cfd0480f3e7af4384c45cc906aafdb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 105}
+  - name: Dango_with_Vanish_Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: -5.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 105
+      width: 10
+      height: 2
+    spriteID: 3dd8fdaae8e902444a3c5713b96c655e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 105}
+  - name: Dango_with_Vanish_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: -12}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 120
+      y: 88
+      width: 4
+      height: 1
+    spriteID: 792f9103cefb61d4b80a1111252bfa6c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 120, y: 88}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1256361054
+    name: Dango_with_Vanish
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Dango_with_Vanish_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 5
+        y: 0
+        width: 22
+        height: 13
+      spriteId: a168e5ea399cc9545a1de14eb84ccdf0
+    - name: Dango_with_Vanish_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 6
+        y: 4
+        width: 20
+        height: 13
+      spriteId: d44c242d7d0488b4a8a90d2c15d817ef
+    - name: Dango_with_Vanish_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 7
+        y: 6
+        width: 18
+        height: 14
+      spriteId: 373d941985667f347aa076d86d4cb772
+    - name: Dango_with_Vanish_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 8
+        y: 8
+        width: 16
+        height: 16
+      spriteId: e7205c259a5a05b41af2cba4bad3e55c
+    - name: Dango_with_Vanish_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 8
+        y: 8
+        width: 16
+        height: 16
+      spriteId: 5d12c5b896175344fa9e6852546bd8f5
+    - name: Dango_with_Vanish_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 8
+        y: 8
+        width: 16
+        height: 16
+      spriteId: 306640913d710224184f8dcb7c8513b7
+    - name: Dango_with_Vanish_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 7
+        y: 6
+        width: 18
+        height: 14
+      spriteId: 6cfdf3da54af796429b1e49db0dde30b
+    - name: Dango_with_Vanish_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 6
+        y: 4
+        width: 20
+        height: 13
+      spriteId: 4a74c20750efb474a8a6f88a900ddc35
+    - name: Dango_with_Vanish_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 5
+        y: 0
+        width: 22
+        height: 13
+      spriteId: f7461cad16e12df44809b01a16523d33
+    - name: Dango_with_Vanish_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 1
+        y: 0
+        width: 30
+        height: 10
+      spriteId: a5e20f392c481cb48a89450a30d583cc
+    - name: Dango_with_Vanish_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 0
+        y: 0
+        width: 32
+        height: 8
+      spriteId: 5dbac9bf88f5dad4087732f2e442da98
+    - name: Dango_with_Vanish_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 1
+        y: 0
+        width: 30
+        height: 10
+      spriteId: ebae478010fd1d443b58343a1afb9b11
+    - name: Dango_with_Vanish_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 5
+        y: 0
+        width: 22
+        height: 13
+      spriteId: e28c37d6263c19340829d752285d0027
+    - name: Dango_with_Vanish_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 5
+        y: 1
+        width: 22
+        height: 12
+      spriteId: 86c6931b00e81044b9bd93e31164b872
+    - name: Dango_with_Vanish_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 5
+        y: 2
+        width: 22
+        height: 11
+      spriteId: 8c417b2f52eff684ab33c8adce4adead
+    - name: Dango_with_Vanish_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 5
+        y: 3
+        width: 22
+        height: 10
+      spriteId: f2d007108fa0e7d4d9711f81b310c7fd
+    - name: Dango_with_Vanish_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 5
+        y: 4
+        width: 22
+        height: 9
+      spriteId: 72ba8baef9e18c2498cae471a15af972
+    - name: Dango_with_Vanish_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 5
+        y: 5
+        width: 22
+        height: 8
+      spriteId: d6359090520652c4382fafb0e8380ae1
+    - name: Dango_with_Vanish_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 6
+        y: 6
+        width: 20
+        height: 7
+      spriteId: 3aae334121893bd4790101e9f139aae9
+    - name: Dango_with_Vanish_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 6
+        y: 7
+        width: 20
+        height: 6
+      spriteId: d0a4620b7fa8cbe4591fe0f4f1915110
+    - name: Dango_with_Vanish_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 7
+        y: 8
+        width: 18
+        height: 5
+      spriteId: 8367af5ea94f77742813aabbd51015cf
+    - name: Dango_with_Vanish_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 8
+        y: 9
+        width: 16
+        height: 4
+      spriteId: 833ab085c0fa33b41a03789f3eca4f46
+    - name: Dango_with_Vanish_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 9
+        y: 10
+        width: 14
+        height: 3
+      spriteId: 06cfd0480f3e7af4384c45cc906aafdb
+    - name: Dango_with_Vanish_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 11
+        y: 11
+        width: 10
+        height: 2
+      spriteId: 3dd8fdaae8e902444a3c5713b96c655e
+    - name: Dango_with_Vanish_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 14
+        y: 12
+        width: 4
+        height: 1
+      spriteId: 792f9103cefb61d4b80a1111252bfa6c
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 32, y: 32}
