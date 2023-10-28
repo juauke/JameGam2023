@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -76,6 +77,7 @@ public class PlayerController : MonoBehaviour
 
 
     [SerializeField] public PlayerAudioManager audioManager;
+    [SerializeField] private GrapplinHook grapplinHook;
 
 
     // Start is called before the first frame update
@@ -92,9 +94,9 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GrapplinHook.Hit)
+        if (grapplinHook.grapplinHit)
         {
-            Debug.Log(GrapplinHook.Hitpoint);
+            Debug.Log(grapplinHook.grapplinTarget);
         }
         CheckInput();
         CheckMovementDirection();
@@ -104,6 +106,17 @@ public class PlayerController : MonoBehaviour
         CheckJump();
         CheckDash();
         CheckKnockback();
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (grapplinHook.grapplinHit)
+        {
+            grapplinHook.grapplinHit = false;
+            isDashing = false;
+            canMove = true;
+            canFlip = true;
+        }
     }
 
     private void FixedUpdate()
@@ -288,11 +301,12 @@ public class PlayerController : MonoBehaviour
     private void AttemptToDash()
     {
         isDashing = true;
-        dashTimeLeft = dashTime;
         lastDash = Time.time;
 
         PlayerAfterImagePool.Instance.GetFromPool();
         lastImageXpos = transform.position.x;
+        GameObject grapplinCreated= Instantiate(grapplinHook.gameObject, transform);
+        grapplinCreated.SetActive(true);
     }
 
     public int GetFacingDirection()
@@ -304,12 +318,11 @@ public class PlayerController : MonoBehaviour
     {
         if (isDashing)
         {
-            if (dashTimeLeft > 0)
+            if (grapplinHook.grapplinHit)
             {
                 canMove = false;
                 canFlip = false;
-                rb.velocity = new Vector2(dashSpeed * facingDirection, 0.0f);
-                dashTimeLeft -= Time.deltaTime;
+                rb.velocity = dashSpeed * grapplinHook.grapplinTarget;
 
                 if (Mathf.Abs(transform.position.x - lastImageXpos) > distanceBetweenImages)
                 {
@@ -318,8 +331,9 @@ public class PlayerController : MonoBehaviour
                 }
             }
 
-            if (dashTimeLeft <= 0 || isTouchingWall)
+            if (isGrounded || isTouchingWall)
             {
+                grapplinHook.grapplinHit = false;
                 isDashing = false;
                 canMove = true;
                 canFlip = true;
