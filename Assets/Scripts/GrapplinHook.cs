@@ -16,7 +16,7 @@ public class GrapplinHook : MonoBehaviour
     {
         Vector3 objectif = mainCamera.ScreenToWorldPoint(Input.mousePosition);
         objectif.z = 0;
-        _direction = (transform.position - objectif).normalized;
+        _direction = (objectif -transform.position).normalized;
         
     }
 
@@ -27,13 +27,19 @@ public class GrapplinHook : MonoBehaviour
         {
             Vector3 deltaMove = _direction * (speed * Time.deltaTime);
             transform.position = Vector3.MoveTowards(transform.position, transform.position + deltaMove, speed * Time.deltaTime);
+            
             _currentSize += deltaMove.magnitude;
         }
-        
+        else if (_currentSize > sizeGrapplin)
+        {
+            Destroy(gameObject);
+        }
+
     }
 
     private void OnCollisionEnter(Collision collision)
     {
+        Debug.Log("hit");
         grapplinTarget = collision.transform.position;
         grapplinHit = true;
     }

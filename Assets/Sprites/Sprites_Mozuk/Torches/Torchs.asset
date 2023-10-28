@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
-  m_Name: Torch
+  m_Name: Torchs
   m_EditorClassIdentifier: 
   m_AnimatedSprites:
-  - {fileID: -1172967767, guid: ee7da594391dff847a89d69d8cfd1957, type: 3}
-  - {fileID: -1192891085, guid: ee7da594391dff847a89d69d8cfd1957, type: 3}
-  - {fileID: 1585389544, guid: ee7da594391dff847a89d69d8cfd1957, type: 3}
-  - {fileID: 1273535528, guid: ee7da594391dff847a89d69d8cfd1957, type: 3}
-  - {fileID: -996371611, guid: ee7da594391dff847a89d69d8cfd1957, type: 3}
-  m_MinSpeed: 1
-  m_MaxSpeed: 1
+  - {fileID: -2034775852, guid: bdad5552ed2be7448a08afc9416ea66b, type: 3}
+  - {fileID: -825326038, guid: bdad5552ed2be7448a08afc9416ea66b, type: 3}
+  - {fileID: 1534757064, guid: bdad5552ed2be7448a08afc9416ea66b, type: 3}
+  - {fileID: -2117112964, guid: bdad5552ed2be7448a08afc9416ea66b, type: 3}
+  - {fileID: -677421485, guid: bdad5552ed2be7448a08afc9416ea66b, type: 3}
+  m_MinSpeed: 10
+  m_MaxSpeed: 10
   m_AnimationStartTime: 0
   m_AnimationStartFrame: 0
   m_TileColliderType: 0
