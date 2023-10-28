@@ -465,7 +465,7 @@ public class PlayerController : MonoBehaviour
         canFlip = true;
     }
 
-    private void Flip()
+    public void Flip()
     {
         if (!isWallSliding && canFlip && !knockback)
         {

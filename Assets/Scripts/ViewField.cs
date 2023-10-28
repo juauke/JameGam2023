@@ -11,7 +11,7 @@ public class ViewField : MonoBehaviour
     [SerializeField] private float _angularSpeed=180f;
 
     [SerializeField] private bool _lookToRight = true;
-    [SerializeField] private Transform _emilia;
+    [SerializeField] private PlayerController _emilia;
     private Vector3 upward = Vector3.forward;
     // Start is called before the first frame update
     void Start()
@@ -30,7 +30,7 @@ public class ViewField : MonoBehaviour
                 Vector3 tmp = transform.eulerAngles;
                 transform.eulerAngles = new Vector3(tmp.x,tmp.y+180,tmp.z);
                 this.upward *= -1;
-                _emilia.eulerAngles = new Vector3(0, 180, 0);
+                _emilia.Flip();
                 _lookToRight = false;
             }
         }
@@ -41,7 +41,7 @@ public class ViewField : MonoBehaviour
                 Vector3 tmp = transform.eulerAngles;
                 transform.eulerAngles = new Vector3(tmp.x, tmp.y - 180, tmp.z);
                 this.upward *= -1;
-                _emilia.eulerAngles = new Vector3(0, 0,0);
+                _emilia.Flip();
                 _lookToRight = true;
             }
         }
