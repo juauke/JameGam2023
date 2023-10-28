@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class TeleportPlayer : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private Transform Checkpoint;
+    [SerializeField] private Transform nextCheckpoint;
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        Debug.Log(collision.gameObject.tag);
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            var nextPos = nextCheckpoint.position;
+            collision.gameObject.transform.position = nextPos;
+        }
     }
 }
