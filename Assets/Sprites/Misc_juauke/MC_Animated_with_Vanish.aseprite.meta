@@ -1,0 +1,1088 @@
+fileFormatVersion: 2
+guid: 3d7e1d6ffe166414094d7cd64d650ac8
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: MC_Animated_with_Vanish_Frame_10
+    originalName: 
+    pivot: {x: 0.5416667, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 4
+      width: 24
+      height: 18
+    spriteID: c8aa10eeff596d149a9bab15ca3f939c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 4}
+  - name: MC_Animated_with_Vanish_Frame_11
+    originalName: 
+    pivot: {x: 0.44444445, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 59
+      width: 18
+      height: 22
+    spriteID: 86b86707a551d114ca4cc672ac66a1af
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 59}
+  - name: MC_Animated_with_Vanish_Frame_12
+    originalName: 
+    pivot: {x: 0.44444445, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 89
+      width: 18
+      height: 22
+    spriteID: 99ec2eec4c2bb0949ace5ed1e60bae6b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 89}
+  - name: MC_Animated_with_Vanish_Frame_13
+    originalName: 
+    pivot: {x: 0.61904764, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 192
+      width: 21
+      height: 22
+    spriteID: d9315990ce490074da24119b28676c5d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 192}
+  - name: MC_Animated_with_Vanish_Frame_14
+    originalName: 
+    pivot: {x: 0.64, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 25
+      height: 26
+    spriteID: 5bc4e59f0a7b67340829d8bf137e93d7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: MC_Animated_with_Vanish_Frame_15
+    originalName: 
+    pivot: {x: 0.65217394, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 72
+      width: 23
+      height: 27
+    spriteID: b85d2658f7f24b94484bd5c0e3c2bd4b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 72}
+  - name: MC_Animated_with_Vanish_Frame_16
+    originalName: 
+    pivot: {x: 0.65000004, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 222
+      width: 20
+      height: 22
+    spriteID: ac127e625bfe7ed43a091bfa54e9b44c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 222}
+  - name: MC_Animated_with_Vanish_Frame_17
+    originalName: 
+    pivot: {x: 0.64, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 38
+      width: 25
+      height: 26
+    spriteID: d06d92265e72d8646a1da3980b285eca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 38}
+  - name: MC_Animated_with_Vanish_Frame_18
+    originalName: 
+    pivot: {x: 0.47058824, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 150
+      width: 17
+      height: 22
+    spriteID: 8a15c0ab1c7b55e429a5324e125c0899
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 150}
+  - name: MC_Animated_with_Vanish_Frame_19
+    originalName: 
+    pivot: {x: 0.47058824, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 180
+      width: 17
+      height: 22
+    spriteID: ba998048ccc1675419c3f8255b4fea66
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 180}
+  - name: MC_Animated_with_Vanish_Frame_20
+    originalName: 
+    pivot: {x: 0.47058824, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 210
+      width: 17
+      height: 22
+    spriteID: b8986c32be6626242bdebd49e9e9d55e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 210}
+  - name: MC_Animated_with_Vanish_Frame_21
+    originalName: 
+    pivot: {x: 0.6956522, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 107
+      width: 23
+      height: 26
+    spriteID: ad6f33b6e3208324fa9f05bb5fb44469
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 107}
+  - name: MC_Animated_with_Vanish_Frame_22
+    originalName: 
+    pivot: {x: 0.6956522, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 141
+      width: 23
+      height: 26
+    spriteID: 4d6ec3ccc29cea74ab13236058979079
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 141}
+  - name: MC_Animated_with_Vanish_Frame_23
+    originalName: 
+    pivot: {x: 0.42307693, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 4
+      width: 26
+      height: 24
+    spriteID: c35bbd60e832a0642bf5fe38597da9be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 4}
+  - name: MC_Animated_with_Vanish_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: -0.055555556}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 166
+      width: 26
+      height: 18
+    spriteID: 02c17b8f583fc32429831030dc046869
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 166}
+  - name: MC_Animated_with_Vanish_Frame_25
+    originalName: 
+    pivot: {x: 0.46428573, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 103
+      y: 4
+      width: 28
+      height: 14
+    spriteID: f043f6e1026c6fc4ca54926872a76468
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 103, y: 4}
+  - name: MC_Animated_with_Vanish_Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 4
+      width: 30
+      height: 8
+    spriteID: c60ec394658d43b4d8d2d465d1fd7682
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 4}
+  - name: MC_Animated_with_Vanish_Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: -0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 103
+      y: 86
+      width: 26
+      height: 7
+    spriteID: 6717f1c9edf07eb42bbaba7a58521082
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 103, y: 86}
+  - name: MC_Animated_with_Vanish_Frame_28
+    originalName: 
+    pivot: {x: 0.5, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 103
+      y: 101
+      width: 26
+      height: 6
+    spriteID: 264db18e02d072040b2119d9611377e5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 103, y: 101}
+  - name: MC_Animated_with_Vanish_Frame_29
+    originalName: 
+    pivot: {x: 0.52, y: -0.6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 237
+      width: 25
+      height: 5
+    spriteID: ee6fe591ff14d62479625ef0cf70581e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 237}
+  - name: MC_Animated_with_Vanish_Frame_30
+    originalName: 
+    pivot: {x: 0.54545456, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 240
+      width: 22
+      height: 4
+    spriteID: b19b907f4e16acc40b4e8876684a8b57
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 240}
+  - name: MC_Animated_with_Vanish_Frame_31
+    originalName: 
+    pivot: {x: 0.6666667, y: -1.6666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 103
+      y: 115
+      width: 18
+      height: 3
+    spriteID: f61320b947d4583429117dd44bb13c8a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 103, y: 115}
+  - name: MC_Animated_with_Vanish_Frame_32
+    originalName: 
+    pivot: {x: 1.2222222, y: -3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 250
+      width: 9
+      height: 2
+    spriteID: 0f1b1c68b1052df4587036d8ac17e472
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 250}
+  - name: MC_Animated_with_Vanish_Frame_7
+    originalName: 
+    pivot: {x: 0.75, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 101
+      width: 20
+      height: 25
+    spriteID: 2c8cff39e869ff6419d22b9c8c6d12e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 101}
+  - name: MC_Animated_with_Vanish_Frame_8
+    originalName: 
+    pivot: {x: 0.65217394, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 175
+      width: 23
+      height: 23
+    spriteID: 35b9be0d81dc3114f9dedabb50d54cbe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 175}
+  - name: MC_Animated_with_Vanish_Frame_9
+    originalName: 
+    pivot: {x: 0.6818182, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 70
+      width: 22
+      height: 23
+    spriteID: 8b76908a8d807d3478b5eeabaf5653f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 70}
+  - name: MC_Animated_with_Vanish_Frame_0
+    originalName: 
+    pivot: {x: 0.47058824, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 103
+      y: 26
+      width: 17
+      height: 22
+    spriteID: d0d2479c8ee523b4a959251d8cd68def
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 103, y: 26}
+  - name: MC_Animated_with_Vanish_Frame_1
+    originalName: 
+    pivot: {x: 0.47058824, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 103
+      y: 56
+      width: 17
+      height: 22
+    spriteID: 7087d5e6816cb16448ebaffed2a225e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 103, y: 56}
+  - name: MC_Animated_with_Vanish_Frame_2
+    originalName: 
+    pivot: {x: 0.47058824, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 119
+      width: 17
+      height: 23
+    spriteID: 780c0b4c3ac62f5498d7b725967fb403
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 119}
+  - name: MC_Animated_with_Vanish_Frame_3
+    originalName: 
+    pivot: {x: 0.47368422, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 30
+      width: 19
+      height: 21
+    spriteID: acc1ceef7fd95eb4a8b6061539552736
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 30}
+  - name: MC_Animated_with_Vanish_Frame_4
+    originalName: 
+    pivot: {x: 0.75, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 36
+      width: 20
+      height: 26
+    spriteID: 77ec8c10caec3124e862bf170076c0f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 36}
+  - name: MC_Animated_with_Vanish_Frame_5
+    originalName: 
+    pivot: {x: 0.75, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 134
+      width: 20
+      height: 24
+    spriteID: 4899fcf1abc285e47bb84f90d9f45aec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 134}
+  - name: MC_Animated_with_Vanish_Frame_6
+    originalName: 
+    pivot: {x: 0.65217394, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 206
+      width: 23
+      height: 23
+    spriteID: a5c08ca81f4db6240a16c627aaaccf51
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 206}
+  - name: MC_Animated_with_Vanish_Frame_33
+    originalName: 
+    pivot: {x: 5, y: -7}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 21
+      y: 250
+      width: 2
+      height: 1
+    spriteID: 7d4f7ac74103e7f49900d23cd06ae17c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 21, y: 250}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1066586423
+    name: MC_Animated_with_Vanish
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: MC_Animated_with_Vanish_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 3
+        y: 0
+        width: 24
+        height: 18
+      spriteId: c8aa10eeff596d149a9bab15ca3f939c
+    - name: MC_Animated_with_Vanish_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 8
+        y: 0
+        width: 18
+        height: 22
+      spriteId: 86b86707a551d114ca4cc672ac66a1af
+    - name: MC_Animated_with_Vanish_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 8
+        y: 0
+        width: 18
+        height: 22
+      spriteId: 99ec2eec4c2bb0949ace5ed1e60bae6b
+    - name: MC_Animated_with_Vanish_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 3
+        y: 0
+        width: 21
+        height: 22
+      spriteId: d9315990ce490074da24119b28676c5d
+    - name: MC_Animated_with_Vanish_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 0
+        y: 0
+        width: 25
+        height: 26
+      spriteId: 5bc4e59f0a7b67340829d8bf137e93d7
+    - name: MC_Animated_with_Vanish_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 1
+        y: 0
+        width: 23
+        height: 27
+      spriteId: b85d2658f7f24b94484bd5c0e3c2bd4b
+    - name: MC_Animated_with_Vanish_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 3
+        y: 0
+        width: 20
+        height: 22
+      spriteId: ac127e625bfe7ed43a091bfa54e9b44c
+    - name: MC_Animated_with_Vanish_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 0
+        y: 0
+        width: 25
+        height: 26
+      spriteId: d06d92265e72d8646a1da3980b285eca
+    - name: MC_Animated_with_Vanish_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 8
+        y: 0
+        width: 17
+        height: 22
+      spriteId: 8a15c0ab1c7b55e429a5324e125c0899
+    - name: MC_Animated_with_Vanish_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 8
+        y: 0
+        width: 17
+        height: 22
+      spriteId: ba998048ccc1675419c3f8255b4fea66
+    - name: MC_Animated_with_Vanish_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 8
+        y: 0
+        width: 17
+        height: 22
+      spriteId: b8986c32be6626242bdebd49e9e9d55e
+    - name: MC_Animated_with_Vanish_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 0
+        y: 0
+        width: 23
+        height: 26
+      spriteId: ad6f33b6e3208324fa9f05bb5fb44469
+    - name: MC_Animated_with_Vanish_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 0
+        y: 0
+        width: 23
+        height: 26
+      spriteId: 4d6ec3ccc29cea74ab13236058979079
+    - name: MC_Animated_with_Vanish_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 5
+        y: 2
+        width: 26
+        height: 24
+      spriteId: c35bbd60e832a0642bf5fe38597da9be
+    - name: MC_Animated_with_Vanish_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 3
+        y: 1
+        width: 26
+        height: 18
+      spriteId: 02c17b8f583fc32429831030dc046869
+    - name: MC_Animated_with_Vanish_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 3
+        y: 0
+        width: 28
+        height: 14
+      spriteId: f043f6e1026c6fc4ca54926872a76468
+    - name: MC_Animated_with_Vanish_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 1
+        y: 0
+        width: 30
+        height: 8
+      spriteId: c60ec394658d43b4d8d2d465d1fd7682
+    - name: MC_Animated_with_Vanish_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 3
+        y: 1
+        width: 26
+        height: 7
+      spriteId: 6717f1c9edf07eb42bbaba7a58521082
+    - name: MC_Animated_with_Vanish_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 3
+        y: 2
+        width: 26
+        height: 6
+      spriteId: 264db18e02d072040b2119d9611377e5
+    - name: MC_Animated_with_Vanish_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 3
+        y: 3
+        width: 25
+        height: 5
+      spriteId: ee6fe591ff14d62479625ef0cf70581e
+    - name: MC_Animated_with_Vanish_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 4
+        y: 4
+        width: 22
+        height: 4
+      spriteId: b19b907f4e16acc40b4e8876684a8b57
+    - name: MC_Animated_with_Vanish_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 4
+        y: 5
+        width: 18
+        height: 3
+      spriteId: f61320b947d4583429117dd44bb13c8a
+    - name: MC_Animated_with_Vanish_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 5
+        y: 6
+        width: 9
+        height: 2
+      spriteId: 0f1b1c68b1052df4587036d8ac17e472
+    - name: MC_Animated_with_Vanish_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 1
+        y: 0
+        width: 20
+        height: 25
+      spriteId: 2c8cff39e869ff6419d22b9c8c6d12e1
+    - name: MC_Animated_with_Vanish_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 1
+        y: 0
+        width: 23
+        height: 23
+      spriteId: 35b9be0d81dc3114f9dedabb50d54cbe
+    - name: MC_Animated_with_Vanish_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 1
+        y: 0
+        width: 22
+        height: 23
+      spriteId: 8b76908a8d807d3478b5eeabaf5653f9
+    - name: MC_Animated_with_Vanish_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 8
+        y: 0
+        width: 17
+        height: 22
+      spriteId: d0d2479c8ee523b4a959251d8cd68def
+    - name: MC_Animated_with_Vanish_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 8
+        y: 0
+        width: 17
+        height: 22
+      spriteId: 7087d5e6816cb16448ebaffed2a225e2
+    - name: MC_Animated_with_Vanish_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 8
+        y: 0
+        width: 17
+        height: 23
+      spriteId: 780c0b4c3ac62f5498d7b725967fb403
+    - name: MC_Animated_with_Vanish_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 7
+        y: 0
+        width: 19
+        height: 21
+      spriteId: acc1ceef7fd95eb4a8b6061539552736
+    - name: MC_Animated_with_Vanish_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 1
+        y: 0
+        width: 20
+        height: 26
+      spriteId: 77ec8c10caec3124e862bf170076c0f7
+    - name: MC_Animated_with_Vanish_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 1
+        y: 0
+        width: 20
+        height: 24
+      spriteId: 4899fcf1abc285e47bb84f90d9f45aec
+    - name: MC_Animated_with_Vanish_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 1
+        y: 1
+        width: 23
+        height: 23
+      spriteId: a5c08ca81f4db6240a16c627aaaccf51
+    - name: MC_Animated_with_Vanish_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 6
+        y: 7
+        width: 2
+        height: 1
+      spriteId: 7d4f7ac74103e7f49900d23cd06ae17c
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 32, y: 32}
