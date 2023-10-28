@@ -11,6 +11,8 @@ public class GrapplinHook : MonoBehaviour
     private Vector3 _direction;
     public bool grapplinHit = false;
     public Vector3 grapplinTarget;
+
+    public Collider2D grapplinCollider;
     // Start is called before the first frame update
     void Start()
     {
@@ -40,11 +42,13 @@ public class GrapplinHook : MonoBehaviour
     {
         if (!grapplinHit)
         {
-            Debug.Log(col2D);
             grapplinTarget = transform.position;
-            Debug.Log("nouveau hitpoint");
-            Debug.Log(grapplinTarget);
             grapplinHit = true;
         }
+    }
+
+    public void Destroy()
+    {
+        Destroy(gameObject);
     }
 }

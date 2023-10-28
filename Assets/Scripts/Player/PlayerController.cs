@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Rendering;
 using UnityEngine.UIElements;
 
 public class PlayerController : MonoBehaviour
@@ -81,7 +82,6 @@ public class PlayerController : MonoBehaviour
     public LayerMask whatIsGround;
 
     private GrapplinHook lastGrapplinCreated;
-    private Vector3 prevPosition;
     [SerializeField] public PlayerAudioManager audioManager;
     [SerializeField] private GrapplinHook grapplinHook;
 
@@ -109,7 +109,6 @@ public class PlayerController : MonoBehaviour
         CheckDash();
         CheckKnockback();
     }
-
     private void OnCollisionEnter2D(Collision2D col)
     {
         if (!lastGrapplinCreated.IsUnityNull() && lastGrapplinCreated.grapplinHit)
@@ -118,9 +117,11 @@ public class PlayerController : MonoBehaviour
             isDashing = false;
             canMove = true;
             canFlip = true;
-            Destroy(lastGrapplinCreated);
-            Debug.Log("normalement ça a suppr (collision)");
-            rb.velocity = Vector2.zero;
+            lastGrapplinCreated.Destroy();
+            Debug.Log("normalement ça a suppr (collisionEnter)");
+            Debug.Log(rb.velocity);
+            // rb.velocity = Vector2.zero;
+            isGrounded = true;
         }
     }
 
@@ -312,6 +313,7 @@ public class PlayerController : MonoBehaviour
         lastImageXpos = transform.position.x;
         lastGrapplinCreated = GrapplinHook.Instantiate(grapplinHook, transform);
         lastGrapplinCreated.gameObject.SetActive(true);
+        // Debug.Log("I am" + lastGrapplinCreated.name);
     }
 
     public int GetFacingDirection()
@@ -327,26 +329,29 @@ public class PlayerController : MonoBehaviour
             {
                 canMove = false;
                 canFlip = false;
-                rb.velocity = dashSpeed * ((lastGrapplinCreated.grapplinTarget - transform.position).normalized);
-
-                if (Mathf.Abs(transform.position.x - lastImageXpos) > distanceBetweenImages)
+                if ((transform.position - lastGrapplinCreated.grapplinTarget).magnitude < (dashSpeed *Time.deltaTime))
                 {
-                    PlayerAfterImagePool.Instance.GetFromPool();
-                    lastImageXpos = transform.position.x;
+                        lastGrapplinCreated.grapplinHit = false;
+                        isDashing = false;
+                        canMove = true;
+                        canFlip = true;
+                        lastGrapplinCreated.Destroy();
+                        Debug.Log("normalement ça a suppr (Near to Target)");
+                        Debug.Log(rb.velocity);
+                        // rb.velocity = Vector2.zero;
+                        isGrounded = true;
+                }
+                else
+                {
+                    rb.velocity = dashSpeed * ((lastGrapplinCreated.grapplinTarget - transform.position).normalized);
+                    isGrounded = false;
+                    if (Mathf.Abs(transform.position.x - lastImageXpos) > distanceBetweenImages)
+                    {
+                        PlayerAfterImagePool.Instance.GetFromPool();
+                        lastImageXpos = transform.position.x;
+                    }
                 }
                 
-                if (!prevPosition.IsUnityNull() && prevPosition== transform.position)
-                {
-                    lastGrapplinCreated.grapplinHit = false;
-                    isDashing = false;
-                    canMove = true;
-                    canFlip = true;
-                    Destroy(lastGrapplinCreated);
-                    Debug.Log("normalement ça a suppr (frames)");
-                    rb.velocity = Vector2.zero;
-                }
-
-                prevPosition = transform.position;
             }
 
         }
