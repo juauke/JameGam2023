@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
 
     private bool isFacingRight = true;
     private bool isWalking;
-    private bool isGrounded;
+    [SerializeField] private bool isGrounded;
     private bool isTouchingWall;
     private bool isWallSliding;
     private bool canNormalJump;
