@@ -66,6 +66,9 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
+  spritePixelsToUnits: 30
+=======
   spritePixelsToUnits: 100
 <<<<<<< HEAD
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
@@ -75,6 +78,7 @@ TextureImporter:
   spriteTessellationDetail: -1
   textureType: 0
 =======
+>>>>>>> a48e42729582596cfae200a3bcd94d4567063cdd
   spriteBorder: {x: 0, y: 185, z: 0, w: 313}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -165,11 +169,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 150
+        y: 0
         width: 496
-        height: 470
+        height: 928
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
