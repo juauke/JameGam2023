@@ -9,7 +9,6 @@ public class GrapplinHook : MonoBehaviour
     [SerializeField] private float speed = 20;
     private float _currentSize = 0;
     private Vector3 _direction;
-    private CharacterController _characterController;
     public bool grapplinHit = false;
     public Vector3 grapplinTarget;
     // Start is called before the first frame update
@@ -17,9 +16,8 @@ public class GrapplinHook : MonoBehaviour
     {
         Vector3 objectif = mainCamera.ScreenToWorldPoint(Input.mousePosition);
         objectif.z = 0;
-        _direction = transform.position - objectif;
+        _direction = (transform.position - objectif).normalized;
         
-        _characterController = GetComponent<CharacterController>();
     }
 
     // Update is called once per frame
@@ -28,7 +26,7 @@ public class GrapplinHook : MonoBehaviour
         if (_currentSize < sizeGrapplin && !grapplinHit)
         {
             Vector3 deltaMove = _direction * (speed * Time.deltaTime);
-            _characterController.Move(deltaMove);
+            transform.position = Vector3.MoveTowards(transform.position, transform.position + deltaMove, speed * Time.deltaTime);
             _currentSize += deltaMove.magnitude;
         }
         
