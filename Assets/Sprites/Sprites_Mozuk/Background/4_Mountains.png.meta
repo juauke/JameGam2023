@@ -1,12 +1,20 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 4559332119d7ec24a9b316c159c2ca96
+=======
 guid: de6905c4edaa50d42949b86287b5ce4f
+>>>>>>> 1ed1cdb6d0426c2845dd50c9a8eafe09783c8ceb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
+<<<<<<< HEAD
+    enableMipMap: 1
+=======
     enableMipMap: 0
+>>>>>>> 1ed1cdb6d0426c2845dd50c9a8eafe09783c8ceb
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,6 +45,15 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
+<<<<<<< HEAD
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 1
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+=======
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -44,17 +61,31 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
+>>>>>>> 1ed1cdb6d0426c2845dd50c9a8eafe09783c8ceb
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   spritePixelsToUnits: 30
+=======
+  spritePixelsToUnits: 100
+<<<<<<< HEAD
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 0
+=======
+>>>>>>> a48e42729582596cfae200a3bcd94d4567063cdd
   spriteBorder: {x: 0, y: 185, z: 0, w: 313}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
+>>>>>>> 1ed1cdb6d0426c2845dd50c9a8eafe09783c8ceb
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -81,6 +112,8 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+<<<<<<< HEAD
+=======
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -94,6 +127,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+>>>>>>> 1ed1cdb6d0426c2845dd50c9a8eafe09783c8ceb
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -121,6 +155,14 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
+<<<<<<< HEAD
+    sprites: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+=======
     sprites:
     - serializedVersion: 2
       name: 4_Mountains_0
@@ -148,13 +190,18 @@ TextureImporter:
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
     internalID: 1537655665
+>>>>>>> 1ed1cdb6d0426c2845dd50c9a8eafe09783c8ceb
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
+<<<<<<< HEAD
+    nameFileIdTable: {}
+=======
     nameFileIdTable:
       4_Mountains_0: 1895817958
+>>>>>>> 1ed1cdb6d0426c2845dd50c9a8eafe09783c8ceb
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

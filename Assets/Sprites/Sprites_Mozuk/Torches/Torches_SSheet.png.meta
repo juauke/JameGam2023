@@ -1,12 +1,20 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: bdad5552ed2be7448a08afc9416ea66b
+=======
 guid: ee7da594391dff847a89d69d8cfd1957
+>>>>>>> 1ed1cdb6d0426c2845dd50c9a8eafe09783c8ceb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
+<<<<<<< HEAD
+    enableMipMap: 1
+=======
     enableMipMap: 0
+>>>>>>> 1ed1cdb6d0426c2845dd50c9a8eafe09783c8ceb
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,6 +45,15 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
+<<<<<<< HEAD
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 1
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+=======
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -44,10 +61,20 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
+>>>>>>> 1ed1cdb6d0426c2845dd50c9a8eafe09783c8ceb
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 0
+=======
   spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -55,6 +82,7 @@ TextureImporter:
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
+>>>>>>> 1ed1cdb6d0426c2845dd50c9a8eafe09783c8ceb
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -81,6 +109,8 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+<<<<<<< HEAD
+=======
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -94,6 +124,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+>>>>>>> 1ed1cdb6d0426c2845dd50c9a8eafe09783c8ceb
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -121,6 +152,13 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
+<<<<<<< HEAD
+    sprites: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+=======
     sprites:
     - serializedVersion: 2
       name: Torches_SSheet_0
@@ -336,12 +374,16 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
+>>>>>>> 1ed1cdb6d0426c2845dd50c9a8eafe09783c8ceb
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
+<<<<<<< HEAD
+    nameFileIdTable: {}
+=======
     nameFileIdTable:
       Torches_SSheet_0: -1172967767
       Torches_SSheet_1: -1192891085
@@ -353,6 +395,7 @@ TextureImporter:
       Torches_SSheet_7: 596439304
       Torches_SSheet_8: -1999353727
       Torches_SSheet_9: -1340150137
+>>>>>>> 1ed1cdb6d0426c2845dd50c9a8eafe09783c8ceb
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
