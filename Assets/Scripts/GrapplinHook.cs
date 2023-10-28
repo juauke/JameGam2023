@@ -26,8 +26,7 @@ public class GrapplinHook : MonoBehaviour
         if (_currentSize < sizeGrapplin && !grapplinHit)
         {
             Vector3 deltaMove = _direction * (speed * Time.deltaTime);
-            transform.position = Vector3.MoveTowards(transform.position, transform.position + deltaMove, speed * Time.deltaTime);
-            
+            transform.position += deltaMove;
             _currentSize += deltaMove.magnitude;
         }
         else if (_currentSize > sizeGrapplin)
@@ -37,10 +36,15 @@ public class GrapplinHook : MonoBehaviour
 
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter2D (Collider2D col2D)
     {
-        Debug.Log("hit");
-        grapplinTarget = collision.transform.position;
-        grapplinHit = true;
+        if (!grapplinHit)
+        {
+            Debug.Log(col2D);
+            grapplinTarget = transform.position;
+            Debug.Log("nouveau hitpoint");
+            Debug.Log(grapplinTarget);
+            grapplinHit = true;
+        }
     }
 }
