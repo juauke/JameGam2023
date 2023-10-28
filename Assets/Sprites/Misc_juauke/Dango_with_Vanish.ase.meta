@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 85d23890aeaa70349b84de58fef0f756
+guid: ca7540d6c5d116048b47c94eb730bd2a
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 22
       width: 22
       height: 13
-    spriteID: 8701934f4a3c97443b4567e389075e93
+    spriteID: be82aaf775663de4b8fa4fa0890b5ba0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 43
       width: 20
       height: 13
-    spriteID: de0602be2b334ae419bcfc0404d6e63a
+    spriteID: dce13ba8dff43554584fa8a868639bfe
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 64
       width: 18
       height: 14
-    spriteID: 8c094d64529e41745b7eb01faf6b7d67
+    spriteID: 86b5bc86e923e8548a21b6740afd7770
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 64
       width: 16
       height: 16
-    spriteID: ecf1a6756f741d2498585848ce013dd6
+    spriteID: 901f645431b81544a9ea50b0a2119d31
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 64
       width: 16
       height: 16
-    spriteID: f4dfb52bf4086804c920740a20cb9c37
+    spriteID: c6800b6132589d1408800d95566a149b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -230,7 +230,7 @@ ScriptedImporter:
       y: 64
       width: 16
       height: 16
-    spriteID: 12daeff2d577af842bcf1be702183c4c
+    spriteID: 3ff384ddacc02a3449f2f81b13790d61
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -250,7 +250,7 @@ ScriptedImporter:
       y: 64
       width: 18
       height: 14
-    spriteID: 43c9391099c899541a6351b43b0dd933
+    spriteID: 5b6d368e246d2034283ac417dd3a9f9f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -270,7 +270,7 @@ ScriptedImporter:
       y: 43
       width: 20
       height: 13
-    spriteID: 788a6d5f465c1304686545b326d1ae75
+    spriteID: 949c7d4fae3adf5428b7ec3c71847f9a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -290,7 +290,7 @@ ScriptedImporter:
       y: 22
       width: 22
       height: 13
-    spriteID: 700f84b955132ce48a6990348a7ba895
+    spriteID: 0ef6f4ce608c8de4f9057a30f7d83ed5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -310,7 +310,7 @@ ScriptedImporter:
       y: 4
       width: 30
       height: 10
-    spriteID: 0866d288585a94c4db649f4bf3e9fa0a
+    spriteID: d4f929fce0a6fe243bd0c2419d97c1e1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -330,7 +330,7 @@ ScriptedImporter:
       y: 4
       width: 32
       height: 8
-    spriteID: 417f7af36fce4e64eadba3c20cccd837
+    spriteID: f76a7ca4d3192654d8cf8d53c4a03bca
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -350,7 +350,7 @@ ScriptedImporter:
       y: 4
       width: 30
       height: 10
-    spriteID: f850ed3084ee8454f87a2766da5bb98d
+    spriteID: 9838130ba4c92404cbf3a51c1c87e51e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -370,7 +370,7 @@ ScriptedImporter:
       y: 22
       width: 22
       height: 13
-    spriteID: bfa2c4ac3a6de8e4881113dcca881c16
+    spriteID: 5e16df9b4b8080c4da7c7658d4d52c5c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -390,7 +390,7 @@ ScriptedImporter:
       y: 22
       width: 22
       height: 12
-    spriteID: c14a81cef87c88443b3bee0a7a9dfefc
+    spriteID: f5f9fe82e6b7f5c4780b892dbd27ebca
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -410,7 +410,7 @@ ScriptedImporter:
       y: 43
       width: 22
       height: 11
-    spriteID: bc0c53e5631e0cc40b0203d3ab9da592
+    spriteID: 1d21e87df8f83004584e2c11ab80879e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -430,7 +430,7 @@ ScriptedImporter:
       y: 43
       width: 22
       height: 10
-    spriteID: 406545ed8ec705f41a61c5b035af2197
+    spriteID: ba47360c68d446c4eac75c9f50b46c0c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -450,7 +450,7 @@ ScriptedImporter:
       y: 88
       width: 22
       height: 9
-    spriteID: faaac83e6a6c3b24f8fc646997a79804
+    spriteID: 6c3a19641eb69bd45b652563b0105359
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -470,7 +470,7 @@ ScriptedImporter:
       y: 88
       width: 22
       height: 8
-    spriteID: e66e01ce4ff743e47ad6c3a916268352
+    spriteID: b8f3fbef37586a64190ed2f22432dee5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -490,7 +490,7 @@ ScriptedImporter:
       y: 88
       width: 20
       height: 7
-    spriteID: 8a5092244fd53624483e89e58e8b0488
+    spriteID: b4855ff7157940f458c20255897eda0f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -510,7 +510,7 @@ ScriptedImporter:
       y: 88
       width: 20
       height: 6
-    spriteID: d898e1812bcafcb49afd9a60b6096187
+    spriteID: b4ade731e7f300242ad16c72afcadc00
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -530,7 +530,7 @@ ScriptedImporter:
       y: 105
       width: 18
       height: 5
-    spriteID: 20794bfeb0d6cb5418bba997793461d0
+    spriteID: db7139687c819954a9a698fc9d37736f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -550,7 +550,7 @@ ScriptedImporter:
       y: 105
       width: 16
       height: 4
-    spriteID: ebf352cfaaf2d9d498c65af40bde5fc8
+    spriteID: e8cbe58f78bbb4341a7448f7deaae599
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -570,7 +570,7 @@ ScriptedImporter:
       y: 105
       width: 14
       height: 3
-    spriteID: 80cd48d12608b6c46b16e1f3c41fa963
+    spriteID: 3637bb6b82b2cc5468b37238b2c5ef6f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -590,7 +590,7 @@ ScriptedImporter:
       y: 105
       width: 10
       height: 2
-    spriteID: 12d7b82a76a680f4398ebad0b55fa962
+    spriteID: e342f496a9f1eec4287c7f5231cace93
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -610,7 +610,7 @@ ScriptedImporter:
       y: 88
       width: 4
       height: 1
-    spriteID: 1ca5fcc95fa8e3740915839fddb9c86b
+    spriteID: 62c33683b6dd7b24dbdd5c883aa5ed40
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -635,7 +635,7 @@ ScriptedImporter:
         y: 0
         width: 22
         height: 13
-      spriteId: 8701934f4a3c97443b4567e389075e93
+      spriteId: be82aaf775663de4b8fa4fa0890b5ba0
     - name: Dango_with_Vanish_Frame_1
       frameIndex: 1
       cellRect:
@@ -643,7 +643,7 @@ ScriptedImporter:
         y: 4
         width: 20
         height: 13
-      spriteId: de0602be2b334ae419bcfc0404d6e63a
+      spriteId: dce13ba8dff43554584fa8a868639bfe
     - name: Dango_with_Vanish_Frame_2
       frameIndex: 2
       cellRect:
@@ -651,7 +651,7 @@ ScriptedImporter:
         y: 6
         width: 18
         height: 14
-      spriteId: 8c094d64529e41745b7eb01faf6b7d67
+      spriteId: 86b5bc86e923e8548a21b6740afd7770
     - name: Dango_with_Vanish_Frame_3
       frameIndex: 3
       cellRect:
@@ -659,7 +659,7 @@ ScriptedImporter:
         y: 8
         width: 16
         height: 16
-      spriteId: ecf1a6756f741d2498585848ce013dd6
+      spriteId: 901f645431b81544a9ea50b0a2119d31
     - name: Dango_with_Vanish_Frame_4
       frameIndex: 4
       cellRect:
@@ -667,7 +667,7 @@ ScriptedImporter:
         y: 8
         width: 16
         height: 16
-      spriteId: f4dfb52bf4086804c920740a20cb9c37
+      spriteId: c6800b6132589d1408800d95566a149b
     - name: Dango_with_Vanish_Frame_5
       frameIndex: 5
       cellRect:
@@ -675,7 +675,7 @@ ScriptedImporter:
         y: 8
         width: 16
         height: 16
-      spriteId: 12daeff2d577af842bcf1be702183c4c
+      spriteId: 3ff384ddacc02a3449f2f81b13790d61
     - name: Dango_with_Vanish_Frame_6
       frameIndex: 6
       cellRect:
@@ -683,7 +683,7 @@ ScriptedImporter:
         y: 6
         width: 18
         height: 14
-      spriteId: 43c9391099c899541a6351b43b0dd933
+      spriteId: 5b6d368e246d2034283ac417dd3a9f9f
     - name: Dango_with_Vanish_Frame_7
       frameIndex: 7
       cellRect:
@@ -691,7 +691,7 @@ ScriptedImporter:
         y: 4
         width: 20
         height: 13
-      spriteId: 788a6d5f465c1304686545b326d1ae75
+      spriteId: 949c7d4fae3adf5428b7ec3c71847f9a
     - name: Dango_with_Vanish_Frame_8
       frameIndex: 8
       cellRect:
@@ -699,7 +699,7 @@ ScriptedImporter:
         y: 0
         width: 22
         height: 13
-      spriteId: 700f84b955132ce48a6990348a7ba895
+      spriteId: 0ef6f4ce608c8de4f9057a30f7d83ed5
     - name: Dango_with_Vanish_Frame_9
       frameIndex: 9
       cellRect:
@@ -707,7 +707,7 @@ ScriptedImporter:
         y: 0
         width: 30
         height: 10
-      spriteId: 0866d288585a94c4db649f4bf3e9fa0a
+      spriteId: d4f929fce0a6fe243bd0c2419d97c1e1
     - name: Dango_with_Vanish_Frame_10
       frameIndex: 10
       cellRect:
@@ -715,7 +715,7 @@ ScriptedImporter:
         y: 0
         width: 32
         height: 8
-      spriteId: 417f7af36fce4e64eadba3c20cccd837
+      spriteId: f76a7ca4d3192654d8cf8d53c4a03bca
     - name: Dango_with_Vanish_Frame_11
       frameIndex: 11
       cellRect:
@@ -723,7 +723,7 @@ ScriptedImporter:
         y: 0
         width: 30
         height: 10
-      spriteId: f850ed3084ee8454f87a2766da5bb98d
+      spriteId: 9838130ba4c92404cbf3a51c1c87e51e
     - name: Dango_with_Vanish_Frame_12
       frameIndex: 12
       cellRect:
@@ -731,7 +731,7 @@ ScriptedImporter:
         y: 0
         width: 22
         height: 13
-      spriteId: bfa2c4ac3a6de8e4881113dcca881c16
+      spriteId: 5e16df9b4b8080c4da7c7658d4d52c5c
     - name: Dango_with_Vanish_Frame_13
       frameIndex: 13
       cellRect:
@@ -739,7 +739,7 @@ ScriptedImporter:
         y: 1
         width: 22
         height: 12
-      spriteId: c14a81cef87c88443b3bee0a7a9dfefc
+      spriteId: f5f9fe82e6b7f5c4780b892dbd27ebca
     - name: Dango_with_Vanish_Frame_14
       frameIndex: 14
       cellRect:
@@ -747,7 +747,7 @@ ScriptedImporter:
         y: 2
         width: 22
         height: 11
-      spriteId: bc0c53e5631e0cc40b0203d3ab9da592
+      spriteId: 1d21e87df8f83004584e2c11ab80879e
     - name: Dango_with_Vanish_Frame_15
       frameIndex: 15
       cellRect:
@@ -755,7 +755,7 @@ ScriptedImporter:
         y: 3
         width: 22
         height: 10
-      spriteId: 406545ed8ec705f41a61c5b035af2197
+      spriteId: ba47360c68d446c4eac75c9f50b46c0c
     - name: Dango_with_Vanish_Frame_16
       frameIndex: 16
       cellRect:
@@ -763,7 +763,7 @@ ScriptedImporter:
         y: 4
         width: 22
         height: 9
-      spriteId: faaac83e6a6c3b24f8fc646997a79804
+      spriteId: 6c3a19641eb69bd45b652563b0105359
     - name: Dango_with_Vanish_Frame_17
       frameIndex: 17
       cellRect:
@@ -771,7 +771,7 @@ ScriptedImporter:
         y: 5
         width: 22
         height: 8
-      spriteId: e66e01ce4ff743e47ad6c3a916268352
+      spriteId: b8f3fbef37586a64190ed2f22432dee5
     - name: Dango_with_Vanish_Frame_18
       frameIndex: 18
       cellRect:
@@ -779,7 +779,7 @@ ScriptedImporter:
         y: 6
         width: 20
         height: 7
-      spriteId: 8a5092244fd53624483e89e58e8b0488
+      spriteId: b4855ff7157940f458c20255897eda0f
     - name: Dango_with_Vanish_Frame_19
       frameIndex: 19
       cellRect:
@@ -787,7 +787,7 @@ ScriptedImporter:
         y: 7
         width: 20
         height: 6
-      spriteId: d898e1812bcafcb49afd9a60b6096187
+      spriteId: b4ade731e7f300242ad16c72afcadc00
     - name: Dango_with_Vanish_Frame_20
       frameIndex: 20
       cellRect:
@@ -795,7 +795,7 @@ ScriptedImporter:
         y: 8
         width: 18
         height: 5
-      spriteId: 20794bfeb0d6cb5418bba997793461d0
+      spriteId: db7139687c819954a9a698fc9d37736f
     - name: Dango_with_Vanish_Frame_21
       frameIndex: 21
       cellRect:
@@ -803,7 +803,7 @@ ScriptedImporter:
         y: 9
         width: 16
         height: 4
-      spriteId: ebf352cfaaf2d9d498c65af40bde5fc8
+      spriteId: e8cbe58f78bbb4341a7448f7deaae599
     - name: Dango_with_Vanish_Frame_22
       frameIndex: 22
       cellRect:
@@ -811,7 +811,7 @@ ScriptedImporter:
         y: 10
         width: 14
         height: 3
-      spriteId: 80cd48d12608b6c46b16e1f3c41fa963
+      spriteId: 3637bb6b82b2cc5468b37238b2c5ef6f
     - name: Dango_with_Vanish_Frame_23
       frameIndex: 23
       cellRect:
@@ -819,7 +819,7 @@ ScriptedImporter:
         y: 11
         width: 10
         height: 2
-      spriteId: 12d7b82a76a680f4398ebad0b55fa962
+      spriteId: e342f496a9f1eec4287c7f5231cace93
     - name: Dango_with_Vanish_Frame_24
       frameIndex: 24
       cellRect:
@@ -827,7 +827,7 @@ ScriptedImporter:
         y: 12
         width: 4
         height: 1
-      spriteId: 1ca5fcc95fa8e3740915839fddb9c86b
+      spriteId: 62c33683b6dd7b24dbdd5c883aa5ed40
     linkedCells: []
     parentIndex: -1
   platformSettings: []

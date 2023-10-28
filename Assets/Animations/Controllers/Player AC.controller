@@ -55,7 +55,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 4fb354b1c515adb45bb99bfc9d59fcb5, type: 2}
+  m_Motion: {fileID: -3100369314251171874, guid: 2d404d81eb11b75409a27b00de3278a2, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -104,7 +104,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: e4e6e77c965fb744caad7d8cf9fcfd0d, type: 2}
+  m_Motion: {fileID: -2634408430880788432, guid: 2d404d81eb11b75409a27b00de3278a2, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -442,7 +442,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: fd29d9c06ee25a64bb019dbc112b665a, type: 2}
+  m_Motion: {fileID: -2634408430880788432, guid: 2d404d81eb11b75409a27b00de3278a2, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -469,7 +469,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 206004227893944400}
+  m_Motion: {fileID: -2634408430880788432, guid: 2d404d81eb11b75409a27b00de3278a2, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -496,7 +496,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: dee8c00ce40c4484ba92f545fdd4bdb0, type: 2}
+  m_Motion: {fileID: -2634408430880788432, guid: 2d404d81eb11b75409a27b00de3278a2, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -523,7 +523,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: fe6e297a101086048812d05b69b43c4f, type: 2}
+  m_Motion: {fileID: 5522812681064789136, guid: 2d404d81eb11b75409a27b00de3278a2, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

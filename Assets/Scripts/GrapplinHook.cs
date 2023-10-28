@@ -10,8 +10,8 @@ public class GrapplinHook : MonoBehaviour
     private float _currentSize = 0;
     private Vector3 _direction;
     private CharacterController _characterController;
-    static public bool Hit = false;
-    static public Vector3 Hitpoint;
+    public bool grapplinHit = false;
+    public Vector3 grapplinTarget;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,7 +25,7 @@ public class GrapplinHook : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (_currentSize < sizeGrapplin)
+        if (_currentSize < sizeGrapplin && !grapplinHit)
         {
             Vector3 deltaMove = _direction * (speed * Time.deltaTime);
             _characterController.Move(deltaMove);
@@ -36,7 +36,7 @@ public class GrapplinHook : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        Hitpoint = collision.transform.position;
-        Hit = true;
+        grapplinTarget = collision.transform.position;
+        grapplinHit = true;
     }
 }
