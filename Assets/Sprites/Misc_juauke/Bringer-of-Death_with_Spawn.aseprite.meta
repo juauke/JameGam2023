@@ -1,0 +1,2208 @@
+fileFormatVersion: 2
+guid: b9662ecb07178d6458c58acd60dcf176
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Bringer-of-Death_with_Spawn_Frame_0
+    originalName: 
+    pivot: {x: -0.3181819, y: -0.018518519}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 216
+      y: 251
+      width: 44
+      height: 54
+    spriteID: de9bde233762a1d4c8823e51c00e4d2a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 132, y: 250}
+  - name: Bringer-of-Death_with_Spawn_Frame_1
+    originalName: 
+    pivot: {x: -0.13333333, y: -0.018518519}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 609
+      width: 60
+      height: 54
+    spriteID: 622654a9e3b00c74e84e300a67d8918b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -13, y: 608}
+  - name: Bringer-of-Death_with_Spawn_Frame_2
+    originalName: 
+    pivot: {x: -0.049180355, y: -0.014492754}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 532
+      width: 61
+      height: 69
+    spriteID: 115acd547564f6940b7ea061acc129ac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -8, y: 531}
+  - name: Bringer-of-Death_with_Spawn_Frame_3
+    originalName: 
+    pivot: {x: -0.08064512, y: -0.014492754}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 455
+      width: 62
+      height: 69
+    spriteID: 504c2753d901ea24f9ac92545b60df00
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -10, y: 454}
+  - name: Bringer-of-Death_with_Spawn_Frame_4
+    originalName: 
+    pivot: {x: 0.48872182, y: -0.013157895}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 281
+      width: 133
+      height: 76
+    spriteID: e26fc5df96063d045bd375dff5026840
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -1, y: 280}
+  - name: Bringer-of-Death_with_Spawn_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.012048193}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 140
+      height: 83
+    spriteID: 3fd86a8df54288a4b82fbf93747c8013
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3}
+  - name: Bringer-of-Death_with_Spawn_Frame_6
+    originalName: 
+    pivot: {x: 0.52755904, y: -0.011764706}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 95
+      width: 127
+      height: 85
+    spriteID: 7dc7b5e86fd21464f9a1035e3ff2e8f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1, y: 94}
+  - name: Bringer-of-Death_with_Spawn_Frame_7
+    originalName: 
+    pivot: {x: 0.52380955, y: -0.011764706}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 188
+      width: 126
+      height: 85
+    spriteID: 8150fdd6228d8a64e8b8b6962ec8ff4b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 187}
+  - name: Bringer-of-Death_with_Spawn_Frame_8
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.0121951215}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 365
+      width: 112
+      height: 82
+    spriteID: 37927dd8d20c4074da975fb7e33b8fda
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -2, y: 364}
+  - name: Bringer-of-Death_with_Spawn_Frame_9
+    originalName: 
+    pivot: {x: -0.43243238, y: -0.018867925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 216
+      y: 937
+      width: 37
+      height: 53
+    spriteID: 28c41c70325b93240a358bcc6e923f61
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 130, y: 936}
+  - name: Bringer-of-Death_with_Spawn_Frame_10
+    originalName: 
+    pivot: {x: -0.16666666, y: -0.01923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 575
+      width: 48
+      height: 52
+    spriteID: 69b7adcecde1f244f9d4ce05f66f99fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 74, y: 574}
+  - name: Bringer-of-Death_with_Spawn_Frame_11
+    originalName: 
+    pivot: {x: -0.16666666, y: -0.019607842}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 812
+      width: 48
+      height: 51
+    spriteID: d2e28f923aa090740a4f15e23cf9f7cb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 74, y: 811}
+  - name: Bringer-of-Death_with_Spawn_Frame_12
+    originalName: 
+    pivot: {x: -0.19565211, y: -0.02}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 269
+      y: 180
+      width: 46
+      height: 50
+    spriteID: 613370699a0df0649b05f653a8540455
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 190, y: 179}
+  - name: Bringer-of-Death_with_Spawn_Frame_13
+    originalName: 
+    pivot: {x: -0.14583337, y: -0.02}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 269
+      y: 4
+      width: 48
+      height: 50
+    spriteID: 61c920f4ff80ece4fb10c0c96739bf3b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 192, y: 3}
+  - name: Bringer-of-Death_with_Spawn_Frame_14
+    originalName: 
+    pivot: {x: -0.09999995, y: -0.020408163}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 755
+      width: 50
+      height: 49
+    spriteID: f60e1b231ae259d448e5022abce79249
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 754}
+  - name: Bringer-of-Death_with_Spawn_Frame_15
+    originalName: 
+    pivot: {x: -0.07843137, y: -0.010869565}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 653
+      width: 51
+      height: 92
+    spriteID: ebcc8c6e16949e44ba5735c8670a5d0e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -70, y: 652}
+  - name: Bringer-of-Death_with_Spawn_Frame_16
+    originalName: 
+    pivot: {x: -0.07843137, y: -0.010869565}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 753
+      width: 51
+      height: 92
+    spriteID: 5304cac25d566ee499e7a6075596b7ae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -70, y: 752}
+  - name: Bringer-of-Death_with_Spawn_Frame_17
+    originalName: 
+    pivot: {x: -0.057692345, y: -0.010989011}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 554
+      width: 52
+      height: 91
+    spriteID: 9119ad4fe73b1ae4f8e517d8fd844ec7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -69, y: 553}
+  - name: Bringer-of-Death_with_Spawn_Frame_18
+    originalName: 
+    pivot: {x: -0.037735928, y: -0.010989011}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 455
+      width: 53
+      height: 91
+    spriteID: 2663074b304f0ed48a5bfa44834fd50d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -68, y: 454}
+  - name: Bringer-of-Death_with_Spawn_Frame_19
+    originalName: 
+    pivot: {x: -0.7878788, y: -0.70000005}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 269
+      y: 736
+      width: 33
+      height: 40
+    spriteID: ccb90848b5a18de4ea838a0147a3fe9c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 173, y: 708}
+  - name: Bringer-of-Death_with_Spawn_Frame_20
+    originalName: 
+    pivot: {x: -0.45000008, y: -0.3877551}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 269
+      y: 238
+      width: 40
+      height: 49
+    spriteID: 6d6075011667ff24f8bd650d5f9bac42
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 181, y: 219}
+  - name: Bringer-of-Death_with_Spawn_Frame_21
+    originalName: 
+    pivot: {x: -0.31250003, y: -0.26923078}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 635
+      width: 48
+      height: 52
+    spriteID: b1caeede7d508b84393efc5e9dac9cb3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 67, y: 621}
+  - name: Bringer-of-Death_with_Spawn_Frame_22
+    originalName: 
+    pivot: {x: -0.3333333, y: -0.10169491}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 64
+      width: 48
+      height: 59
+    spriteID: 1125ff7e709ffde48aa9ca61b310a915
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 58}
+  - name: Bringer-of-Death_with_Spawn_Frame_23
+    originalName: 
+    pivot: {x: -0.3, y: -0.016666666}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 853
+      width: 50
+      height: 60
+    spriteID: 47538ecff75e2784e84bed83efd54e87
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -81, y: 852}
+  - name: Bringer-of-Death_with_Spawn_Frame_24
+    originalName: 
+    pivot: {x: -0.2352941, y: -0.01724138}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 796
+      width: 51
+      height: 58
+    spriteID: 0db0e100cdaa29249b1bfcf5ca64c127
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -17, y: 795}
+  - name: Bringer-of-Death_with_Spawn_Frame_25
+    originalName: 
+    pivot: {x: -0.22448984, y: -0.017857142}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 261
+      width: 49
+      height: 56
+    spriteID: 0e33e10c39b3a974f9dae43cf617693d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 260}
+  - name: Bringer-of-Death_with_Spawn_Frame_26
+    originalName: 
+    pivot: {x: -0.2291667, y: -0.018518519}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 389
+      width: 48
+      height: 54
+    spriteID: f05b1a00d972e7f43b02dedc43a8c065
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 388}
+  - name: Bringer-of-Death_with_Spawn_Frame_27
+    originalName: 
+    pivot: {x: -0.26666665, y: -0.018518519}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 931
+      width: 45
+      height: 54
+    spriteID: b7da63fa6f1701644ae215da0c9b56bd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 930}
+  - name: Bringer-of-Death_with_Spawn_Frame_28
+    originalName: 
+    pivot: {x: -0.37500003, y: -0.018867925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 216
+      y: 752
+      width: 40
+      height: 53
+    spriteID: c851cb96a265e564abc0db5316241e68
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 131, y: 751}
+  - name: Bringer-of-Death_with_Spawn_Frame_29
+    originalName: 
+    pivot: {x: -0.37500003, y: -0.018867925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 216
+      y: 813
+      width: 40
+      height: 53
+    spriteID: 0c46c36b5d2ea8a4f92ddbba58eaaf9a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 131, y: 812}
+  - name: Bringer-of-Death_with_Spawn_Frame_30
+    originalName: 
+    pivot: {x: -0.26666665, y: -0.018518519}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 216
+      y: 4
+      width: 45
+      height: 54
+    spriteID: dd7c43c7eb8fcff4e8fa9f2a4d41e79b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 134, y: 3}
+  - name: Bringer-of-Death_with_Spawn_Frame_31
+    originalName: 
+    pivot: {x: -0.2291667, y: -0.018518519}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 451
+      width: 48
+      height: 54
+    spriteID: bf2bf44145548b648ad771c10a54b9ed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 450}
+  - name: Bringer-of-Death_with_Spawn_Frame_32
+    originalName: 
+    pivot: {x: -0.22448984, y: -0.017857142}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 325
+      width: 49
+      height: 56
+    spriteID: 62da4886d991ac442bb812d180f002c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 324}
+  - name: Bringer-of-Death_with_Spawn_Frame_33
+    originalName: 
+    pivot: {x: -0.2352941, y: -0.01724138}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 862
+      width: 51
+      height: 58
+    spriteID: 64fb0ab0c374cc4419c3b20d1a3336ad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -17, y: 861}
+  - name: Bringer-of-Death_with_Spawn_Frame_34
+    originalName: 
+    pivot: {x: -0.3, y: -0.016666666}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 921
+      width: 50
+      height: 60
+    spriteID: 1f8cd9d63aa710d49b92fada5f3217cf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -81, y: 920}
+  - name: Bringer-of-Death_with_Spawn_Frame_35
+    originalName: 
+    pivot: {x: -0.3333333, y: -0.10169491}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 131
+      width: 48
+      height: 59
+    spriteID: e3ad2b2803da2314b87fe5ffc00b9f54
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 125}
+  - name: Bringer-of-Death_with_Spawn_Frame_36
+    originalName: 
+    pivot: {x: -0.31250003, y: -0.26923078}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 695
+      width: 48
+      height: 52
+    spriteID: 1f33259f4716ad44dad8ab0d454b3f2b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 67, y: 681}
+  - name: Bringer-of-Death_with_Spawn_Frame_37
+    originalName: 
+    pivot: {x: -0.45000008, y: -0.3877551}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 269
+      y: 295
+      width: 40
+      height: 49
+    spriteID: 40f70c86f724adb44926893b22e05a98
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 181, y: 276}
+  - name: Bringer-of-Death_with_Spawn_Frame_38
+    originalName: 
+    pivot: {x: -0.7878788, y: -0.70000005}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 269
+      y: 784
+      width: 33
+      height: 40
+    spriteID: 4f15a111295570e4c9d9b4cc69f75962
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 173, y: 756}
+  - name: Bringer-of-Death_with_Spawn_Frame_39
+    originalName: 
+    pivot: {x: -0.21276602, y: -0.02}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 269
+      y: 122
+      width: 47
+      height: 50
+    spriteID: 520379f8518bafd4b8ae73d1c6a631f3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 189, y: 121}
+  - name: Bringer-of-Death_with_Spawn_Frame_40
+    originalName: 
+    pivot: {x: -0.3902439, y: -0.018867925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 216
+      y: 566
+      width: 41
+      height: 53
+    spriteID: 6e925bcdf6e48654685b2eccc87237d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 130, y: 565}
+  - name: Bringer-of-Death_with_Spawn_Frame_41
+    originalName: 
+    pivot: {x: -0.46153855, y: -0.01818182}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 216
+      y: 689
+      width: 39
+      height: 55
+    spriteID: 864c260cab0f89e498b44b5eff6d6c08
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 128, y: 688}
+  - name: Bringer-of-Death_with_Spawn_Frame_42
+    originalName: 
+    pivot: {x: -0.39999998, y: -0.018518519}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 216
+      y: 627
+      width: 40
+      height: 54
+    spriteID: 9153e2e4d8801b443a3dfb4ba4568d45
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 130, y: 626}
+  - name: Bringer-of-Death_with_Spawn_Frame_43
+    originalName: 
+    pivot: {x: -0.39999998, y: -0.01818182}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 216
+      y: 503
+      width: 40
+      height: 55
+    spriteID: 617fae4da3005264998aedf19bc329aa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 130, y: 502}
+  - name: Bringer-of-Death_with_Spawn_Frame_44
+    originalName: 
+    pivot: {x: -0.3658537, y: -0.017857142}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 216
+      y: 375
+      width: 41
+      height: 56
+    spriteID: ae11824e52de2ef4d9b8fe8b2b49952c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 131, y: 374}
+  - name: Bringer-of-Death_with_Spawn_Frame_45
+    originalName: 
+    pivot: {x: -0.3414635, y: -0.017857142}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 216
+      y: 439
+      width: 41
+      height: 56
+    spriteID: a7334e218401a8e46812d7cee14cbb46
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 132, y: 438}
+  - name: Bringer-of-Death_with_Spawn_Frame_46
+    originalName: 
+    pivot: {x: -0.26666665, y: -0.018518519}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 216
+      y: 66
+      width: 45
+      height: 54
+    spriteID: 60fbb5333552cfb439f94f314cdafd4e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 134, y: 65}
+  - name: Bringer-of-Death_with_Spawn_Frame_47
+    originalName: 
+    pivot: {x: -0.23404257, y: -0.01923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 871
+      width: 47
+      height: 52
+    spriteID: a7c11aaf20704344cacb2e9131b7c7ca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 870}
+  - name: Bringer-of-Death_with_Spawn_Frame_48
+    originalName: 
+    pivot: {x: -0.28888884, y: -0.018867925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 216
+      y: 190
+      width: 45
+      height: 53
+    spriteID: 22249709cfb1f0a41b3812559ac49707
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 133, y: 189}
+  - name: Bringer-of-Death_with_Spawn_Frame_49
+    originalName: 
+    pivot: {x: -0.32558146, y: -0.018518519}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 216
+      y: 313
+      width: 43
+      height: 54
+    spriteID: 7bbe172b4f3a2ba45b739e7444134524
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 132, y: 312}
+  - name: Bringer-of-Death_with_Spawn_Frame_50
+    originalName: 
+    pivot: {x: 0.56249994, y: -2.0526314}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 216
+      y: 998
+      width: 32
+      height: 19
+    spriteID: cc208dab153bf184a8edaef4f421f35a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 164, y: 959}
+  - name: Bringer-of-Death_with_Spawn_Frame_51
+    originalName: 
+    pivot: {x: 0.56249994, y: -2.0526314}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 993
+      width: 32
+      height: 19
+    spriteID: 670ed194645495e41a047e585652691b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 954}
+  - name: Bringer-of-Death_with_Spawn_Frame_52
+    originalName: 
+    pivot: {x: 0.54285717, y: -2.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 269
+      y: 876
+      width: 35
+      height: 16
+    spriteID: 0586240a66c53bd45a63891e0cc3248e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 218, y: 836}
+  - name: Bringer-of-Death_with_Spawn_Frame_53
+    originalName: 
+    pivot: {x: 0.54285717, y: -2.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 269
+      y: 900
+      width: 35
+      height: 16
+    spriteID: 760b9d3beabbe154f90e7e0abe42afaa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 218, y: 860}
+  - name: Bringer-of-Death_with_Spawn_Frame_54
+    originalName: 
+    pivot: {x: 0.5517241, y: -1.5217392}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 989
+      width: 29
+      height: 23
+    spriteID: 0db0a86053894d248aa1d80e5f6b3ba0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -50, y: 954}
+  - name: Bringer-of-Death_with_Spawn_Frame_55
+    originalName: 
+    pivot: {x: 0.58064514, y: -0.6111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 269
+      y: 832
+      width: 31
+      height: 36
+    spriteID: 9b8b8267997d8ff41b0c919bfea33b3f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 217, y: 810}
+  - name: Bringer-of-Death_with_Spawn_Frame_56
+    originalName: 
+    pivot: {x: 0.58064514, y: -0.094339624}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 269
+      y: 675
+      width: 31
+      height: 53
+    spriteID: e61cbb6d01a28d04e9007a633b1360c7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 217, y: 670}
+  - name: Bringer-of-Death_with_Spawn_Frame_57
+    originalName: 
+    pivot: {x: 0.58064514, y: -0.01754386}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 269
+      y: 610
+      width: 31
+      height: 57
+    spriteID: 0d564405578559c4c99861ec2f6b7f51
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 217, y: 609}
+  - name: Bringer-of-Death_with_Spawn_Frame_58
+    originalName: 
+    pivot: {x: 0.57575756, y: -0.01754386}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 269
+      y: 545
+      width: 33
+      height: 57
+    spriteID: 8879e226503044e48bca6fb21faa6bdc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 218, y: 544}
+  - name: Bringer-of-Death_with_Spawn_Frame_59
+    originalName: 
+    pivot: {x: 0.58823526, y: -0.01754386}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 269
+      y: 352
+      width: 34
+      height: 57
+    spriteID: 85516d3694a7d93448dc908ae7d687f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 219, y: 351}
+  - name: Bringer-of-Death_with_Spawn_Frame_60
+    originalName: 
+    pivot: {x: 0.54285717, y: -0.01818182}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 269
+      y: 482
+      width: 35
+      height: 55
+    spriteID: 7f45351111bab034095d85019a8d3957
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 218, y: 481}
+  - name: Bringer-of-Death_with_Spawn_Frame_61
+    originalName: 
+    pivot: {x: 0.5555555, y: -0.01818182}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 216
+      y: 874
+      width: 36
+      height: 55
+    spriteID: eb559a32e86519c40aa2a2506098393e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 166, y: 873}
+  - name: Bringer-of-Death_with_Spawn_Frame_62
+    originalName: 
+    pivot: {x: 0.6176471, y: -0.01754386}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 269
+      y: 417
+      width: 34
+      height: 57
+    spriteID: 78ef0001ea5c910419b202ccdb1a96b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 220, y: 416}
+  - name: Bringer-of-Death_with_Spawn_Frame_63
+    originalName: 
+    pivot: {x: 0.5517241, y: -2.222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 269
+      y: 924
+      width: 29
+      height: 18
+    spriteID: 36871852ffeddc94b919e4e27a3bbdca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 215, y: 884}
+  - name: Bringer-of-Death_with_Spawn_Frame_64
+    originalName: 
+    pivot: {x: 0.58064514, y: -2.0526314}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 990
+      width: 31
+      height: 19
+    spriteID: ed271e40072d8034e940d1a1555616fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 13, y: 951}
+  - name: Bringer-of-Death_with_Spawn_Frame_65
+    originalName: 
+    pivot: {x: 0.58064514, y: -2.0526314}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 104
+      y: 990
+      width: 31
+      height: 19
+    spriteID: 95849ec7181740d4ca76c24c1a46fe00
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 951}
+  - name: Bringer-of-Death_with_Spawn_Frame_66
+    originalName: 
+    pivot: {x: -0.092592545, y: -0.018518519}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 928
+      width: 54
+      height: 54
+    spriteID: e07302710b1cfc94abfdd0c8ba75499f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -10, y: 927}
+  - name: Bringer-of-Death_with_Spawn_Frame_67
+    originalName: 
+    pivot: {x: -0.08928567, y: -0.01923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 4
+      width: 56
+      height: 52
+    spriteID: 3d0d3f8da2f9b1e41902cb626aa747a8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 3}
+  - name: Bringer-of-Death_with_Spawn_Frame_68
+    originalName: 
+    pivot: {x: -0.07142857, y: -0.018518519}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 671
+      width: 56
+      height: 54
+    spriteID: 01abd62304b08aa4f944d97ac080c3a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -9, y: 670}
+  - name: Bringer-of-Death_with_Spawn_Frame_69
+    originalName: 
+    pivot: {x: -0.092592545, y: -0.01818182}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 733
+      width: 54
+      height: 55
+    spriteID: a680f9853a57bed459291d86176bcc94
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -10, y: 732}
+  - name: Bringer-of-Death_with_Spawn_Frame_70
+    originalName: 
+    pivot: {x: -0.14583337, y: -0.018518519}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 513
+      width: 48
+      height: 54
+    spriteID: 81f09ef608ae27c48929c6b9c54e82a1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 75, y: 512}
+  - name: Bringer-of-Death_with_Spawn_Frame_71
+    originalName: 
+    pivot: {x: -0.17391303, y: -0.01923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 269
+      y: 62
+      width: 46
+      height: 52
+    spriteID: 92cc5a1ca809afd469796f51e234bd4e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 191, y: 61}
+  - name: Bringer-of-Death_with_Spawn_Frame_72
+    originalName: 
+    pivot: {x: -0.2222223, y: -0.018518519}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 216
+      y: 128
+      width: 45
+      height: 54
+    spriteID: 670f7dfe4c3563a48a60f09d0607d48e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 136, y: 127}
+  - name: Bringer-of-Death_with_Spawn_Frame_73
+    originalName: 
+    pivot: {x: -0.12000007, y: -0.01818182}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 198
+      width: 50
+      height: 55
+    spriteID: e629e3a619e455b46985e5b3a8685bef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 197}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1543076099
+    name: Bringer-of-Death_with_Spawn
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Bringer-of-Death_with_Spawn_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: de9bde233762a1d4c8823e51c00e4d2a
+    - name: Bringer-of-Death_with_Spawn_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 622654a9e3b00c74e84e300a67d8918b
+    - name: Bringer-of-Death_with_Spawn_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 115acd547564f6940b7ea061acc129ac
+    - name: Bringer-of-Death_with_Spawn_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 504c2753d901ea24f9ac92545b60df00
+    - name: Bringer-of-Death_with_Spawn_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: e26fc5df96063d045bd375dff5026840
+    - name: Bringer-of-Death_with_Spawn_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 3fd86a8df54288a4b82fbf93747c8013
+    - name: Bringer-of-Death_with_Spawn_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 7dc7b5e86fd21464f9a1035e3ff2e8f7
+    - name: Bringer-of-Death_with_Spawn_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 8150fdd6228d8a64e8b8b6962ec8ff4b
+    - name: Bringer-of-Death_with_Spawn_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 37927dd8d20c4074da975fb7e33b8fda
+    - name: Bringer-of-Death_with_Spawn_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 28c41c70325b93240a358bcc6e923f61
+    - name: Bringer-of-Death_with_Spawn_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 69b7adcecde1f244f9d4ce05f66f99fa
+    - name: Bringer-of-Death_with_Spawn_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: d2e28f923aa090740a4f15e23cf9f7cb
+    - name: Bringer-of-Death_with_Spawn_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 613370699a0df0649b05f653a8540455
+    - name: Bringer-of-Death_with_Spawn_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 61c920f4ff80ece4fb10c0c96739bf3b
+    - name: Bringer-of-Death_with_Spawn_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: f60e1b231ae259d448e5022abce79249
+    - name: Bringer-of-Death_with_Spawn_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: ebcc8c6e16949e44ba5735c8670a5d0e
+    - name: Bringer-of-Death_with_Spawn_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 5304cac25d566ee499e7a6075596b7ae
+    - name: Bringer-of-Death_with_Spawn_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 9119ad4fe73b1ae4f8e517d8fd844ec7
+    - name: Bringer-of-Death_with_Spawn_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 2663074b304f0ed48a5bfa44834fd50d
+    - name: Bringer-of-Death_with_Spawn_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: ccb90848b5a18de4ea838a0147a3fe9c
+    - name: Bringer-of-Death_with_Spawn_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 6d6075011667ff24f8bd650d5f9bac42
+    - name: Bringer-of-Death_with_Spawn_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: b1caeede7d508b84393efc5e9dac9cb3
+    - name: Bringer-of-Death_with_Spawn_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 1125ff7e709ffde48aa9ca61b310a915
+    - name: Bringer-of-Death_with_Spawn_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 47538ecff75e2784e84bed83efd54e87
+    - name: Bringer-of-Death_with_Spawn_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 0db0e100cdaa29249b1bfcf5ca64c127
+    - name: Bringer-of-Death_with_Spawn_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 0e33e10c39b3a974f9dae43cf617693d
+    - name: Bringer-of-Death_with_Spawn_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: f05b1a00d972e7f43b02dedc43a8c065
+    - name: Bringer-of-Death_with_Spawn_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: b7da63fa6f1701644ae215da0c9b56bd
+    - name: Bringer-of-Death_with_Spawn_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: c851cb96a265e564abc0db5316241e68
+    - name: Bringer-of-Death_with_Spawn_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 0c46c36b5d2ea8a4f92ddbba58eaaf9a
+    - name: Bringer-of-Death_with_Spawn_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: dd7c43c7eb8fcff4e8fa9f2a4d41e79b
+    - name: Bringer-of-Death_with_Spawn_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: bf2bf44145548b648ad771c10a54b9ed
+    - name: Bringer-of-Death_with_Spawn_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 62da4886d991ac442bb812d180f002c2
+    - name: Bringer-of-Death_with_Spawn_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 64fb0ab0c374cc4419c3b20d1a3336ad
+    - name: Bringer-of-Death_with_Spawn_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 1f8cd9d63aa710d49b92fada5f3217cf
+    - name: Bringer-of-Death_with_Spawn_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: e3ad2b2803da2314b87fe5ffc00b9f54
+    - name: Bringer-of-Death_with_Spawn_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 1f33259f4716ad44dad8ab0d454b3f2b
+    - name: Bringer-of-Death_with_Spawn_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 40f70c86f724adb44926893b22e05a98
+    - name: Bringer-of-Death_with_Spawn_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 4f15a111295570e4c9d9b4cc69f75962
+    - name: Bringer-of-Death_with_Spawn_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 520379f8518bafd4b8ae73d1c6a631f3
+    - name: Bringer-of-Death_with_Spawn_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 6e925bcdf6e48654685b2eccc87237d0
+    - name: Bringer-of-Death_with_Spawn_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 864c260cab0f89e498b44b5eff6d6c08
+    - name: Bringer-of-Death_with_Spawn_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 9153e2e4d8801b443a3dfb4ba4568d45
+    - name: Bringer-of-Death_with_Spawn_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 617fae4da3005264998aedf19bc329aa
+    - name: Bringer-of-Death_with_Spawn_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: ae11824e52de2ef4d9b8fe8b2b49952c
+    - name: Bringer-of-Death_with_Spawn_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: a7334e218401a8e46812d7cee14cbb46
+    - name: Bringer-of-Death_with_Spawn_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 60fbb5333552cfb439f94f314cdafd4e
+    - name: Bringer-of-Death_with_Spawn_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: a7c11aaf20704344cacb2e9131b7c7ca
+    - name: Bringer-of-Death_with_Spawn_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 22249709cfb1f0a41b3812559ac49707
+    - name: Bringer-of-Death_with_Spawn_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 7bbe172b4f3a2ba45b739e7444134524
+    - name: Bringer-of-Death_with_Spawn_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: cc208dab153bf184a8edaef4f421f35a
+    - name: Bringer-of-Death_with_Spawn_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 670ed194645495e41a047e585652691b
+    - name: Bringer-of-Death_with_Spawn_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 0586240a66c53bd45a63891e0cc3248e
+    - name: Bringer-of-Death_with_Spawn_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 760b9d3beabbe154f90e7e0abe42afaa
+    - name: Bringer-of-Death_with_Spawn_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 0db0a86053894d248aa1d80e5f6b3ba0
+    - name: Bringer-of-Death_with_Spawn_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 9b8b8267997d8ff41b0c919bfea33b3f
+    - name: Bringer-of-Death_with_Spawn_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: e61cbb6d01a28d04e9007a633b1360c7
+    - name: Bringer-of-Death_with_Spawn_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 0d564405578559c4c99861ec2f6b7f51
+    - name: Bringer-of-Death_with_Spawn_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 8879e226503044e48bca6fb21faa6bdc
+    - name: Bringer-of-Death_with_Spawn_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 85516d3694a7d93448dc908ae7d687f6
+    - name: Bringer-of-Death_with_Spawn_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 7f45351111bab034095d85019a8d3957
+    - name: Bringer-of-Death_with_Spawn_Frame_61
+      frameIndex: 61
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: eb559a32e86519c40aa2a2506098393e
+    - name: Bringer-of-Death_with_Spawn_Frame_62
+      frameIndex: 62
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 78ef0001ea5c910419b202ccdb1a96b7
+    - name: Bringer-of-Death_with_Spawn_Frame_63
+      frameIndex: 63
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 36871852ffeddc94b919e4e27a3bbdca
+    - name: Bringer-of-Death_with_Spawn_Frame_64
+      frameIndex: 64
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: ed271e40072d8034e940d1a1555616fd
+    - name: Bringer-of-Death_with_Spawn_Frame_65
+      frameIndex: 65
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 95849ec7181740d4ca76c24c1a46fe00
+    - name: Bringer-of-Death_with_Spawn_Frame_66
+      frameIndex: 66
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: e07302710b1cfc94abfdd0c8ba75499f
+    - name: Bringer-of-Death_with_Spawn_Frame_67
+      frameIndex: 67
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 3d0d3f8da2f9b1e41902cb626aa747a8
+    - name: Bringer-of-Death_with_Spawn_Frame_68
+      frameIndex: 68
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 01abd62304b08aa4f944d97ac080c3a3
+    - name: Bringer-of-Death_with_Spawn_Frame_69
+      frameIndex: 69
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: a680f9853a57bed459291d86176bcc94
+    - name: Bringer-of-Death_with_Spawn_Frame_70
+      frameIndex: 70
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 81f09ef608ae27c48929c6b9c54e82a1
+    - name: Bringer-of-Death_with_Spawn_Frame_71
+      frameIndex: 71
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 92cc5a1ca809afd469796f51e234bd4e
+    - name: Bringer-of-Death_with_Spawn_Frame_72
+      frameIndex: 72
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: 670f7dfe4c3563a48a60f09d0607d48e
+    - name: Bringer-of-Death_with_Spawn_Frame_73
+      frameIndex: 73
+      cellRect:
+        x: 0
+        y: 0
+        width: 140
+        height: 93
+      spriteId: e629e3a619e455b46985e5b3a8685bef
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 140, y: 93}
