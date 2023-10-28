@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NextLVL : MonoBehaviour
+public class NextLvl : MonoBehaviour
 {
     [SerializeField] private Transform Checkpoint;
     [SerializeField] private Transform nextCheckpoint;
@@ -15,7 +15,6 @@ public class NextLVL : MonoBehaviour
             var nextPos = nextCheckpoint.position;
             collision.gameObject.transform.position = nextPos;
             Checkpoint.position = nextPos;
-            Debug.Log("Next Level");
             // faire des animations quand on spawn plus loin ?
         }
     }
