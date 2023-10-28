@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e3291a29247390548b9fec2ef921070c
+guid: 3e2fa6b9d2d669246a73da82a93a2350
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 22
       width: 22
       height: 13
-    spriteID: 2391de71d447dad4692dd3d3cb65b059
+    spriteID: a15965cf24605e144b3ab424d9a0faad
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 22
       width: 20
       height: 13
-    spriteID: e7debaf3f91cbd54a892d92480e9ee04
+    spriteID: ad1796ebd53c67548ae254412f9f9fdc
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 64
       width: 18
       height: 14
-    spriteID: 356c8a395af107843a3ada9d33c0e098
+    spriteID: 8d6b1d0f1d3caff4f99809268c7ddb85
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 64
       width: 16
       height: 16
-    spriteID: f6373e0b792e7da43b80102d9840aca5
+    spriteID: 1cb2d59e20c3374499c63103c6f10521
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 64
       width: 16
       height: 16
-    spriteID: 78a931947cd1357478491f36b928f5cf
+    spriteID: 0316868af87b2fe44b1ee7e6dbf6adf2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -230,7 +230,7 @@ ScriptedImporter:
       y: 64
       width: 16
       height: 16
-    spriteID: 17e508897e594d54598e0b477ee4b979
+    spriteID: 8c02793e21d2da14eb9ac1d23b87d8fc
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -250,7 +250,7 @@ ScriptedImporter:
       y: 64
       width: 18
       height: 14
-    spriteID: e7561fc808d329546b57a68966bb2e7e
+    spriteID: ae484aac43b70224c9ea1c7816310c37
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -270,7 +270,7 @@ ScriptedImporter:
       y: 43
       width: 20
       height: 13
-    spriteID: b82b306ed64dd294b84b5ab4c8ec8ccb
+    spriteID: 4bdfd19d7f7e14c45ade6701f0993a74
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -290,7 +290,7 @@ ScriptedImporter:
       y: 22
       width: 22
       height: 13
-    spriteID: b606de43cc9770b4995a3864f0ba69fe
+    spriteID: e6685aa76afc65e4ca78f7879f5780d8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -310,7 +310,7 @@ ScriptedImporter:
       y: 4
       width: 30
       height: 10
-    spriteID: e80bb2a4125af2942ba918c032de6514
+    spriteID: 99d5ed2347f45a148810726c73783e8f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -330,7 +330,7 @@ ScriptedImporter:
       y: 4
       width: 32
       height: 8
-    spriteID: 57647e6c3115be847b5ffe06a739f748
+    spriteID: 3003539e157e9bb42b49169c9f5c9180
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -350,7 +350,7 @@ ScriptedImporter:
       y: 4
       width: 30
       height: 10
-    spriteID: 1fe204e8870e16c45b0967db27a60b51
+    spriteID: 0a93c76f2f4675d4cba21ace0e69f31c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -370,7 +370,7 @@ ScriptedImporter:
       y: 22
       width: 22
       height: 13
-    spriteID: 01ad5716263b57c43bd6b5af9d2de420
+    spriteID: 4e10776528f74e247a125afab28b905d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -395,7 +395,7 @@ ScriptedImporter:
         y: 0
         width: 22
         height: 13
-      spriteId: 2391de71d447dad4692dd3d3cb65b059
+      spriteId: a15965cf24605e144b3ab424d9a0faad
     - name: Slime_Frame_1
       frameIndex: 1
       cellRect:
@@ -403,7 +403,7 @@ ScriptedImporter:
         y: 4
         width: 20
         height: 13
-      spriteId: e7debaf3f91cbd54a892d92480e9ee04
+      spriteId: ad1796ebd53c67548ae254412f9f9fdc
     - name: Slime_Frame_2
       frameIndex: 2
       cellRect:
@@ -411,7 +411,7 @@ ScriptedImporter:
         y: 6
         width: 18
         height: 14
-      spriteId: 356c8a395af107843a3ada9d33c0e098
+      spriteId: 8d6b1d0f1d3caff4f99809268c7ddb85
     - name: Slime_Frame_3
       frameIndex: 3
       cellRect:
@@ -419,7 +419,7 @@ ScriptedImporter:
         y: 8
         width: 16
         height: 16
-      spriteId: f6373e0b792e7da43b80102d9840aca5
+      spriteId: 1cb2d59e20c3374499c63103c6f10521
     - name: Slime_Frame_4
       frameIndex: 4
       cellRect:
@@ -427,7 +427,7 @@ ScriptedImporter:
         y: 8
         width: 16
         height: 16
-      spriteId: 78a931947cd1357478491f36b928f5cf
+      spriteId: 0316868af87b2fe44b1ee7e6dbf6adf2
     - name: Slime_Frame_5
       frameIndex: 5
       cellRect:
@@ -435,7 +435,7 @@ ScriptedImporter:
         y: 8
         width: 16
         height: 16
-      spriteId: 17e508897e594d54598e0b477ee4b979
+      spriteId: 8c02793e21d2da14eb9ac1d23b87d8fc
     - name: Slime_Frame_6
       frameIndex: 6
       cellRect:
@@ -443,7 +443,7 @@ ScriptedImporter:
         y: 6
         width: 18
         height: 14
-      spriteId: e7561fc808d329546b57a68966bb2e7e
+      spriteId: ae484aac43b70224c9ea1c7816310c37
     - name: Slime_Frame_7
       frameIndex: 7
       cellRect:
@@ -451,7 +451,7 @@ ScriptedImporter:
         y: 4
         width: 20
         height: 13
-      spriteId: b82b306ed64dd294b84b5ab4c8ec8ccb
+      spriteId: 4bdfd19d7f7e14c45ade6701f0993a74
     - name: Slime_Frame_8
       frameIndex: 8
       cellRect:
@@ -459,7 +459,7 @@ ScriptedImporter:
         y: 0
         width: 22
         height: 13
-      spriteId: b606de43cc9770b4995a3864f0ba69fe
+      spriteId: e6685aa76afc65e4ca78f7879f5780d8
     - name: Slime_Frame_9
       frameIndex: 9
       cellRect:
@@ -467,7 +467,7 @@ ScriptedImporter:
         y: 0
         width: 30
         height: 10
-      spriteId: e80bb2a4125af2942ba918c032de6514
+      spriteId: 99d5ed2347f45a148810726c73783e8f
     - name: Slime_Frame_10
       frameIndex: 10
       cellRect:
@@ -475,7 +475,7 @@ ScriptedImporter:
         y: 0
         width: 32
         height: 8
-      spriteId: 57647e6c3115be847b5ffe06a739f748
+      spriteId: 3003539e157e9bb42b49169c9f5c9180
     - name: Slime_Frame_11
       frameIndex: 11
       cellRect:
@@ -483,7 +483,7 @@ ScriptedImporter:
         y: 0
         width: 30
         height: 10
-      spriteId: 1fe204e8870e16c45b0967db27a60b51
+      spriteId: 0a93c76f2f4675d4cba21ace0e69f31c
     - name: Slime_Frame_12
       frameIndex: 12
       cellRect:
@@ -491,7 +491,7 @@ ScriptedImporter:
         y: 0
         width: 22
         height: 13
-      spriteId: 01ad5716263b57c43bd6b5af9d2de420
+      spriteId: 4e10776528f74e247a125afab28b905d
     linkedCells: []
     parentIndex: -1
   platformSettings: []
