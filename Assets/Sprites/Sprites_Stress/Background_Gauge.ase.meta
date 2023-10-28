@@ -119,18 +119,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Jauge fond
+  - name: Background_Gauge
     originalName: 
     pivot: {x: 0.5, y: -0.033333335}
     alignment: 9
-    border: {x: 15, y: 15, z: 14, w: 14}
+    border: {x: 14, y: 0, z: 14, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
       width: 30
       height: 30
-    spriteID: b1a0e54e51ad3484fad4acaa27a30c74
+    spriteID: 636e6259dc351b0498bdb290719d1ce4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,20 +142,20 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1678062963
-    name: Jauge fond
+    guid: -2114750598
+    name: Background_Gauge
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Jauge fond
+    - name: Background_Gauge
       frameIndex: 0
       cellRect:
         x: 1
         y: 1
         width: 30
         height: 30
-      spriteId: b1a0e54e51ad3484fad4acaa27a30c74
+      spriteId: 636e6259dc351b0498bdb290719d1ce4
     linkedCells: []
     parentIndex: -1
   platformSettings: []
