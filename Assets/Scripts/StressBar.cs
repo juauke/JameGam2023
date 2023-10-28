@@ -9,6 +9,8 @@ public class StressBar : MonoBehaviour
 
     [SerializeField] private int _stress=0;
     [SerializeField] private RectTransform _rectTransform;
+
+    private float timeLeftStress = 2f;
     // Start is called before the first frame update
     void Start()
     {
@@ -38,6 +40,11 @@ public class StressBar : MonoBehaviour
 
     void Update()
     {
-        UpdateBar();
+        timeLeftStress -= Time.deltaTime;
+        if (timeLeftStress <= 0)
+        {
+            AddStress(1);
+            timeLeftStress = Random.Range(1f, 3f);
+        }
     }
 }
