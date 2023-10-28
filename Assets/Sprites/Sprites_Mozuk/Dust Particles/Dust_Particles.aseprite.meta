@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 914bfc4729a4e8d40884e2b8d7b82331
-=======
-guid: f7fb00bf49ea79041bd106a6b7c4c930
->>>>>>> 1ed1cdb6d0426c2845dd50c9a8eafe09783c8ceb
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -134,11 +130,7 @@ ScriptedImporter:
       y: 4
       width: 26
       height: 21
-<<<<<<< HEAD
-    spriteID: d192f776b4b40da40bde22884a7c74ce
-=======
-    spriteID: e024b26e0b78a7e48869ee73b7b83133
->>>>>>> 1ed1cdb6d0426c2845dd50c9a8eafe09783c8ceb
+    spriteID: b4cb8017c16c0cb4e92ff7b400e099da
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -158,11 +150,7 @@ ScriptedImporter:
       y: 79
       width: 26
       height: 30
-<<<<<<< HEAD
-    spriteID: d13e70e4db2a4d844abfb91b7eb5452e
-=======
-    spriteID: 77d9581b721264648a4cb6b01166053c
->>>>>>> 1ed1cdb6d0426c2845dd50c9a8eafe09783c8ceb
+    spriteID: 1fc8769794831514b8c197383993fa07
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -182,11 +170,7 @@ ScriptedImporter:
       y: 4
       width: 29
       height: 31
-<<<<<<< HEAD
-    spriteID: 71e6ee6c8a45c4b47b6f9e62e7665827
-=======
-    spriteID: 7c8301eb6d9aba6428c422b8395bbce4
->>>>>>> 1ed1cdb6d0426c2845dd50c9a8eafe09783c8ceb
+    spriteID: c3f2eb48f50c1284fa2dbf5973fead97
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -206,11 +190,7 @@ ScriptedImporter:
       y: 43
       width: 28
       height: 28
-<<<<<<< HEAD
-    spriteID: 4a57937e7e0a2374c87601079c7e7b16
-=======
-    spriteID: d72b51b986899294d90ef0bfb274bf14
->>>>>>> 1ed1cdb6d0426c2845dd50c9a8eafe09783c8ceb
+    spriteID: 1da684937e07bba408d1a901e1b4fe03
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -235,11 +215,7 @@ ScriptedImporter:
         y: 0
         width: 26
         height: 21
-<<<<<<< HEAD
-      spriteId: d192f776b4b40da40bde22884a7c74ce
-=======
-      spriteId: e024b26e0b78a7e48869ee73b7b83133
->>>>>>> 1ed1cdb6d0426c2845dd50c9a8eafe09783c8ceb
+      spriteId: b4cb8017c16c0cb4e92ff7b400e099da
     - name: Dust_Particles_Frame_1
       frameIndex: 1
       cellRect:
@@ -247,11 +223,7 @@ ScriptedImporter:
         y: 0
         width: 26
         height: 30
-<<<<<<< HEAD
-      spriteId: d13e70e4db2a4d844abfb91b7eb5452e
-=======
-      spriteId: 77d9581b721264648a4cb6b01166053c
->>>>>>> 1ed1cdb6d0426c2845dd50c9a8eafe09783c8ceb
+      spriteId: 1fc8769794831514b8c197383993fa07
     - name: Dust_Particles_Frame_2
       frameIndex: 2
       cellRect:
@@ -259,11 +231,7 @@ ScriptedImporter:
         y: 0
         width: 29
         height: 31
-<<<<<<< HEAD
-      spriteId: 71e6ee6c8a45c4b47b6f9e62e7665827
-=======
-      spriteId: 7c8301eb6d9aba6428c422b8395bbce4
->>>>>>> 1ed1cdb6d0426c2845dd50c9a8eafe09783c8ceb
+      spriteId: c3f2eb48f50c1284fa2dbf5973fead97
     - name: Dust_Particles_Frame_3
       frameIndex: 3
       cellRect:
@@ -271,11 +239,7 @@ ScriptedImporter:
         y: 3
         width: 28
         height: 28
-<<<<<<< HEAD
-      spriteId: 4a57937e7e0a2374c87601079c7e7b16
-=======
-      spriteId: d72b51b986899294d90ef0bfb274bf14
->>>>>>> 1ed1cdb6d0426c2845dd50c9a8eafe09783c8ceb
+      spriteId: 1da684937e07bba408d1a901e1b4fe03
     linkedCells: []
     parentIndex: -1
   platformSettings: []
