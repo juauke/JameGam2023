@@ -164,11 +164,12 @@ public class PlayerController : MonoBehaviour
     {
         bool wasGrounded = isGrounded;
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
-
+        
         if (isGrounded)
         {
             if (!wasGrounded)
             {
+                anim.SetBool("isJumping", false);
                 float fallHeight = fallStartHeight - transform.position.y;
                 if (fallHeight >= minimumFallDamageHeight && !isWallSliding)
                 {
@@ -238,7 +239,6 @@ public class PlayerController : MonoBehaviour
         anim.SetBool("isWalking", isWalking);
         anim.SetBool("isGrounded", isGrounded);
         anim.SetFloat("yVelocity", rb.velocity.y);
-        //anim.SetBool("isWallSliding", isWallSliding);
     }
 
     private void CheckInput()
@@ -384,6 +384,7 @@ public class PlayerController : MonoBehaviour
     {
         if (canNormalJump)
         {
+            anim.SetBool("isJumping", true);
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             amountOfJumpsLeft--;
             jumpTimer = 0;
