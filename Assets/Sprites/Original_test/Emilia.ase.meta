@@ -121,7 +121,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Emilia_Frame_0
     originalName: 
-    pivot: {x: 0.47058824, y: -0.037037037}
+    pivot: {x: 0.47058824, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -141,7 +141,7 @@ ScriptedImporter:
     uvTransform: {x: 72, y: 38}
   - name: Emilia_Frame_1
     originalName: 
-    pivot: {x: 0.5, y: -0.03846154}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -161,13 +161,13 @@ ScriptedImporter:
     uvTransform: {x: 72, y: 4}
   - name: Emilia_Frame_2
     originalName: 
-    pivot: {x: 0.47058824, y: -0.03846154}
+    pivot: {x: 0.47058824, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 72
-      y: 73
+      x: 98
+      y: 39
       width: 17
       height: 26
     spriteID: 911069afa246e804784bfab018957cc0
@@ -178,16 +178,16 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 72, y: 73}
+    uvTransform: {x: 98, y: 39}
   - name: Emilia_Frame_3
     originalName: 
-    pivot: {x: 0.61538464, y: -0.037037037}
+    pivot: {x: 0.61538464, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 4
+      y: 40
       width: 26
       height: 27
     spriteID: a945d9e6c8c7f234e939e61e6d0d539b
@@ -198,16 +198,16 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 4}
+    uvTransform: {x: 4, y: 40}
   - name: Emilia_Frame_4
     originalName: 
-    pivot: {x: 0.61538464, y: -0.037037037}
+    pivot: {x: 0.61538464, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 39
+      y: 75
       width: 26
       height: 27
     spriteID: ad01717b933e70b44a69197ed1a9d3bd
@@ -218,48 +218,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 39}
+    uvTransform: {x: 4, y: 75}
   - name: Emilia_Frame_5
-    originalName: 
-    pivot: {x: 0.61538464, y: -0.07692308}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 38
-      y: 74
-      width: 26
-      height: 26
-    spriteID: dad5a8949e8f26441a767e279e90eba9
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 38, y: 74}
-  - name: Emilia_Frame_6
-    originalName: 
-    pivot: {x: 0.61538464, y: -0.037037037}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 74
-      width: 26
-      height: 27
-    spriteID: 7b5196c0764c65f418df5f854b8edd0e
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 74}
-  - name: Emilia_Frame_7
     originalName: 
     pivot: {x: 0.61538464, y: -0.037037037}
     alignment: 9
@@ -270,7 +230,7 @@ ScriptedImporter:
       y: 4
       width: 26
       height: 27
-    spriteID: 371910a7f35e70846b78eea1c8c28af5
+    spriteID: dad5a8949e8f26441a767e279e90eba9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -279,15 +239,55 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 38, y: 4}
-  - name: Emilia_Frame_8
+  - name: Emilia_Frame_6
     originalName: 
-    pivot: {x: 0.61538464, y: -0.037037037}
+    pivot: {x: 0.61538464, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 38
       y: 39
+      width: 26
+      height: 27
+    spriteID: 7b5196c0764c65f418df5f854b8edd0e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 38, y: 39}
+  - name: Emilia_Frame_7
+    originalName: 
+    pivot: {x: 0.61538464, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 26
+      height: 28
+    spriteID: 371910a7f35e70846b78eea1c8c28af5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Emilia_Frame_8
+    originalName: 
+    pivot: {x: 0.61538464, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 38
+      y: 74
       width: 26
       height: 27
     spriteID: 353448cc4d8d7704d995f9b2916df4a0
@@ -298,7 +298,47 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 38, y: 39}
+    uvTransform: {x: 38, y: 74}
+  - name: Emilia_Frame_9
+    originalName: 
+    pivot: {x: 0.47058824, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 72
+      y: 73
+      width: 17
+      height: 27
+    spriteID: 9b505891eb6d51348a1149f8b6b3705c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 72, y: 73}
+  - name: Emilia_Frame_10
+    originalName: 
+    pivot: {x: 0.47058824, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 98
+      y: 4
+      width: 17
+      height: 27
+    spriteID: 7d1e05bcbbd961244ab96f3907fe5ca2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 98, y: 4}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -312,7 +352,7 @@ ScriptedImporter:
       frameIndex: 0
       cellRect:
         x: 8
-        y: 1
+        y: 0
         width: 17
         height: 27
       spriteId: 5c734820e2b415740abd9f5d95ae6a92
@@ -320,7 +360,7 @@ ScriptedImporter:
       frameIndex: 1
       cellRect:
         x: 7
-        y: 1
+        y: 0
         width: 18
         height: 26
       spriteId: f8e74976bbb8173499ad1d5a85229af1
@@ -328,7 +368,7 @@ ScriptedImporter:
       frameIndex: 2
       cellRect:
         x: 8
-        y: 1
+        y: 0
         width: 17
         height: 26
       spriteId: 911069afa246e804784bfab018957cc0
@@ -336,7 +376,7 @@ ScriptedImporter:
       frameIndex: 3
       cellRect:
         x: 0
-        y: 1
+        y: 0
         width: 26
         height: 27
       spriteId: a945d9e6c8c7f234e939e61e6d0d539b
@@ -344,7 +384,7 @@ ScriptedImporter:
       frameIndex: 4
       cellRect:
         x: 0
-        y: 1
+        y: 0
         width: 26
         height: 27
       spriteId: ad01717b933e70b44a69197ed1a9d3bd
@@ -352,15 +392,15 @@ ScriptedImporter:
       frameIndex: 5
       cellRect:
         x: 0
-        y: 2
+        y: 1
         width: 26
-        height: 26
+        height: 27
       spriteId: dad5a8949e8f26441a767e279e90eba9
     - name: Emilia_Frame_6
       frameIndex: 6
       cellRect:
         x: 0
-        y: 1
+        y: 0
         width: 26
         height: 27
       spriteId: 7b5196c0764c65f418df5f854b8edd0e
@@ -368,18 +408,34 @@ ScriptedImporter:
       frameIndex: 7
       cellRect:
         x: 0
-        y: 1
+        y: 0
         width: 26
-        height: 27
+        height: 28
       spriteId: 371910a7f35e70846b78eea1c8c28af5
     - name: Emilia_Frame_8
       frameIndex: 8
       cellRect:
         x: 0
-        y: 1
+        y: 0
         width: 26
         height: 27
       spriteId: 353448cc4d8d7704d995f9b2916df4a0
+    - name: Emilia_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 8
+        y: 0
+        width: 17
+        height: 27
+      spriteId: 9b505891eb6d51348a1149f8b6b3705c
+    - name: Emilia_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 8
+        y: 0
+        width: 17
+        height: 27
+      spriteId: 7d1e05bcbbd961244ab96f3907fe5ca2
     linkedCells: []
     parentIndex: -1
   platformSettings: []
