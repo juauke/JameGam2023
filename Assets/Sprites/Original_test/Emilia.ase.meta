@@ -127,7 +127,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 72
-      y: 38
+      y: 40
       width: 17
       height: 27
     spriteID: 5c734820e2b415740abd9f5d95ae6a92
@@ -138,7 +138,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 72, y: 38}
+    uvTransform: {x: 72, y: 40}
   - name: Emilia_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0}
@@ -146,7 +146,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 72
+      x: 97
       y: 4
       width: 18
       height: 26
@@ -158,7 +158,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 72, y: 4}
+    uvTransform: {x: 97, y: 4}
   - name: Emilia_Frame_2
     originalName: 
     pivot: {x: 0.47058824, y: 0}
@@ -167,7 +167,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 72
-      y: 73
+      y: 75
       width: 17
       height: 26
     spriteID: 911069afa246e804784bfab018957cc0
@@ -178,7 +178,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 72, y: 73}
+    uvTransform: {x: 72, y: 75}
   - name: Emilia_Frame_3
     originalName: 
     pivot: {x: 0.61538464, y: 0}
@@ -306,8 +306,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 72
-      y: 107
+      x: 97
+      y: 38
       width: 18
       height: 24
     spriteID: b941778971130384785acf480e758a50
@@ -318,7 +318,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 72, y: 107}
+    uvTransform: {x: 97, y: 38}
   - name: Emilia_Frame_10
     originalName: 
     pivot: {x: 0.47058824, y: 0}
@@ -327,7 +327,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 38
-      y: 179
+      y: 213
       width: 17
       height: 28
     spriteID: 6b7f1c15a44151c4a87da5aff214ff3a
@@ -338,7 +338,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 38, y: 179}
+    uvTransform: {x: 38, y: 213}
   - name: Emilia_Frame_11
     originalName: 
     pivot: {x: 0.47058824, y: 0}
@@ -346,8 +346,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 38
-      y: 215
+      x: 72
+      y: 4
       width: 17
       height: 28
     spriteID: 7457c648e38ed504ea8630a6c0afc780
@@ -358,7 +358,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 38, y: 215}
+    uvTransform: {x: 72, y: 4}
   - name: Emilia_Frame_12
     originalName: 
     pivot: {x: 0.5909091, y: 0}
@@ -459,6 +459,26 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 43}
+  - name: Emilia_Frame_17
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.03846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 38
+      y: 179
+      width: 21
+      height: 26
+    spriteID: 5ee8e07f7e13e9a4ea4a9021c1e3c9df
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 38, y: 179}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -604,6 +624,14 @@ ScriptedImporter:
         width: 26
         height: 31
       spriteId: d5fa9067a7a25db4197858dc594b8564
+    - name: Emilia_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 4
+        y: 1
+        width: 21
+        height: 26
+      spriteId: 5ee8e07f7e13e9a4ea4a9021c1e3c9df
     linkedCells: []
     parentIndex: -1
   platformSettings:
