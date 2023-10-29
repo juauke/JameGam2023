@@ -12,6 +12,7 @@ public class Respawn : MonoBehaviour
     [SerializeField] private ViewField viewField;
     public int nbDeaths = 0;
     [SerializeField] private UIrope uiRope;
+    [SerializeField] private DeathCounter deathCounter;
 
     private void Update()
     {
@@ -35,5 +36,6 @@ public class Respawn : MonoBehaviour
         character.transform.position = transform.position;
         _isRespawning = false;
         nbDeaths++;
+        deathCounter.UpdateCount(nbDeaths);
     }
 }
