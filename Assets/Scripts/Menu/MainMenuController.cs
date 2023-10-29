@@ -16,8 +16,7 @@ public class MainMenuController : MonoBehaviour
     public void PlayNowButton()
     {
         // Play Now Button has been pressed, here you can initialize your game (For example Load a Scene called GameLevel etc.)
-        //UnityEngine.SceneManagement.SceneManager.LoadScene("Main");
-        Debug.Log("Loading Scene Main");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Main");
     }
 
     public void CreditsButton()
