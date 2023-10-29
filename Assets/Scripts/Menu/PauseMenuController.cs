@@ -1,66 +1,44 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class MainMenuController : MonoBehaviour
-{
-    public GameObject MainMenu;
-    public GameObject CreditsMenu;
-    public GameObject PauseMenu;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        MainMenuButton();
-    }
+public class PauseMenuController : MonoBehaviour {
+    public GameObject pauseMenu;
 
     private void Update() {
-        if (Input.GetKeyDown("Pause")) {
-            PauseMenu();
+        if (Input.GetKeyDown("escape")) {
+            PauseMenuButton();
         }
     }
 
-    public void PlayNowButton()
-    {
-        // Play Now Button has been pressed, here you can initialize your game (For example Load a Scene called GameLevel etc.)
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Main");
+    private void PauseMenuButton() {
+        // Pause Time
+        PauseGame();
+        // Disable any UI present on player screen
+        //??
+        // Enable Pause Menu
+        pauseMenu.SetActive(true);
     }
 
-    public void CreditsButton()
-    {
-        // Show Credits Menu
-        MainMenu.SetActive(false);
-        CreditsMenu.SetActive(true);
-    }
+    static void PauseGame() { Time.timeScale = 0; }
+    static void ResumeGame() { Time.timeScale = 1; }
 
-    public void MainMenuButton()
-    {
-        // Show Main Menu
-        MainMenu.SetActive(true);
-        CreditsMenu.SetActive(false);
-    }
-
-    public void QuitButton()
-    {
+    public void QuitToDesktopButton() {
         // Quit Game
         Application.Quit();
     }
 
     public void BackToMainMenuButton() {
-        // Load back MainMenu Scene and set active MainMenu
+        // Load back mainMenu Scene (and set active mainMenu)
         UnityEngine.SceneManagement.SceneManager.LoadScene("Juauke (Menu)");
-        MainMenuButton();
-    }
-    
-    public void ResumeButton() {
-        // Resume current game
-        // Debug.Log("Player clicked on Resume Button");
-        
     }
 
-    public void RetryButton() 
-    {
+    public void ResumeButton() {
+        // Resume current game
+        pauseMenu.SetActive(false);
+        // Debug.Log("Player clicked on Resume Button");
+        ResumeGame();
+    }
+
+    public void RetryButton() {
         // Start Main Scene again
         UnityEngine.SceneManagement.SceneManager.LoadScene("Main");
     }
