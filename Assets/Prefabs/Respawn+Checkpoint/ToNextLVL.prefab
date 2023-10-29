@@ -41,7 +41,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8180215521429858628}
   - component: {fileID: 7356323542879029462}
-  - component: {fileID: 3768223854964922597}
   m_Layer: 0
   m_Name: ToNextLVL
   m_TagString: Untagged
@@ -110,17 +109,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.6586876, y: 2.1622112}
   m_EdgeRadius: 0
---- !u!114 &3768223854964922597
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8417447895379044943}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f1a363b7cb2add47ab9e625ac8e3d06, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Checkpoint: {fileID: 0}
-  nextCheckpoint: {fileID: 8036059248556457258}

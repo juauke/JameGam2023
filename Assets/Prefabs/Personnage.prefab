@@ -186,6 +186,7 @@ MonoBehaviour:
   dashSpeed: 50
   distanceBetweenImages: 0.1
   dashCoolDown: 2.5
+  dashEpsilon: 0.5
   minimumFallDamageHeight: 10
   fallDamageMultiplier: 1
   wallHopDirection: {x: 1, y: 0}
@@ -342,7 +343,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8271479543530847026
 Transform:
   m_ObjectHideFlags: 0
@@ -376,6 +377,7 @@ MonoBehaviour:
   speed: 20
   grapplinHit: 0
   grapplinTarget: {x: 0, y: 0, z: 0}
+  grapplinCollider: {fileID: 0}
 --- !u!50 &2713074947927250450
 Rigidbody2D:
   serializedVersion: 4
@@ -435,7 +437,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.001521565, y: 0.1582483}
+  m_Offset: {x: 0, y: 0.16}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -446,7 +448,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.33353162, y: 0.07485664}
+  m_Size: {x: 0.32, y: 0.07}
   m_EdgeRadius: 0
 --- !u!1001 &1948141283202031498
 PrefabInstance:
@@ -463,6 +465,14 @@ PrefabInstance:
     - target: {fileID: -2253911629886400664, guid: 635028dc9a802cc4bb70c781137cc8c1, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: 635028dc9a802cc4bb70c781137cc8c1, type: 3}
+      propertyPath: m_Size.x
+      value: 0.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: 635028dc9a802cc4bb70c781137cc8c1, type: 3}
+      propertyPath: m_DrawMode
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: 635028dc9a802cc4bb70c781137cc8c1, type: 3}
       propertyPath: m_SortingOrder

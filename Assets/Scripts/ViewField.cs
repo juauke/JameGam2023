@@ -13,6 +13,13 @@ public class ViewField : MonoBehaviour
     [SerializeField] private bool _lookToRight = true;
     [SerializeField] private PlayerController _emilia;
     private Vector3 upward = Vector3.forward;
+    
+    [SerializeField] private float timeAnimationDeath = 4.5f;
+
+    [SerializeField] private Animator animator;
+
+    private bool isDying;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +29,7 @@ public class ViewField : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (isDying) return;
         Vector3 mousePosition = _mainCamera.ScreenToWorldPoint(Input.mousePosition);
         if (_lookToRight)
         {
@@ -32,6 +40,18 @@ public class ViewField : MonoBehaviour
                 this.upward *= -1;
                 _emilia.Flip();
                 _lookToRight = false;
+                //kill emilia
+                animator.SetTrigger("Death");
+                isDying = true;
+                _emilia.enabled = false;
+                StartCoroutine(kill());
+                IEnumerator kill()
+                {
+                    yield return new WaitForSeconds(timeAnimationDeath);
+                    _player.gameObject.SetActive(false);
+                    _emilia.enabled = true;
+                    isDying = false;
+                }
             }
         }
         else

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b9662ecb07178d6458c58acd60dcf176
+guid: f7457505cef3f0349b8257a0e67fa1e5
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 251
       width: 44
       height: 54
-    spriteID: de9bde233762a1d4c8823e51c00e4d2a
+    spriteID: 16dde3371f6985c48b3fbdc6fc4da280
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 609
       width: 60
       height: 54
-    spriteID: 622654a9e3b00c74e84e300a67d8918b
+    spriteID: 559b7b890204fb045b3cdaac368015b4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 532
       width: 61
       height: 69
-    spriteID: 115acd547564f6940b7ea061acc129ac
+    spriteID: 70107bd22e178b249a2a39e69bb70cfd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 455
       width: 62
       height: 69
-    spriteID: 504c2753d901ea24f9ac92545b60df00
+    spriteID: 53f197739ecfbd545b3321a436f235d5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 281
       width: 133
       height: 76
-    spriteID: e26fc5df96063d045bd375dff5026840
+    spriteID: 75ec689ff07ce0940ba8df0c484b14f9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -230,7 +230,7 @@ ScriptedImporter:
       y: 4
       width: 140
       height: 83
-    spriteID: 3fd86a8df54288a4b82fbf93747c8013
+    spriteID: 7ad950746e9afc345aeffd4ba4686f08
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -250,7 +250,7 @@ ScriptedImporter:
       y: 95
       width: 127
       height: 85
-    spriteID: 7dc7b5e86fd21464f9a1035e3ff2e8f7
+    spriteID: 733a773486dd8fa46b76da639cb00538
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -270,7 +270,7 @@ ScriptedImporter:
       y: 188
       width: 126
       height: 85
-    spriteID: 8150fdd6228d8a64e8b8b6962ec8ff4b
+    spriteID: 2cdd4f0fef026ce40acde1c055e42185
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -290,7 +290,7 @@ ScriptedImporter:
       y: 365
       width: 112
       height: 82
-    spriteID: 37927dd8d20c4074da975fb7e33b8fda
+    spriteID: f707616c88cf022439d246b43481c860
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -310,7 +310,7 @@ ScriptedImporter:
       y: 937
       width: 37
       height: 53
-    spriteID: 28c41c70325b93240a358bcc6e923f61
+    spriteID: a59e34595da6b3d4988dcbcc422d7e6d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -330,7 +330,7 @@ ScriptedImporter:
       y: 575
       width: 48
       height: 52
-    spriteID: 69b7adcecde1f244f9d4ce05f66f99fa
+    spriteID: 7495bb4e7cabc694398aab3e437984af
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -350,7 +350,7 @@ ScriptedImporter:
       y: 812
       width: 48
       height: 51
-    spriteID: d2e28f923aa090740a4f15e23cf9f7cb
+    spriteID: 94bb7af5ea20bb04399c0c68625fa822
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -370,7 +370,7 @@ ScriptedImporter:
       y: 180
       width: 46
       height: 50
-    spriteID: 613370699a0df0649b05f653a8540455
+    spriteID: 07e80731ce3ac91499e48a90365eadae
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -390,7 +390,7 @@ ScriptedImporter:
       y: 4
       width: 48
       height: 50
-    spriteID: 61c920f4ff80ece4fb10c0c96739bf3b
+    spriteID: 4a777ccb0e7488247872716c3ba2acdd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -410,7 +410,7 @@ ScriptedImporter:
       y: 755
       width: 50
       height: 49
-    spriteID: f60e1b231ae259d448e5022abce79249
+    spriteID: c352579e798094848ae0e15dd45649c8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -430,7 +430,7 @@ ScriptedImporter:
       y: 653
       width: 51
       height: 92
-    spriteID: ebcc8c6e16949e44ba5735c8670a5d0e
+    spriteID: c02fa0498e316454caf6c4dfb60a9594
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -450,7 +450,7 @@ ScriptedImporter:
       y: 753
       width: 51
       height: 92
-    spriteID: 5304cac25d566ee499e7a6075596b7ae
+    spriteID: a8f45d58097952f4a8aca537236ff5ea
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -470,7 +470,7 @@ ScriptedImporter:
       y: 554
       width: 52
       height: 91
-    spriteID: 9119ad4fe73b1ae4f8e517d8fd844ec7
+    spriteID: ca4027bf96113ca41814584885ac4278
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -490,7 +490,7 @@ ScriptedImporter:
       y: 455
       width: 53
       height: 91
-    spriteID: 2663074b304f0ed48a5bfa44834fd50d
+    spriteID: 8ae819640dc591a4bbf5a385926532bf
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -510,7 +510,7 @@ ScriptedImporter:
       y: 736
       width: 33
       height: 40
-    spriteID: ccb90848b5a18de4ea838a0147a3fe9c
+    spriteID: eebe3477838c3ab4fbf02e065d0bd296
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -530,7 +530,7 @@ ScriptedImporter:
       y: 238
       width: 40
       height: 49
-    spriteID: 6d6075011667ff24f8bd650d5f9bac42
+    spriteID: 860d13400b22344468056b4df4b48200
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -550,7 +550,7 @@ ScriptedImporter:
       y: 635
       width: 48
       height: 52
-    spriteID: b1caeede7d508b84393efc5e9dac9cb3
+    spriteID: bfee66eae20313e43b6fbb6591f7fddb
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -570,7 +570,7 @@ ScriptedImporter:
       y: 64
       width: 48
       height: 59
-    spriteID: 1125ff7e709ffde48aa9ca61b310a915
+    spriteID: 2bb64a402f63ebf4da44210b9f779ab5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -590,7 +590,7 @@ ScriptedImporter:
       y: 853
       width: 50
       height: 60
-    spriteID: 47538ecff75e2784e84bed83efd54e87
+    spriteID: 2794af9017dc9c6469692f5de1b48a09
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -610,7 +610,7 @@ ScriptedImporter:
       y: 796
       width: 51
       height: 58
-    spriteID: 0db0e100cdaa29249b1bfcf5ca64c127
+    spriteID: 4b7e541f0eb13e64ab6cf66c3179b2a5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -630,7 +630,7 @@ ScriptedImporter:
       y: 261
       width: 49
       height: 56
-    spriteID: 0e33e10c39b3a974f9dae43cf617693d
+    spriteID: 3fa7c506dcbf77c42a49c36aae06daff
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -650,7 +650,7 @@ ScriptedImporter:
       y: 389
       width: 48
       height: 54
-    spriteID: f05b1a00d972e7f43b02dedc43a8c065
+    spriteID: 3a353173369bc614ba5c2bad0556ff71
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -670,7 +670,7 @@ ScriptedImporter:
       y: 931
       width: 45
       height: 54
-    spriteID: b7da63fa6f1701644ae215da0c9b56bd
+    spriteID: 417d8f1250610d942bfb1e94161a3f33
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -690,7 +690,7 @@ ScriptedImporter:
       y: 752
       width: 40
       height: 53
-    spriteID: c851cb96a265e564abc0db5316241e68
+    spriteID: 97a266fd9586c1c46b40fe73753d0cf5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -710,7 +710,7 @@ ScriptedImporter:
       y: 813
       width: 40
       height: 53
-    spriteID: 0c46c36b5d2ea8a4f92ddbba58eaaf9a
+    spriteID: b2523ab2415f3154ebf59693e80665f9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -730,7 +730,7 @@ ScriptedImporter:
       y: 4
       width: 45
       height: 54
-    spriteID: dd7c43c7eb8fcff4e8fa9f2a4d41e79b
+    spriteID: 1e5f28e292616914fb211b99f2020dc6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -750,7 +750,7 @@ ScriptedImporter:
       y: 451
       width: 48
       height: 54
-    spriteID: bf2bf44145548b648ad771c10a54b9ed
+    spriteID: 90a7c4c4709e17c4b9ee7ede12da0c05
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -770,7 +770,7 @@ ScriptedImporter:
       y: 325
       width: 49
       height: 56
-    spriteID: 62da4886d991ac442bb812d180f002c2
+    spriteID: e59f4606899e94748b37caf04f6752b0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -790,7 +790,7 @@ ScriptedImporter:
       y: 862
       width: 51
       height: 58
-    spriteID: 64fb0ab0c374cc4419c3b20d1a3336ad
+    spriteID: 777329badccbb15418db75fb8e561833
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -810,7 +810,7 @@ ScriptedImporter:
       y: 921
       width: 50
       height: 60
-    spriteID: 1f8cd9d63aa710d49b92fada5f3217cf
+    spriteID: 6ece698e212dcb24ab218021955ff05c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -830,7 +830,7 @@ ScriptedImporter:
       y: 131
       width: 48
       height: 59
-    spriteID: e3ad2b2803da2314b87fe5ffc00b9f54
+    spriteID: e74e05579d1d056489895b0d07b582ed
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -850,7 +850,7 @@ ScriptedImporter:
       y: 695
       width: 48
       height: 52
-    spriteID: 1f33259f4716ad44dad8ab0d454b3f2b
+    spriteID: f950220b2f901c84296e7c560c5a277f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -870,7 +870,7 @@ ScriptedImporter:
       y: 295
       width: 40
       height: 49
-    spriteID: 40f70c86f724adb44926893b22e05a98
+    spriteID: 6c61a501441bda04a8438724a4650ea5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -890,7 +890,7 @@ ScriptedImporter:
       y: 784
       width: 33
       height: 40
-    spriteID: 4f15a111295570e4c9d9b4cc69f75962
+    spriteID: dfb86c2d819ae1a478b6358d3e3403b3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -910,7 +910,7 @@ ScriptedImporter:
       y: 122
       width: 47
       height: 50
-    spriteID: 520379f8518bafd4b8ae73d1c6a631f3
+    spriteID: 37ff31063fafd0d47a06f2d6dc7fa5dd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -930,7 +930,7 @@ ScriptedImporter:
       y: 566
       width: 41
       height: 53
-    spriteID: 6e925bcdf6e48654685b2eccc87237d0
+    spriteID: 68989ee95e03fc145826fab2225ab107
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -950,7 +950,7 @@ ScriptedImporter:
       y: 689
       width: 39
       height: 55
-    spriteID: 864c260cab0f89e498b44b5eff6d6c08
+    spriteID: 4576e0c30efb43043b79c75d2e5228b2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -970,7 +970,7 @@ ScriptedImporter:
       y: 627
       width: 40
       height: 54
-    spriteID: 9153e2e4d8801b443a3dfb4ba4568d45
+    spriteID: 4e1538669a5c7134f991900590da63f2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -990,7 +990,7 @@ ScriptedImporter:
       y: 503
       width: 40
       height: 55
-    spriteID: 617fae4da3005264998aedf19bc329aa
+    spriteID: 5885a66b6a882ae41ad2aefdb7ff85e2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1010,7 +1010,7 @@ ScriptedImporter:
       y: 375
       width: 41
       height: 56
-    spriteID: ae11824e52de2ef4d9b8fe8b2b49952c
+    spriteID: 1d464f8306a68de4bb98ddc916bd3906
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1030,7 +1030,7 @@ ScriptedImporter:
       y: 439
       width: 41
       height: 56
-    spriteID: a7334e218401a8e46812d7cee14cbb46
+    spriteID: 6b5784f0f2d75d542a69f18820323a77
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1050,7 +1050,7 @@ ScriptedImporter:
       y: 66
       width: 45
       height: 54
-    spriteID: 60fbb5333552cfb439f94f314cdafd4e
+    spriteID: b71520304879a634da959f42d5251196
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1070,7 +1070,7 @@ ScriptedImporter:
       y: 871
       width: 47
       height: 52
-    spriteID: a7c11aaf20704344cacb2e9131b7c7ca
+    spriteID: bc53d0ca006aaf046b1f8ac482861f81
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1090,7 +1090,7 @@ ScriptedImporter:
       y: 190
       width: 45
       height: 53
-    spriteID: 22249709cfb1f0a41b3812559ac49707
+    spriteID: 4b6e056c6362a424a8e6c107553b27f7
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1110,7 +1110,7 @@ ScriptedImporter:
       y: 313
       width: 43
       height: 54
-    spriteID: 7bbe172b4f3a2ba45b739e7444134524
+    spriteID: d6bb884775d55254481ff80ffecbb100
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1130,7 +1130,7 @@ ScriptedImporter:
       y: 998
       width: 32
       height: 19
-    spriteID: cc208dab153bf184a8edaef4f421f35a
+    spriteID: 57fcca554787a4849845ee12c60d6faa
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1150,7 +1150,7 @@ ScriptedImporter:
       y: 993
       width: 32
       height: 19
-    spriteID: 670ed194645495e41a047e585652691b
+    spriteID: be73dc16faae3194297ffd0e922482a8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1170,7 +1170,7 @@ ScriptedImporter:
       y: 876
       width: 35
       height: 16
-    spriteID: 0586240a66c53bd45a63891e0cc3248e
+    spriteID: 589b15016404e0741a12f966d92e8a14
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1190,7 +1190,7 @@ ScriptedImporter:
       y: 900
       width: 35
       height: 16
-    spriteID: 760b9d3beabbe154f90e7e0abe42afaa
+    spriteID: c85597a159f603a4da172b78dfd632b8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1210,7 +1210,7 @@ ScriptedImporter:
       y: 989
       width: 29
       height: 23
-    spriteID: 0db0a86053894d248aa1d80e5f6b3ba0
+    spriteID: 54823850475eb624a8c0b963e3bb9ecd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1230,7 +1230,7 @@ ScriptedImporter:
       y: 832
       width: 31
       height: 36
-    spriteID: 9b8b8267997d8ff41b0c919bfea33b3f
+    spriteID: 2c851540242bd4e4ea2061c2cf5ac7f1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1250,7 +1250,7 @@ ScriptedImporter:
       y: 675
       width: 31
       height: 53
-    spriteID: e61cbb6d01a28d04e9007a633b1360c7
+    spriteID: 0df8d9ba4a57314409baba1d1c4ddab1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1270,7 +1270,7 @@ ScriptedImporter:
       y: 610
       width: 31
       height: 57
-    spriteID: 0d564405578559c4c99861ec2f6b7f51
+    spriteID: 03f0ef5908a1dff45851204cb160486e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1290,7 +1290,7 @@ ScriptedImporter:
       y: 545
       width: 33
       height: 57
-    spriteID: 8879e226503044e48bca6fb21faa6bdc
+    spriteID: c70a225bc550291439f1fe543be95b4b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1310,7 +1310,7 @@ ScriptedImporter:
       y: 352
       width: 34
       height: 57
-    spriteID: 85516d3694a7d93448dc908ae7d687f6
+    spriteID: 339e81b59067c0840bd6cd479b59f183
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1330,7 +1330,7 @@ ScriptedImporter:
       y: 482
       width: 35
       height: 55
-    spriteID: 7f45351111bab034095d85019a8d3957
+    spriteID: a116f45bc3de90b49b449084bc9942b8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1350,7 +1350,7 @@ ScriptedImporter:
       y: 874
       width: 36
       height: 55
-    spriteID: eb559a32e86519c40aa2a2506098393e
+    spriteID: 8ac42b52536eac14ea224ac76475d3b5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1370,7 +1370,7 @@ ScriptedImporter:
       y: 417
       width: 34
       height: 57
-    spriteID: 78ef0001ea5c910419b202ccdb1a96b7
+    spriteID: a19b55a50edd12042a67ba4c76424dc1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1390,7 +1390,7 @@ ScriptedImporter:
       y: 924
       width: 29
       height: 18
-    spriteID: 36871852ffeddc94b919e4e27a3bbdca
+    spriteID: cdaa422deab82934cb16aa9e523524e5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1410,7 +1410,7 @@ ScriptedImporter:
       y: 990
       width: 31
       height: 19
-    spriteID: ed271e40072d8034e940d1a1555616fd
+    spriteID: 825f94609584dc34785a84a75bdb00de
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1430,7 +1430,7 @@ ScriptedImporter:
       y: 990
       width: 31
       height: 19
-    spriteID: 95849ec7181740d4ca76c24c1a46fe00
+    spriteID: 1267782848c8c56448f332255b08681e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1450,7 +1450,7 @@ ScriptedImporter:
       y: 928
       width: 54
       height: 54
-    spriteID: e07302710b1cfc94abfdd0c8ba75499f
+    spriteID: 2acd93867424b6d4a8e4546af09927e8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1470,7 +1470,7 @@ ScriptedImporter:
       y: 4
       width: 56
       height: 52
-    spriteID: 3d0d3f8da2f9b1e41902cb626aa747a8
+    spriteID: bbf78af0e0c74c84bbe019377e8e657c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1490,7 +1490,7 @@ ScriptedImporter:
       y: 671
       width: 56
       height: 54
-    spriteID: 01abd62304b08aa4f944d97ac080c3a3
+    spriteID: a1951f63032d1b0409abf30548f4b5c2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1510,7 +1510,7 @@ ScriptedImporter:
       y: 733
       width: 54
       height: 55
-    spriteID: a680f9853a57bed459291d86176bcc94
+    spriteID: 5ab6c7ed2a24ed445b277f93bc5d1635
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1530,7 +1530,7 @@ ScriptedImporter:
       y: 513
       width: 48
       height: 54
-    spriteID: 81f09ef608ae27c48929c6b9c54e82a1
+    spriteID: 255ebb9b1357c904bb9eaec05b843917
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1550,7 +1550,7 @@ ScriptedImporter:
       y: 62
       width: 46
       height: 52
-    spriteID: 92cc5a1ca809afd469796f51e234bd4e
+    spriteID: 5b636a0c30cfdca4ab2f1da7ecf5ce87
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1570,7 +1570,7 @@ ScriptedImporter:
       y: 128
       width: 45
       height: 54
-    spriteID: 670f7dfe4c3563a48a60f09d0607d48e
+    spriteID: 39f8a872193549c4eb7a87e9e303a7cb
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1590,7 +1590,7 @@ ScriptedImporter:
       y: 198
       width: 50
       height: 55
-    spriteID: e629e3a619e455b46985e5b3a8685bef
+    spriteID: 7cf2adf1ec59dfa42a2eb17f9f2a2223
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1615,7 +1615,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: de9bde233762a1d4c8823e51c00e4d2a
+      spriteId: 16dde3371f6985c48b3fbdc6fc4da280
     - name: Bringer-of-Death_with_Spawn_Frame_1
       frameIndex: 1
       cellRect:
@@ -1623,7 +1623,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 622654a9e3b00c74e84e300a67d8918b
+      spriteId: 559b7b890204fb045b3cdaac368015b4
     - name: Bringer-of-Death_with_Spawn_Frame_2
       frameIndex: 2
       cellRect:
@@ -1631,7 +1631,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 115acd547564f6940b7ea061acc129ac
+      spriteId: 70107bd22e178b249a2a39e69bb70cfd
     - name: Bringer-of-Death_with_Spawn_Frame_3
       frameIndex: 3
       cellRect:
@@ -1639,7 +1639,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 504c2753d901ea24f9ac92545b60df00
+      spriteId: 53f197739ecfbd545b3321a436f235d5
     - name: Bringer-of-Death_with_Spawn_Frame_4
       frameIndex: 4
       cellRect:
@@ -1647,7 +1647,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: e26fc5df96063d045bd375dff5026840
+      spriteId: 75ec689ff07ce0940ba8df0c484b14f9
     - name: Bringer-of-Death_with_Spawn_Frame_5
       frameIndex: 5
       cellRect:
@@ -1655,7 +1655,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 3fd86a8df54288a4b82fbf93747c8013
+      spriteId: 7ad950746e9afc345aeffd4ba4686f08
     - name: Bringer-of-Death_with_Spawn_Frame_6
       frameIndex: 6
       cellRect:
@@ -1663,7 +1663,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 7dc7b5e86fd21464f9a1035e3ff2e8f7
+      spriteId: 733a773486dd8fa46b76da639cb00538
     - name: Bringer-of-Death_with_Spawn_Frame_7
       frameIndex: 7
       cellRect:
@@ -1671,7 +1671,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 8150fdd6228d8a64e8b8b6962ec8ff4b
+      spriteId: 2cdd4f0fef026ce40acde1c055e42185
     - name: Bringer-of-Death_with_Spawn_Frame_8
       frameIndex: 8
       cellRect:
@@ -1679,7 +1679,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 37927dd8d20c4074da975fb7e33b8fda
+      spriteId: f707616c88cf022439d246b43481c860
     - name: Bringer-of-Death_with_Spawn_Frame_9
       frameIndex: 9
       cellRect:
@@ -1687,7 +1687,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 28c41c70325b93240a358bcc6e923f61
+      spriteId: a59e34595da6b3d4988dcbcc422d7e6d
     - name: Bringer-of-Death_with_Spawn_Frame_10
       frameIndex: 10
       cellRect:
@@ -1695,7 +1695,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 69b7adcecde1f244f9d4ce05f66f99fa
+      spriteId: 7495bb4e7cabc694398aab3e437984af
     - name: Bringer-of-Death_with_Spawn_Frame_11
       frameIndex: 11
       cellRect:
@@ -1703,7 +1703,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: d2e28f923aa090740a4f15e23cf9f7cb
+      spriteId: 94bb7af5ea20bb04399c0c68625fa822
     - name: Bringer-of-Death_with_Spawn_Frame_12
       frameIndex: 12
       cellRect:
@@ -1711,7 +1711,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 613370699a0df0649b05f653a8540455
+      spriteId: 07e80731ce3ac91499e48a90365eadae
     - name: Bringer-of-Death_with_Spawn_Frame_13
       frameIndex: 13
       cellRect:
@@ -1719,7 +1719,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 61c920f4ff80ece4fb10c0c96739bf3b
+      spriteId: 4a777ccb0e7488247872716c3ba2acdd
     - name: Bringer-of-Death_with_Spawn_Frame_14
       frameIndex: 14
       cellRect:
@@ -1727,7 +1727,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: f60e1b231ae259d448e5022abce79249
+      spriteId: c352579e798094848ae0e15dd45649c8
     - name: Bringer-of-Death_with_Spawn_Frame_15
       frameIndex: 15
       cellRect:
@@ -1735,7 +1735,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: ebcc8c6e16949e44ba5735c8670a5d0e
+      spriteId: c02fa0498e316454caf6c4dfb60a9594
     - name: Bringer-of-Death_with_Spawn_Frame_16
       frameIndex: 16
       cellRect:
@@ -1743,7 +1743,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 5304cac25d566ee499e7a6075596b7ae
+      spriteId: a8f45d58097952f4a8aca537236ff5ea
     - name: Bringer-of-Death_with_Spawn_Frame_17
       frameIndex: 17
       cellRect:
@@ -1751,7 +1751,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 9119ad4fe73b1ae4f8e517d8fd844ec7
+      spriteId: ca4027bf96113ca41814584885ac4278
     - name: Bringer-of-Death_with_Spawn_Frame_18
       frameIndex: 18
       cellRect:
@@ -1759,7 +1759,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 2663074b304f0ed48a5bfa44834fd50d
+      spriteId: 8ae819640dc591a4bbf5a385926532bf
     - name: Bringer-of-Death_with_Spawn_Frame_19
       frameIndex: 19
       cellRect:
@@ -1767,7 +1767,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: ccb90848b5a18de4ea838a0147a3fe9c
+      spriteId: eebe3477838c3ab4fbf02e065d0bd296
     - name: Bringer-of-Death_with_Spawn_Frame_20
       frameIndex: 20
       cellRect:
@@ -1775,7 +1775,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 6d6075011667ff24f8bd650d5f9bac42
+      spriteId: 860d13400b22344468056b4df4b48200
     - name: Bringer-of-Death_with_Spawn_Frame_21
       frameIndex: 21
       cellRect:
@@ -1783,7 +1783,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: b1caeede7d508b84393efc5e9dac9cb3
+      spriteId: bfee66eae20313e43b6fbb6591f7fddb
     - name: Bringer-of-Death_with_Spawn_Frame_22
       frameIndex: 22
       cellRect:
@@ -1791,7 +1791,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 1125ff7e709ffde48aa9ca61b310a915
+      spriteId: 2bb64a402f63ebf4da44210b9f779ab5
     - name: Bringer-of-Death_with_Spawn_Frame_23
       frameIndex: 23
       cellRect:
@@ -1799,7 +1799,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 47538ecff75e2784e84bed83efd54e87
+      spriteId: 2794af9017dc9c6469692f5de1b48a09
     - name: Bringer-of-Death_with_Spawn_Frame_24
       frameIndex: 24
       cellRect:
@@ -1807,7 +1807,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 0db0e100cdaa29249b1bfcf5ca64c127
+      spriteId: 4b7e541f0eb13e64ab6cf66c3179b2a5
     - name: Bringer-of-Death_with_Spawn_Frame_25
       frameIndex: 25
       cellRect:
@@ -1815,7 +1815,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 0e33e10c39b3a974f9dae43cf617693d
+      spriteId: 3fa7c506dcbf77c42a49c36aae06daff
     - name: Bringer-of-Death_with_Spawn_Frame_26
       frameIndex: 26
       cellRect:
@@ -1823,7 +1823,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: f05b1a00d972e7f43b02dedc43a8c065
+      spriteId: 3a353173369bc614ba5c2bad0556ff71
     - name: Bringer-of-Death_with_Spawn_Frame_27
       frameIndex: 27
       cellRect:
@@ -1831,7 +1831,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: b7da63fa6f1701644ae215da0c9b56bd
+      spriteId: 417d8f1250610d942bfb1e94161a3f33
     - name: Bringer-of-Death_with_Spawn_Frame_28
       frameIndex: 28
       cellRect:
@@ -1839,7 +1839,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: c851cb96a265e564abc0db5316241e68
+      spriteId: 97a266fd9586c1c46b40fe73753d0cf5
     - name: Bringer-of-Death_with_Spawn_Frame_29
       frameIndex: 29
       cellRect:
@@ -1847,7 +1847,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 0c46c36b5d2ea8a4f92ddbba58eaaf9a
+      spriteId: b2523ab2415f3154ebf59693e80665f9
     - name: Bringer-of-Death_with_Spawn_Frame_30
       frameIndex: 30
       cellRect:
@@ -1855,7 +1855,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: dd7c43c7eb8fcff4e8fa9f2a4d41e79b
+      spriteId: 1e5f28e292616914fb211b99f2020dc6
     - name: Bringer-of-Death_with_Spawn_Frame_31
       frameIndex: 31
       cellRect:
@@ -1863,7 +1863,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: bf2bf44145548b648ad771c10a54b9ed
+      spriteId: 90a7c4c4709e17c4b9ee7ede12da0c05
     - name: Bringer-of-Death_with_Spawn_Frame_32
       frameIndex: 32
       cellRect:
@@ -1871,7 +1871,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 62da4886d991ac442bb812d180f002c2
+      spriteId: e59f4606899e94748b37caf04f6752b0
     - name: Bringer-of-Death_with_Spawn_Frame_33
       frameIndex: 33
       cellRect:
@@ -1879,7 +1879,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 64fb0ab0c374cc4419c3b20d1a3336ad
+      spriteId: 777329badccbb15418db75fb8e561833
     - name: Bringer-of-Death_with_Spawn_Frame_34
       frameIndex: 34
       cellRect:
@@ -1887,7 +1887,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 1f8cd9d63aa710d49b92fada5f3217cf
+      spriteId: 6ece698e212dcb24ab218021955ff05c
     - name: Bringer-of-Death_with_Spawn_Frame_35
       frameIndex: 35
       cellRect:
@@ -1895,7 +1895,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: e3ad2b2803da2314b87fe5ffc00b9f54
+      spriteId: e74e05579d1d056489895b0d07b582ed
     - name: Bringer-of-Death_with_Spawn_Frame_36
       frameIndex: 36
       cellRect:
@@ -1903,7 +1903,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 1f33259f4716ad44dad8ab0d454b3f2b
+      spriteId: f950220b2f901c84296e7c560c5a277f
     - name: Bringer-of-Death_with_Spawn_Frame_37
       frameIndex: 37
       cellRect:
@@ -1911,7 +1911,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 40f70c86f724adb44926893b22e05a98
+      spriteId: 6c61a501441bda04a8438724a4650ea5
     - name: Bringer-of-Death_with_Spawn_Frame_38
       frameIndex: 38
       cellRect:
@@ -1919,7 +1919,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 4f15a111295570e4c9d9b4cc69f75962
+      spriteId: dfb86c2d819ae1a478b6358d3e3403b3
     - name: Bringer-of-Death_with_Spawn_Frame_39
       frameIndex: 39
       cellRect:
@@ -1927,7 +1927,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 520379f8518bafd4b8ae73d1c6a631f3
+      spriteId: 37ff31063fafd0d47a06f2d6dc7fa5dd
     - name: Bringer-of-Death_with_Spawn_Frame_40
       frameIndex: 40
       cellRect:
@@ -1935,7 +1935,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 6e925bcdf6e48654685b2eccc87237d0
+      spriteId: 68989ee95e03fc145826fab2225ab107
     - name: Bringer-of-Death_with_Spawn_Frame_41
       frameIndex: 41
       cellRect:
@@ -1943,7 +1943,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 864c260cab0f89e498b44b5eff6d6c08
+      spriteId: 4576e0c30efb43043b79c75d2e5228b2
     - name: Bringer-of-Death_with_Spawn_Frame_42
       frameIndex: 42
       cellRect:
@@ -1951,7 +1951,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 9153e2e4d8801b443a3dfb4ba4568d45
+      spriteId: 4e1538669a5c7134f991900590da63f2
     - name: Bringer-of-Death_with_Spawn_Frame_43
       frameIndex: 43
       cellRect:
@@ -1959,7 +1959,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 617fae4da3005264998aedf19bc329aa
+      spriteId: 5885a66b6a882ae41ad2aefdb7ff85e2
     - name: Bringer-of-Death_with_Spawn_Frame_44
       frameIndex: 44
       cellRect:
@@ -1967,7 +1967,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: ae11824e52de2ef4d9b8fe8b2b49952c
+      spriteId: 1d464f8306a68de4bb98ddc916bd3906
     - name: Bringer-of-Death_with_Spawn_Frame_45
       frameIndex: 45
       cellRect:
@@ -1975,7 +1975,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: a7334e218401a8e46812d7cee14cbb46
+      spriteId: 6b5784f0f2d75d542a69f18820323a77
     - name: Bringer-of-Death_with_Spawn_Frame_46
       frameIndex: 46
       cellRect:
@@ -1983,7 +1983,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 60fbb5333552cfb439f94f314cdafd4e
+      spriteId: b71520304879a634da959f42d5251196
     - name: Bringer-of-Death_with_Spawn_Frame_47
       frameIndex: 47
       cellRect:
@@ -1991,7 +1991,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: a7c11aaf20704344cacb2e9131b7c7ca
+      spriteId: bc53d0ca006aaf046b1f8ac482861f81
     - name: Bringer-of-Death_with_Spawn_Frame_48
       frameIndex: 48
       cellRect:
@@ -1999,7 +1999,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 22249709cfb1f0a41b3812559ac49707
+      spriteId: 4b6e056c6362a424a8e6c107553b27f7
     - name: Bringer-of-Death_with_Spawn_Frame_49
       frameIndex: 49
       cellRect:
@@ -2007,7 +2007,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 7bbe172b4f3a2ba45b739e7444134524
+      spriteId: d6bb884775d55254481ff80ffecbb100
     - name: Bringer-of-Death_with_Spawn_Frame_50
       frameIndex: 50
       cellRect:
@@ -2015,7 +2015,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: cc208dab153bf184a8edaef4f421f35a
+      spriteId: 57fcca554787a4849845ee12c60d6faa
     - name: Bringer-of-Death_with_Spawn_Frame_51
       frameIndex: 51
       cellRect:
@@ -2023,7 +2023,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 670ed194645495e41a047e585652691b
+      spriteId: be73dc16faae3194297ffd0e922482a8
     - name: Bringer-of-Death_with_Spawn_Frame_52
       frameIndex: 52
       cellRect:
@@ -2031,7 +2031,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 0586240a66c53bd45a63891e0cc3248e
+      spriteId: 589b15016404e0741a12f966d92e8a14
     - name: Bringer-of-Death_with_Spawn_Frame_53
       frameIndex: 53
       cellRect:
@@ -2039,7 +2039,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 760b9d3beabbe154f90e7e0abe42afaa
+      spriteId: c85597a159f603a4da172b78dfd632b8
     - name: Bringer-of-Death_with_Spawn_Frame_54
       frameIndex: 54
       cellRect:
@@ -2047,7 +2047,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 0db0a86053894d248aa1d80e5f6b3ba0
+      spriteId: 54823850475eb624a8c0b963e3bb9ecd
     - name: Bringer-of-Death_with_Spawn_Frame_55
       frameIndex: 55
       cellRect:
@@ -2055,7 +2055,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 9b8b8267997d8ff41b0c919bfea33b3f
+      spriteId: 2c851540242bd4e4ea2061c2cf5ac7f1
     - name: Bringer-of-Death_with_Spawn_Frame_56
       frameIndex: 56
       cellRect:
@@ -2063,7 +2063,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: e61cbb6d01a28d04e9007a633b1360c7
+      spriteId: 0df8d9ba4a57314409baba1d1c4ddab1
     - name: Bringer-of-Death_with_Spawn_Frame_57
       frameIndex: 57
       cellRect:
@@ -2071,7 +2071,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 0d564405578559c4c99861ec2f6b7f51
+      spriteId: 03f0ef5908a1dff45851204cb160486e
     - name: Bringer-of-Death_with_Spawn_Frame_58
       frameIndex: 58
       cellRect:
@@ -2079,7 +2079,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 8879e226503044e48bca6fb21faa6bdc
+      spriteId: c70a225bc550291439f1fe543be95b4b
     - name: Bringer-of-Death_with_Spawn_Frame_59
       frameIndex: 59
       cellRect:
@@ -2087,7 +2087,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 85516d3694a7d93448dc908ae7d687f6
+      spriteId: 339e81b59067c0840bd6cd479b59f183
     - name: Bringer-of-Death_with_Spawn_Frame_60
       frameIndex: 60
       cellRect:
@@ -2095,7 +2095,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 7f45351111bab034095d85019a8d3957
+      spriteId: a116f45bc3de90b49b449084bc9942b8
     - name: Bringer-of-Death_with_Spawn_Frame_61
       frameIndex: 61
       cellRect:
@@ -2103,7 +2103,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: eb559a32e86519c40aa2a2506098393e
+      spriteId: 8ac42b52536eac14ea224ac76475d3b5
     - name: Bringer-of-Death_with_Spawn_Frame_62
       frameIndex: 62
       cellRect:
@@ -2111,7 +2111,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 78ef0001ea5c910419b202ccdb1a96b7
+      spriteId: a19b55a50edd12042a67ba4c76424dc1
     - name: Bringer-of-Death_with_Spawn_Frame_63
       frameIndex: 63
       cellRect:
@@ -2119,7 +2119,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 36871852ffeddc94b919e4e27a3bbdca
+      spriteId: cdaa422deab82934cb16aa9e523524e5
     - name: Bringer-of-Death_with_Spawn_Frame_64
       frameIndex: 64
       cellRect:
@@ -2127,7 +2127,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: ed271e40072d8034e940d1a1555616fd
+      spriteId: 825f94609584dc34785a84a75bdb00de
     - name: Bringer-of-Death_with_Spawn_Frame_65
       frameIndex: 65
       cellRect:
@@ -2135,7 +2135,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 95849ec7181740d4ca76c24c1a46fe00
+      spriteId: 1267782848c8c56448f332255b08681e
     - name: Bringer-of-Death_with_Spawn_Frame_66
       frameIndex: 66
       cellRect:
@@ -2143,7 +2143,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: e07302710b1cfc94abfdd0c8ba75499f
+      spriteId: 2acd93867424b6d4a8e4546af09927e8
     - name: Bringer-of-Death_with_Spawn_Frame_67
       frameIndex: 67
       cellRect:
@@ -2151,7 +2151,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 3d0d3f8da2f9b1e41902cb626aa747a8
+      spriteId: bbf78af0e0c74c84bbe019377e8e657c
     - name: Bringer-of-Death_with_Spawn_Frame_68
       frameIndex: 68
       cellRect:
@@ -2159,7 +2159,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 01abd62304b08aa4f944d97ac080c3a3
+      spriteId: a1951f63032d1b0409abf30548f4b5c2
     - name: Bringer-of-Death_with_Spawn_Frame_69
       frameIndex: 69
       cellRect:
@@ -2167,7 +2167,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: a680f9853a57bed459291d86176bcc94
+      spriteId: 5ab6c7ed2a24ed445b277f93bc5d1635
     - name: Bringer-of-Death_with_Spawn_Frame_70
       frameIndex: 70
       cellRect:
@@ -2175,7 +2175,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 81f09ef608ae27c48929c6b9c54e82a1
+      spriteId: 255ebb9b1357c904bb9eaec05b843917
     - name: Bringer-of-Death_with_Spawn_Frame_71
       frameIndex: 71
       cellRect:
@@ -2183,7 +2183,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 92cc5a1ca809afd469796f51e234bd4e
+      spriteId: 5b636a0c30cfdca4ab2f1da7ecf5ce87
     - name: Bringer-of-Death_with_Spawn_Frame_72
       frameIndex: 72
       cellRect:
@@ -2191,7 +2191,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: 670f7dfe4c3563a48a60f09d0607d48e
+      spriteId: 39f8a872193549c4eb7a87e9e303a7cb
     - name: Bringer-of-Death_with_Spawn_Frame_73
       frameIndex: 73
       cellRect:
@@ -2199,7 +2199,7 @@ ScriptedImporter:
         y: 0
         width: 140
         height: 93
-      spriteId: e629e3a619e455b46985e5b3a8685bef
+      spriteId: 7cf2adf1ec59dfa42a2eb17f9f2a2223
     linkedCells: []
     parentIndex: -1
   platformSettings: []
