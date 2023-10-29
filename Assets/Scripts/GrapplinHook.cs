@@ -29,15 +29,15 @@ public class GrapplinHook : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Vector3 HandPosition = _player.position+ Vector3.up*0.5f;
         if (_currentSize < sizeGrapplin && !grapplinHit)
         {
-
             Vector3 deltaMove = _direction * (speed * Time.deltaTime);
             transform.position += deltaMove;
-            Vector3 direction = transform.position - _player.position;
+            Vector3 direction = transform.position - HandPosition;
             _currentSize = direction.magnitude;
             _SpriteRenderer.size = new Vector2(_currentSize/scale, 0.06f);
-            _rope.position = _player.position + direction/2f;
+            _rope.position = HandPosition + direction/2f;
             float angle = Mathf.Atan2(direction.y, direction.x)/Mathf.PI*180f;
             transform.eulerAngles=Vector3.forward*angle;
         }
