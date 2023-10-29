@@ -55,7 +55,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Change: 10
-    - _CutoffHeight: 400.6471
+    - _CutoffHeight: -40
     - _EdgeWidth: 2.6
     - _NoiseScale: 100
     - _NoiseStrength: 21.5
