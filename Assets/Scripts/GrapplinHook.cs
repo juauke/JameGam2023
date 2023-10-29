@@ -38,7 +38,7 @@ public class GrapplinHook : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter2D (Collider2D col2D)
+    private void OnTriggerStay2D (Collider2D col2D)
     {
         if (!grapplinHit)
         {
