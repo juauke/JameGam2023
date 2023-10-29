@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using JetBrains.Annotations;
@@ -11,7 +12,7 @@ public class ViewField : MonoBehaviour
 
     [SerializeField] private float _angularSpeed=180f;
 
-    [SerializeField] private bool _lookToRight = true;
+    [SerializeField] private bool _lookToRight  ;
     [SerializeField] private PlayerController _emilia;
     private Vector3 upward = Vector3.forward;
     
@@ -24,13 +25,7 @@ public class ViewField : MonoBehaviour
     [SerializeField] private GameObject spell;
     public bool isDying;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-   
     public IEnumerator kill()
     {
         StartCoroutine(Coup()); 
@@ -66,6 +61,7 @@ public class ViewField : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if((_emilia.GetFacingDirection()==-1)==_lookToRight) _lookToRight = !_lookToRight;
         if (isDying) return;
         if (!_emilia.enabled) _emilia.enabled = true;
         if(enemy.activeSelf) enemy.SetActive(false);
