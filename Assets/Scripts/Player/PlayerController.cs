@@ -68,7 +68,7 @@ public class PlayerController : MonoBehaviour
 
     private float fallStartHeight;
     public float minimumFallDamageHeight = 10f;
-    
+
     [SerializeField] private UIrope uiRope;
 
     [SerializeField] private float
@@ -88,6 +88,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] public PlayerAudioManager audioManager;
     [SerializeField] private GrapplinHook grapplinHook;
 
+    public bool endGame = false;
+    [SerializeField] private Transform bottomLeftEnd;
+    [SerializeField] private Transform topRightEnd;
 
     // Start is called before the first frame update
     void Start()
@@ -103,14 +106,18 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        CheckInput();
-        CheckMovementDirection();
-        UpdateAnimations();
-        CheckIfCanJump();
-        CheckIfWallSliding();
-        CheckJump();
-        CheckDash();
-        CheckKnockback();
+        CheckEndgame();
+        if (!endGame)
+        {
+            CheckInput();
+            CheckMovementDirection();
+            UpdateAnimations();
+            CheckIfCanJump();
+            CheckIfWallSliding();
+            CheckJump();
+            CheckDash();
+            CheckKnockback();
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D col)
@@ -136,6 +143,16 @@ public class PlayerController : MonoBehaviour
                 rb.velocity = new Vector2(rb.velocity.x * 2, rb.velocity.y / 2);
             }
         }
+    }
+
+    private void CheckEndgame()
+    {
+        float tmp_x = transform.position.x;
+        float tmp_y = transform.position.y;
+        endGame = (tmp_x > bottomLeftEnd.position.x &&
+                   tmp_y > bottomLeftEnd.position.y &&
+                   tmp_x < topRightEnd.position.x &&
+                   tmp_y < bottomLeftEnd.position.y);
     }
 
     private void FixedUpdate()

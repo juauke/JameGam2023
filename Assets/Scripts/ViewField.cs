@@ -10,15 +10,17 @@ public class ViewField : MonoBehaviour
     [SerializeField] private Transform _player;
     [SerializeField] private Camera _mainCamera;
 
-    [SerializeField] private float _angularSpeed=180f;
+    [SerializeField] private float _angularSpeed = 180f;
 
-    [SerializeField] private bool _lookToRight  ;
+    [SerializeField] private bool _lookToRight;
     [SerializeField] private PlayerController _emilia;
     private Vector3 upward = Vector3.forward;
-    
+
     [SerializeField] private float timeAnimationDeath = 4.5f;
 
-    [FormerlySerializedAs("animator")] [SerializeField] private Animator animatorPlayer;
+    [FormerlySerializedAs("animator")] [SerializeField]
+    private Animator animatorPlayer;
+
     [SerializeField] private Animator animatorEnemy;
     [SerializeField] private Animator SpellAnimator;
     [SerializeField] private GameObject enemy;
@@ -28,7 +30,8 @@ public class ViewField : MonoBehaviour
 
     public IEnumerator kill()
     {
-        StartCoroutine(Coup()); 
+        StartCoroutine(Coup());
+
         IEnumerator Coup()
         {
             enemy.SetActive(true);
@@ -36,7 +39,9 @@ public class ViewField : MonoBehaviour
             yield return new WaitForSeconds(3f);
             enemy.SetActive(false);
         }
-        StartCoroutine(Cast()); 
+
+        StartCoroutine(Cast());
+
         IEnumerator Cast()
         {
             yield return new WaitForSeconds(1.5f);
@@ -45,34 +50,44 @@ public class ViewField : MonoBehaviour
             yield return new WaitForSeconds(1.7f);
             spell.SetActive(false);
         }
-        animatorPlayer.SetBool("isDying",true);
+
+        animatorPlayer.SetBool("isDying", true);
         isDying = true;
         _emilia.enabled = false;
-        if(_lookToRight) _emilia.Flip();
+        if (_lookToRight) _emilia.Flip();
         yield return new WaitForSeconds(1.7f);
         animatorPlayer.SetTrigger("Death");
         yield return new WaitForSeconds(timeAnimationDeath);
-        animatorPlayer.SetBool("isDying",false);
+        animatorPlayer.SetBool("isDying", false);
         _emilia.enabled = true;
         isDying = false;
-        if(_lookToRight) _emilia.Flip();
+        if (_lookToRight) _emilia.Flip();
         _player.gameObject.SetActive(false);
     }
+
     // Update is called once per frame
     void Update()
     {
-        if((_emilia.GetFacingDirection()==-1)==_lookToRight) _lookToRight = !_lookToRight;
+        if (_emilia.TryGetComponent<PlayerController>(out PlayerController playerController))
+        {
+            if (playerController.endGame)
+            {
+                this.enabled = false;
+            }
+        }
+
+        if ((_emilia.GetFacingDirection() == -1) == _lookToRight) _lookToRight = !_lookToRight;
         if (isDying) return;
         if (!_emilia.enabled) _emilia.enabled = true;
-        if(enemy.activeSelf) enemy.SetActive(false);
-        if(spell.activeSelf) spell.SetActive(false);
+        if (enemy.activeSelf) enemy.SetActive(false);
+        if (spell.activeSelf) spell.SetActive(false);
         Vector3 mousePosition = _mainCamera.ScreenToWorldPoint(Input.mousePosition);
         if (_lookToRight)
         {
             if (mousePosition.x < _player.position.x)
             {
                 Vector3 tmp = transform.eulerAngles;
-                transform.eulerAngles = new Vector3(tmp.x,tmp.y+180,tmp.z);
+                transform.eulerAngles = new Vector3(tmp.x, tmp.y + 180, tmp.z);
                 this.upward *= -1;
                 _emilia.Flip();
                 _lookToRight = false;
@@ -94,8 +109,8 @@ public class ViewField : MonoBehaviour
 
         mousePosition.z = 0;
 
-        Quaternion direction = Quaternion.LookRotation(mousePosition-_player.position, upward);
+        Quaternion direction = Quaternion.LookRotation(mousePosition - _player.position, upward);
 
-        transform.rotation = Quaternion.RotateTowards(transform.rotation, direction, _angularSpeed*Time.deltaTime);
+        transform.rotation = Quaternion.RotateTowards(transform.rotation, direction, _angularSpeed * Time.deltaTime);
     }
 }
