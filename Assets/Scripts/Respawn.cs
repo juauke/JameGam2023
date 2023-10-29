@@ -10,6 +10,8 @@ public class Respawn : MonoBehaviour
     [SerializeField] LevelTimer levelTimer;
     [SerializeField] private StressBar stressBar;
     [SerializeField] private ViewField viewField;
+    public int nbDeaths = 0;
+
     private void Update()
     {
         if (!character.activeSelf && !_isRespawning)
@@ -18,7 +20,7 @@ public class Respawn : MonoBehaviour
             StartCoroutine(RespawnCharacter());
         }
     }
-    
+
     IEnumerator RespawnCharacter()
     {
         viewField.isDying = false;
@@ -30,5 +32,6 @@ public class Respawn : MonoBehaviour
         character.SetActive(true);
         character.transform.position = transform.position;
         _isRespawning = false;
+        nbDeaths++;
     }
 }

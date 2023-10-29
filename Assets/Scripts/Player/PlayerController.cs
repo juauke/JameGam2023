@@ -327,7 +327,8 @@ public class PlayerController : MonoBehaviour
             lastGrapplinCreated.Destroy();
         }
 
-        lastGrapplinCreated = GrapplinHook.Instantiate(grapplinHook, transform.position+Vector3.up*0.1f*transform.lossyScale.x, transform.rotation);
+        lastGrapplinCreated = GrapplinHook.Instantiate(grapplinHook,
+            transform.position + Vector3.up * 0.1f * transform.lossyScale.x, transform.rotation);
         lastGrapplinCreated.gameObject.SetActive(true);
         // Debug.Log("I am" + lastGrapplinCreated.name);
     }
