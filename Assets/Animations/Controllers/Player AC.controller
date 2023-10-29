@@ -167,33 +167,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 0
---- !u!114 &-7257309891194382643
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd4f48f952730a64eafc498c42bd2313, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  useMultiple: 0
-  clip: {fileID: 0}
-  clips: []
-  condition: 0
-  delayer:
-    delayType: 0
-    timer:
-      loops: 0
-      time: 0
-    frameTimer:
-      loops: 0
-      frame: 0
-  frequencyTimer:
-    loops: 0
-    time: 0
 --- !u!114 &-7106687159247519286
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1085,8 +1058,7 @@ AnimatorState:
   m_Transitions:
   - {fileID: 1101039066256625706}
   - {fileID: 1721678106718044069}
-  m_StateMachineBehaviours:
-  - {fileID: -7257309891194382643}
+  m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
