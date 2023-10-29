@@ -38,7 +38,6 @@ public class StressBar : MonoBehaviour
                 var entier = Random.Range(97, 123);
                 char keyChar = (char)entier;
                 string key = keyChar.ToString();
-                Debug.Log(key);
 
                 spriteRenderer.gameObject.SetActive(true);
                 if (!spriteRenderer.IsUnityNull())
