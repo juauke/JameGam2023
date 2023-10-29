@@ -11,6 +11,16 @@ public class OutOfBounds : MonoBehaviour
         //desactivate the character if he exit the map/ the collider
         if (other.gameObject.CompareTag("Player"))
         {
+            if (Level.isTP)
+            {
+                Level.isTP = false;
+                return;
+            }
+            if (TeleportPlayer.isTP)
+            {
+                Level.isTP = false;
+                return;
+            }
             character.SetActive(false);
         }
     }

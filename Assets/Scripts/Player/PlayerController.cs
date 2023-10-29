@@ -8,6 +8,7 @@ using UnityEngine.UIElements;
 
 public class PlayerController : MonoBehaviour
 {
+    [SerializeField] private Canvas pauseCanvas;
     public bool canDash;
     private float movementInputDirection;
     private float jumpTimer;
@@ -106,7 +107,6 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        CheckEndgame();
         if (!endGame)
         {
             CheckInput();
@@ -152,7 +152,7 @@ public class PlayerController : MonoBehaviour
         endGame = (tmp_x > bottomLeftEnd.position.x &&
                    tmp_y > bottomLeftEnd.position.y &&
                    tmp_x < topRightEnd.position.x &&
-                   tmp_y < bottomLeftEnd.position.y);
+                   tmp_y < topRightEnd.position.y);
     }
 
     private void FixedUpdate()
@@ -283,7 +283,10 @@ public class PlayerController : MonoBehaviour
         {
             return;
         }
-
+        if (Input.GetButtonDown("Pause"))
+        {
+            pauseCanvas.gameObject.SetActive(!pauseCanvas.gameObject.activeSelf);
+        }
         movementInputDirection = Input.GetAxisRaw("Horizontal");
 
         if (Input.GetButtonDown("Jump"))

@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Main.unity
-    guid: 1402eaa5165657442b0f9248b58bdfb1
-  - enabled: 0
-    path: Assets/Scenes/Freshman.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
     path: Assets/Scenes/Juauke (Menu).unity
     guid: 81dec9f5335754740a9047716e8cd284
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: 1402eaa5165657442b0f9248b58bdfb1
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: 127766461eb8ae3418d287ac2bb7174b
   m_configObjects: {}

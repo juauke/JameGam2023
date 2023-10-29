@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Level : MonoBehaviour
 {
+    public static  bool isTP;
     [SerializeField] private Transform Checkpoint;
     [SerializeField] private Transform nextCheckpoint;
     [SerializeField] private LevelTimer levelTimer;
@@ -19,6 +20,7 @@ public class Level : MonoBehaviour
             var nextPos = nextCheckpoint.position;
             collision.gameObject.transform.position = nextPos;
             Checkpoint.position = nextPos;
+            isTP = true;
             // faire des animations quand on spawn plus loin ?
         }
     }

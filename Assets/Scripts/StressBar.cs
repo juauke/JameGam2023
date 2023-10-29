@@ -87,7 +87,7 @@ public class StressBar : MonoBehaviour
         UpdateBar();
     }
 
-    private void UpdateBar()
+    public void UpdateBar()
     {
         _rectTransform.anchorMax = new Vector2((float)_stress / (float)_maxStress, 1);
     }
@@ -111,7 +111,7 @@ public class StressBar : MonoBehaviour
         {
             if (playerController.endGame)
             {
-                this.enabled = false;
+                Destroy(gameObject);
             }
         }
 

@@ -14,18 +14,16 @@ public class EndMenuController : MonoBehaviour {
     
     public void BackToMainMenuButton() {
         // Load back mainMenu Scene (and set active mainMenu)
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Juauke (Menu)");
+        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
     }
 
     private void ShowEndMenu() {
-        // Stop Time
-        Time.timeScale = 0;
         // Show End Menu
         endMenu.SetActive(true);
     }
 
     public void PlayAgainButton() {
         // Start Main Scene again
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Main");
+        UnityEngine.SceneManagement.SceneManager.LoadScene(1);
     }
 }

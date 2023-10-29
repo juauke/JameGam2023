@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelTimer : MonoBehaviour
 {
@@ -38,7 +39,14 @@ public class LevelTimer : MonoBehaviour
     {
         if (col.gameObject.CompareTag("Player"))
         {
-            col.gameObject.SetActive(false);
+            if (timeLeft > timeToComplete * 2 / 3)
+            {
+                SceneManager.LoadScene(2);
+            }
+            else
+            {
+                col.gameObject.SetActive(false);
+            }
         }
     }
 }

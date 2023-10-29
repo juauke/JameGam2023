@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TeleportPlayer : MonoBehaviour
 {
+    public static bool isTP;
     [SerializeField] private Transform Checkpoint;
     [SerializeField] private Transform nextCheckpoint;
 
@@ -14,6 +15,7 @@ public class TeleportPlayer : MonoBehaviour
         {
             var nextPos = nextCheckpoint.position;
             collision.gameObject.transform.position = nextPos;
+            isTP = true;
         }
     }
 }
