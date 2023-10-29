@@ -1,40 +1,30 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class MainMenuController : MonoBehaviour
-{
-    public GameObject MainMenu;
-    public GameObject CreditsMenu;
+public class MainMenuController : MonoBehaviour {
+    [SerializeField] private GameObject mainMenu;
+    [SerializeField] private GameObject creditsMenu;
 
     // Start is called before the first frame update
-    void Start()
-    {
-        MainMenuButton();
-    }
+    void Start() { MainMenuButton(); }
 
-    public void PlayNowButton()
-    {
+    public void PlayNowButton() {
         // Play Now Button has been pressed, here you can initialize your game (For example Load a Scene called GameLevel etc.)
         UnityEngine.SceneManagement.SceneManager.LoadScene("Main");
     }
 
-    public void CreditsButton()
-    {
+    public void CreditsButton() {
         // Show Credits Menu
-        MainMenu.SetActive(false);
-        CreditsMenu.SetActive(true);
+        mainMenu.SetActive(false);
+        creditsMenu.SetActive(true);
     }
 
-    public void MainMenuButton()
-    {
+    public void MainMenuButton() {
         // Show Main Menu
-        MainMenu.SetActive(true);
-        CreditsMenu.SetActive(false);
+        mainMenu.SetActive(true);
+        creditsMenu.SetActive(false);
     }
 
-    public void QuitButton()
-    {
+    public void QuitButton() {
         // Quit Game
         Application.Quit();
     }
