@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using JetBrains.Annotations;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class ViewField : MonoBehaviour
 {
@@ -16,9 +17,12 @@ public class ViewField : MonoBehaviour
     
     [SerializeField] private float timeAnimationDeath = 4.5f;
 
-    [SerializeField] private Animator animator;
-
-    private bool isDying;
+    [FormerlySerializedAs("animator")] [SerializeField] private Animator animatorPlayer;
+    [SerializeField] private Animator animatorEnemy;
+    [SerializeField] private Animator SpellAnimator;
+    [SerializeField] private GameObject enemy;
+    [SerializeField] private GameObject spell;
+    public bool isDying;
 
     // Start is called before the first frame update
     void Start()
@@ -26,10 +30,46 @@ public class ViewField : MonoBehaviour
         
     }
 
+   
+    public IEnumerator kill()
+    {
+        StartCoroutine(Coup()); 
+        IEnumerator Coup()
+        {
+            enemy.SetActive(true);
+            animatorEnemy.SetTrigger("Kill");
+            yield return new WaitForSeconds(3f);
+            enemy.SetActive(false);
+        }
+        StartCoroutine(Cast()); 
+        IEnumerator Cast()
+        {
+            yield return new WaitForSeconds(1.5f);
+            spell.SetActive(true);
+            SpellAnimator.SetTrigger("Kill");
+            yield return new WaitForSeconds(1.7f);
+            spell.SetActive(false);
+        }
+        animatorPlayer.SetBool("isDying",true);
+        isDying = true;
+        _emilia.enabled = false;
+        if(_lookToRight) _emilia.Flip();
+        yield return new WaitForSeconds(1.7f);
+        animatorPlayer.SetTrigger("Death");
+        yield return new WaitForSeconds(timeAnimationDeath);
+        animatorPlayer.SetBool("isDying",false);
+        _emilia.enabled = true;
+        isDying = false;
+        if(_lookToRight) _emilia.Flip();
+        _player.gameObject.SetActive(false);
+    }
     // Update is called once per frame
     void Update()
     {
         if (isDying) return;
+        if (!_emilia.enabled) _emilia.enabled = true;
+        if(enemy.activeSelf) enemy.SetActive(false);
+        if(spell.activeSelf) spell.SetActive(false);
         Vector3 mousePosition = _mainCamera.ScreenToWorldPoint(Input.mousePosition);
         if (_lookToRight)
         {
@@ -41,17 +81,7 @@ public class ViewField : MonoBehaviour
                 _emilia.Flip();
                 _lookToRight = false;
                 //kill emilia
-                animator.SetTrigger("Death");
-                isDying = true;
-                _emilia.enabled = false;
                 StartCoroutine(kill());
-                IEnumerator kill()
-                {
-                    yield return new WaitForSeconds(timeAnimationDeath);
-                    _player.gameObject.SetActive(false);
-                    _emilia.enabled = true;
-                    isDying = false;
-                }
             }
         }
         else

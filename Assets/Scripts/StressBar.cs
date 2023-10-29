@@ -7,24 +7,26 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
-
 public class StressBar : MonoBehaviour
 {
-    [SerializeField] private int _maxStress=100;
+    [SerializeField] private float _maxStress=100f;
 
-    [SerializeField] private int _stress=0;
+    [SerializeField] public float _stress=0f;
     [SerializeField] private RectTransform _rectTransform;
     [SerializeField] private List<Sprite> touches;
     [SerializeField] private List<char> touchesChars;
     [SerializeField] private Image spriteRenderer;
+    [SerializeField] private ViewField viewField;
 
+    [SerializeField] private Transform player;
+    [SerializeField] private Collider2D mort;
     private float timeLeftStress = 2f;
     
     [SerializeField] private float reactivite = 5f;
 
-    public void AddStress(int moreStress)
+    public void AddStress(float moreStress)
     {
-        int newStress = _stress + moreStress;
+        float newStress = _stress + moreStress;
         if (newStress > _maxStress)
         {
             _stress=_maxStress;
@@ -33,38 +35,39 @@ public class StressBar : MonoBehaviour
             {
                 var dead = false;
                 var entier = Random.Range(32, 128);
+                var i = IndexOfSprite(Convert.ToChar(entier));
+                var key = Convert.ToChar(entier).ToString();
                 if(entier<=90 && entier >=65)
                     entier+=91-65 ;
                 if (entier == 96) entier++;
-                var key = Convert.ToChar(entier).ToString();
-                Debug.Log(key);
-                var i = indexOfSprite(Convert.ToChar(entier));
+                while (i == 0)
+                {
+                    entier = Random.Range(32, 128);
+                    if(entier<=90 && entier >=65)
+                        entier+=91-65 ;
+                    if (entier == 96) entier++;
+                    key = Convert.ToChar(entier).ToString();
+                    i = IndexOfSprite(Convert.ToChar(entier));
+                }
+                spriteRenderer.gameObject.SetActive(true);
                 if (!spriteRenderer.IsUnityNull()) 
                 {
                     spriteRenderer.sprite = touches[i] ;
-                    Debug.Log(touches[i]);
-                    Debug.Log(i);
-                }
-                else
-                {
-                    Debug.Log("spriteRenderer is null");
                 }
                 var _startTime = Time.time;
                 while (Input.inputString != key && !dead)
                 {
-                    if(Input.anyKey)
-                        Debug.Log("SSSS "+ key + Input.inputString);
                     if (Time.time - _startTime > reactivite)
                     {
                         dead = true;
-                        Debug.Log("you deadge");
+                        StartCoroutine(viewField.kill());
                     }
                     yield return null;
                 }
+                spriteRenderer.gameObject.SetActive(false);
                 if (!dead)
                 {
                     _stress = 0;
-                    Debug.Log("you win");
                 }
                 UpdateBar();
             }
@@ -81,7 +84,7 @@ public class StressBar : MonoBehaviour
         _rectTransform.anchorMax=new Vector2((float) _stress/(float)_maxStress,1);
     }
 
-    private int indexOfSprite(char a)
+    private int IndexOfSprite(char a)
     {
         for (var i= 0; i < touchesChars.Count; i++)
         {
@@ -90,7 +93,7 @@ public class StressBar : MonoBehaviour
                 return i;
             }
         }
-        return -1;
+        return 0;
     }
 
     void Update()
@@ -100,15 +103,12 @@ public class StressBar : MonoBehaviour
         {
             if (_stress < 100)
             {
-                
-                AddStress(50);
-            timeLeftStress = Random.Range(1f, 3f);
+                Vector3 closestPoint = mort.ClosestPoint(player.position);
+                float distance = Vector3.Distance(closestPoint, player.position);
+                AddStress((float)Math.Pow(distance,2)/150f);
+                timeLeftStress = Random.Range(0.5f, 2f);
             }
-            else
-            {
-                AddStress(50);
-                timeLeftStress = Random.Range(5f, 10f);
-            }
+
         }
     }
 }
