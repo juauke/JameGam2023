@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour
     private bool isFacingRight = true;
     private bool isWalking;
     [SerializeField] private bool isGrounded;
-    private bool isTouchingWall;
+    [SerializeField] private bool isTouchingWall;
     private bool isWallSliding;
     private bool canNormalJump;
     private bool canWallJump;
@@ -78,6 +78,7 @@ public class PlayerController : MonoBehaviour
 
     public Transform groundCheck;
     public Transform wallCheck;
+    public Transform ceilingCheck;
 
     public LayerMask whatIsGround;
 
@@ -109,19 +110,31 @@ public class PlayerController : MonoBehaviour
         CheckDash();
         CheckKnockback();
     }
+
     private void OnCollisionEnter2D(Collision2D col)
     {
         if (!lastGrapplinCreated.IsUnityNull() && lastGrapplinCreated.grapplinHit)
         {
-            lastGrapplinCreated.grapplinHit = false;
-            isDashing = false;
-            canMove = true;
-            canFlip = true;
-            lastGrapplinCreated.Destroy();
-            Debug.Log("normalement ça a suppr (collisionEnter)");
-            Debug.Log(rb.velocity);
-            // rb.velocity = Vector2.zero;
-            isGrounded = true;
+            if (Physics2D.Raycast(ceilingCheck.position, transform.up, wallCheckDistance, whatIsGround))
+            {
+                rb.velocity = dashSpeed * transform.right *facingDirection;
+                lastGrapplinCreated.grapplinHit = false;
+                isDashing = false;
+                canMove = true;
+                canFlip = true;
+                lastGrapplinCreated.Destroy();
+            }
+            else
+            {
+                lastGrapplinCreated.grapplinHit = false;
+                isDashing = false;
+                canMove = true;
+                canFlip = true;
+                lastGrapplinCreated.Destroy();
+                Debug.Log("normalement ça a suppr (collisionEnter)");
+                rb.velocity = new Vector2(rb.velocity.x * 2, rb.velocity.y / 2);
+                Debug.Log(rb.velocity);
+            }
         }
     }
 
@@ -133,7 +146,7 @@ public class PlayerController : MonoBehaviour
 
     private void CheckIfWallSliding()
     {
-        if (isTouchingWall && movementInputDirection == facingDirection && rb.velocity.y < 0 )
+        if (isTouchingWall && movementInputDirection == facingDirection && rb.velocity.y < 0)
         {
             isWallSliding = true;
             //audioManager.PlaySideGripSound();
@@ -165,12 +178,12 @@ public class PlayerController : MonoBehaviour
             rb.velocity = new Vector2(0.0f, rb.velocity.y);
         }
     }
-    
+
     private void CheckSurroundings()
     {
         bool wasGrounded = isGrounded;
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
-        
+
         if (isGrounded)
         {
             if (!wasGrounded)
@@ -190,7 +203,6 @@ public class PlayerController : MonoBehaviour
 
             fallStartHeight = transform.position.y;
         }
-
 
         isTouchingWall = Physics2D.Raycast(wallCheck.position, transform.right, wallCheckDistance, whatIsGround);
     }
@@ -311,6 +323,11 @@ public class PlayerController : MonoBehaviour
 
         PlayerAfterImagePool.Instance.GetFromPool();
         lastImageXpos = transform.position.x;
+        if (!lastGrapplinCreated.IsUnityNull())
+        {
+            lastGrapplinCreated.Destroy();
+        }
+
         lastGrapplinCreated = GrapplinHook.Instantiate(grapplinHook, transform);
         lastGrapplinCreated.gameObject.SetActive(true);
         // Debug.Log("I am" + lastGrapplinCreated.name);
@@ -329,31 +346,28 @@ public class PlayerController : MonoBehaviour
             {
                 canMove = false;
                 canFlip = false;
-                if ((transform.position - lastGrapplinCreated.grapplinTarget).magnitude < (dashSpeed *Time.deltaTime))
+                if ((transform.position - lastGrapplinCreated.grapplinTarget).magnitude < (dashSpeed * Time.deltaTime))
                 {
-                        lastGrapplinCreated.grapplinHit = false;
-                        isDashing = false;
-                        canMove = true;
-                        canFlip = true;
-                        lastGrapplinCreated.Destroy();
-                        Debug.Log("normalement ça a suppr (Near to Target)");
-                        Debug.Log(rb.velocity);
-                        // rb.velocity = Vector2.zero;
-                        isGrounded = true;
+                    lastGrapplinCreated.grapplinHit = false;
+                    isDashing = false;
+                    canMove = true;
+                    canFlip = true;
+                    lastGrapplinCreated.Destroy();
+                    Debug.Log("normalement ça a suppr (Near to Target)");
+                    rb.velocity = new Vector2(rb.velocity.x * 2, rb.velocity.y / 2);
+                    Debug.Log(rb.velocity);
                 }
                 else
                 {
                     rb.velocity = dashSpeed * ((lastGrapplinCreated.grapplinTarget - transform.position).normalized);
-                    isGrounded = false;
+
                     if (Mathf.Abs(transform.position.x - lastImageXpos) > distanceBetweenImages)
                     {
                         PlayerAfterImagePool.Instance.GetFromPool();
                         lastImageXpos = transform.position.x;
                     }
                 }
-                
             }
-
         }
     }
 
