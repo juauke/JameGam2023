@@ -19,6 +19,7 @@ public class PauseMenuController : MonoBehaviour {
 
     public void BackToMainMenuButton() {
         // Load back mainMenu Scene (and set active mainMenu)
+        ResumeGame();
         UnityEngine.SceneManagement.SceneManager.LoadScene(0);
     }
 
@@ -31,6 +32,7 @@ public class PauseMenuController : MonoBehaviour {
 
     public void RetryButton() {
         // Start Main Scene again
+        ResumeGame();
         UnityEngine.SceneManagement.SceneManager.LoadScene(1);
     }
 }

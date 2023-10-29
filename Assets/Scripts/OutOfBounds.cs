@@ -18,7 +18,7 @@ public class OutOfBounds : MonoBehaviour
             }
             if (TeleportPlayer.isTP)
             {
-                Level.isTP = false;
+                TeleportPlayer.isTP = false;
                 return;
             }
             character.SetActive(false);

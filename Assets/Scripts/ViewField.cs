@@ -26,7 +26,7 @@ public class ViewField : MonoBehaviour
     [SerializeField] private GameObject enemy;
     [SerializeField] private GameObject spell;
     public bool isDying;
-
+    private float time;
 
     public IEnumerator kill()
     {
@@ -92,18 +92,21 @@ public class ViewField : MonoBehaviour
                 _emilia.Flip();
                 _lookToRight = false;
                 //kill emilia
-                StartCoroutine(kill());
+                if(!TeleportPlayer.isTP)
+                    StartCoroutine(kill());
+                time = Time.time;
             }
         }
         else
         {
             if (mousePosition.x > _player.position.x)
-            {
+            {   
                 Vector3 tmp = transform.eulerAngles;
                 transform.eulerAngles = new Vector3(tmp.x, tmp.y - 180, tmp.z);
                 this.upward *= -1;
                 _emilia.Flip();
                 _lookToRight = true;
+                time = Time.time;
             }
         }
 
