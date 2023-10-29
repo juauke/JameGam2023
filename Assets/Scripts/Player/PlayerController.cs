@@ -25,8 +25,8 @@ public class PlayerController : MonoBehaviour
 
     private bool isFacingRight = true;
     private bool isWalking;
-    [SerializeField] private bool isGrounded;
-    [SerializeField] private bool isTouchingWall;
+    private bool isGrounded;
+    private bool isTouchingWall;
     private bool isWallSliding;
     private bool canNormalJump;
     private bool canWallJump;
@@ -117,7 +117,7 @@ public class PlayerController : MonoBehaviour
         {
             if (Physics2D.Raycast(ceilingCheck.position, transform.up, wallCheckDistance, whatIsGround))
             {
-                rb.velocity = dashSpeed * transform.right *facingDirection;
+                rb.velocity = dashSpeed * transform.right * facingDirection;
                 lastGrapplinCreated.grapplinHit = false;
                 isDashing = false;
                 canMove = true;
@@ -131,9 +131,7 @@ public class PlayerController : MonoBehaviour
                 canMove = true;
                 canFlip = true;
                 lastGrapplinCreated.Destroy();
-                Debug.Log("normalement ça a suppr (collisionEnter)");
                 rb.velocity = new Vector2(rb.velocity.x * 2, rb.velocity.y / 2);
-                Debug.Log(rb.velocity);
             }
         }
     }
@@ -354,9 +352,7 @@ public class PlayerController : MonoBehaviour
                     canMove = true;
                     canFlip = true;
                     lastGrapplinCreated.Destroy();
-                    Debug.Log("normalement ça a suppr (Near to Target)");
                     rb.velocity = new Vector2(rb.velocity.x * 2, rb.velocity.y / 2);
-                    Debug.Log(rb.velocity);
                 }
                 else
                 {
