@@ -68,6 +68,8 @@ public class PlayerController : MonoBehaviour
 
     private float fallStartHeight;
     public float minimumFallDamageHeight = 10f;
+    
+    [SerializeField] private UIrope uiRope;
 
     [SerializeField] private float
         fallDamageMultiplier = 1f; // How much damage to apply per unit fallen beyond the minimum fall damage height
@@ -310,8 +312,11 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetButtonDown("Dash"))
         {
-            if (Time.time >= (lastDash + dashCoolDown) && canDash)
+            if (Time.time >= (lastDash + dashCoolDown) && canDash && uiRope.numberRopes > 0)
+            {
+                uiRope.numberRopes--;
                 AttemptToDash();
+            }
         }
     }
 

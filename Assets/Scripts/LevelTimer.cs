@@ -24,9 +24,9 @@ public class LevelTimer : MonoBehaviour
             timeLeft = timeToComplete; // deadge
         }
         var cutoff = timeLeft / timeToComplete;
-        material.SetFloat("_CutoffHeight", cutoff*120 - 20 );
+        material.SetFloat("_CutoffHeight", cutoff*500 - 20 );
         //augment the collider size to make the player die if he is on the map when it disappear
-        collider.offset = new Vector2(cutoff*120, collider.offset.y);
+        collider.offset = new Vector2(cutoff*500, collider.offset.y);
     }
 
     void OnApplicationQuit()

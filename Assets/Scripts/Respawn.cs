@@ -11,6 +11,7 @@ public class Respawn : MonoBehaviour
     [SerializeField] private StressBar stressBar;
     [SerializeField] private ViewField viewField;
     public int nbDeaths = 0;
+    [SerializeField] private UIrope uiRope;
 
     private void Update()
     {
@@ -26,6 +27,7 @@ public class Respawn : MonoBehaviour
         viewField.isDying = false;
         stressBar.enabled = false;
         yield return new WaitForSeconds(3);
+        uiRope.numberRopes = 0;
         stressBar.enabled = true;
         stressBar._stress = 0;
         levelTimer.timeLeft = 0;
