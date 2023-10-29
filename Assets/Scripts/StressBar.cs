@@ -15,7 +15,6 @@ public class StressBar : MonoBehaviour
     [SerializeField] public float _stress = 0f;
     [SerializeField] private RectTransform _rectTransform;
     [SerializeField] private List<Sprite> touches;
-    [SerializeField] private List<char> touchesChars;
     [SerializeField] private Image spriteRenderer;
     [SerializeField] private ViewField viewField;
 
@@ -36,26 +35,15 @@ public class StressBar : MonoBehaviour
             IEnumerator MaxStress()
             {
                 var dead = false;
-                var entier = Random.Range(32, 128);
-                var i = IndexOfSprite(Convert.ToChar(entier));
-                var key = Convert.ToChar(entier).ToString();
-                if (entier <= 90 && entier >= 65)
-                    entier += 91 - 65;
-                if (entier == 96) entier++;
-                while (i == 0)
-                {
-                    entier = Random.Range(32, 128);
-                    if (entier <= 90 && entier >= 65)
-                        entier += 91 - 65;
-                    if (entier == 96) entier++;
-                    key = Convert.ToChar(entier).ToString();
-                    i = IndexOfSprite(Convert.ToChar(entier));
-                }
+                var entier = Random.Range(97, 123);
+                char keyChar = (char)entier;
+                string key = keyChar.ToString();
+                Debug.Log(key);
 
                 spriteRenderer.gameObject.SetActive(true);
                 if (!spriteRenderer.IsUnityNull())
                 {
-                    spriteRenderer.sprite = touches[i];
+                    spriteRenderer.sprite = touches[entier - 97];
                 }
 
                 var _startTime = Time.time;
@@ -92,18 +80,6 @@ public class StressBar : MonoBehaviour
         _rectTransform.anchorMax = new Vector2((float)_stress / (float)_maxStress, 1);
     }
 
-    private int IndexOfSprite(char a)
-    {
-        for (var i = 0; i < touchesChars.Count; i++)
-        {
-            if (touchesChars[i] == a)
-            {
-                return i;
-            }
-        }
-
-        return 0;
-    }
 
     void Update()
     {
