@@ -6,8 +6,7 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.UIElements;
 
-public class PlayerController : MonoBehaviour
-{
+public class PlayerController : MonoBehaviour {
     [SerializeField] private Canvas pauseCanvas;
     public bool canDash;
     private float movementInputDirection;
@@ -87,15 +86,16 @@ public class PlayerController : MonoBehaviour
 
     private GrapplinHook lastGrapplinCreated;
     [SerializeField] public PlayerAudioManager audioManager;
+    [SerializeField] public ViewField viewField;
     [SerializeField] private GrapplinHook grapplinHook;
+    private string previousAnimation = "";
 
     public bool endGame = false;
     [SerializeField] private Transform bottomLeftEnd;
     [SerializeField] private Transform topRightEnd;
 
     // Start is called before the first frame update
-    void Start()
-    {
+    void Start() {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         amountOfJumpsLeft = amountOfJumps;
@@ -105,10 +105,8 @@ public class PlayerController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        if (!endGame)
-        {
+    void Update() {
+        if (!endGame) {
             CheckInput();
             CheckMovementDirection();
             UpdateAnimations();
@@ -117,15 +115,59 @@ public class PlayerController : MonoBehaviour
             CheckJump();
             CheckDash();
             CheckKnockback();
+
+            // Play Audios when animations are playing
+            // Missing isAttacking (does not exist)
+
+            // Jump Animation
+            // if (!isGrounded && !isWallSliding && rb.velocity.y > 0 && !viewField.isDying) {
+            //     if ("Jump" != previousAnimation) {
+            //         audioManager.PlayJumpSound();
+            //     }
+            //     previousAnimation = "Jump";
+            // }
+
+            // Running Animation
+            // if (isWalking && isGrounded && rb.velocity.x > 0 && !viewField.isDying) {
+            //     if ("Run" != previousAnimation) {
+            //         audioManager.PlayRunSound();
+            //     }
+            //     previousAnimation = "Run";
+            // }
+
+            // HookThrow Animation
+            // isDashing = isThrowingGrapplingHook
+            if (isDashing && !viewField.isDying) {
+                if ("HookThrow" != previousAnimation) {
+                    audioManager.StopAllCoroutines();
+                    audioManager.PlayHookThrowSound();
+                }
+
+                previousAnimation = "HookThrow";
+            }
+
+            // Land animation
+            // if (previousAnimation == "Jump" && isGrounded && !viewField.isDying) {
+            //     audioManager.PlayLandSound();
+            //     previousAnimation = "Land";
+            // }
+
+            // Dashing Animation
+            // if (!lastGrapplinCreated.IsUnityNull()) {
+            //     if (isDashing && lastGrapplinCreated.grapplinHit && !viewField.isDying) {
+            //         if ("Dash" != previousAnimation) {
+            //             audioManager.StopAllCoroutines();
+            //             audioManager.PlayDashSound();
+            //         }
+            //         previousAnimation = "Dash";
+            //     }
+            // }
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D col)
-    {
-        if (!lastGrapplinCreated.IsUnityNull() && lastGrapplinCreated.grapplinHit)
-        {
-            if (Physics2D.Raycast(ceilingCheck.position, transform.up, wallCheckDistance, whatIsGround))
-            {
+    private void OnCollisionEnter2D(Collision2D col) {
+        if (!lastGrapplinCreated.IsUnityNull() && lastGrapplinCreated.grapplinHit) {
+            if (Physics2D.Raycast(ceilingCheck.position, transform.up, wallCheckDistance, whatIsGround)) {
                 rb.velocity = dashSpeed * transform.right * facingDirection;
                 lastGrapplinCreated.grapplinHit = false;
                 isDashing = false;
@@ -133,8 +175,7 @@ public class PlayerController : MonoBehaviour
                 canFlip = true;
                 lastGrapplinCreated.Destroy();
             }
-            else
-            {
+            else {
                 lastGrapplinCreated.grapplinHit = false;
                 isDashing = false;
                 canMove = true;
@@ -145,8 +186,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void CheckEndgame()
-    {
+    private void CheckEndgame() {
         float tmp_x = transform.position.x;
         float tmp_y = transform.position.y;
         endGame = (tmp_x > bottomLeftEnd.position.x &&
@@ -155,65 +195,50 @@ public class PlayerController : MonoBehaviour
                    tmp_y < topRightEnd.position.y);
     }
 
-    private void FixedUpdate()
-    {
+    private void FixedUpdate() {
         ApplyMovement();
         CheckSurroundings();
     }
 
-    private void CheckIfWallSliding()
-    {
-        if (isTouchingWall && movementInputDirection == facingDirection && rb.velocity.y < 0)
-        {
+    private void CheckIfWallSliding() {
+        if (isTouchingWall && movementInputDirection == facingDirection && rb.velocity.y < 0) {
             isWallSliding = true;
             //audioManager.PlaySideGripSound();
         }
-        else
-        {
+        else {
             isWallSliding = false;
             //audioManager.StopSideGripSound();
         }
     }
 
-    public bool GetDashStatus()
-    {
-        return isDashing;
-    }
+    public bool GetDashStatus() { return isDashing; }
 
-    public void Knockback(int direction)
-    {
+    public void Knockback(int direction) {
         knockback = true;
         knockbackStartTime = Time.time;
         rb.velocity = new Vector2(knockbackSpeed.x * direction, knockbackSpeed.y);
     }
 
-    private void CheckKnockback()
-    {
-        if (Time.time >= knockbackStartTime + knockbackDuration && knockback)
-        {
+    private void CheckKnockback() {
+        if (Time.time >= knockbackStartTime + knockbackDuration && knockback) {
             knockback = false;
             rb.velocity = new Vector2(0.0f, rb.velocity.y);
         }
     }
 
-    private void CheckSurroundings()
-    {
+    private void CheckSurroundings() {
         bool wasGrounded = isGrounded;
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
 
-        if (isGrounded)
-        {
-            if (!wasGrounded)
-            {
+        if (isGrounded) {
+            if (!wasGrounded) {
                 anim.SetBool("isJumping", false);
                 float fallHeight = fallStartHeight - transform.position.y;
-                if (fallHeight >= minimumFallDamageHeight && !isWallSliding)
-                {
+                if (fallHeight >= minimumFallDamageHeight && !isWallSliding) {
                     float damage = (fallHeight - minimumFallDamageHeight) * fallDamageMultiplier;
                     //audioManager.PlayDropSound();
                 }
-                else
-                {
+                else {
                     //audioManager.PlaySoftDropSound();
                 }
             }
@@ -225,87 +250,70 @@ public class PlayerController : MonoBehaviour
     }
 
 
-    private void CheckIfCanJump()
-    {
-        if (isGrounded && rb.velocity.y <= 0.01f)
-        {
+    private void CheckIfCanJump() {
+        if (isGrounded && rb.velocity.y <= 0.01f) {
             amountOfJumpsLeft = amountOfJumps;
         }
 
-        if (isTouchingWall)
-        {
+        if (isTouchingWall) {
             checkJumpMultiplier = false;
             canWallJump = true;
         }
 
-        if (amountOfJumpsLeft <= 0)
-        {
+        if (amountOfJumpsLeft <= 0) {
             canNormalJump = false;
         }
-        else
-        {
+        else {
             canNormalJump = true;
         }
     }
 
-    private void CheckMovementDirection()
-    {
-        if (movementInputDirection < 0)
-        {
+    private void CheckMovementDirection() {
+        if (movementInputDirection < 0) {
             movementSpeed = movementSpeedBackward;
         }
-        else if (movementInputDirection > 0)
-        {
+        else if (movementInputDirection > 0) {
             movementSpeed = movementSpeedForward;
         }
 
-        if (Mathf.Abs(rb.velocity.x) >= 0.01f)
-        {
+        if (Mathf.Abs(rb.velocity.x) >= 0.01f) {
             isWalking = true;
         }
-        else
-        {
+        else {
             isWalking = false;
         }
     }
 
-    private void UpdateAnimations()
-    {
+    private void UpdateAnimations() {
         anim.SetBool("isWalking", isWalking);
         anim.SetBool("isGrounded", isGrounded);
         anim.SetFloat("yVelocity", rb.velocity.y);
         anim.SetFloat("xVelocity", rb.velocity.x);
     }
 
-    private void CheckInput()
-    {
-        if (Time.timeScale == 0)
-        {
+    private void CheckInput() {
+        if (Time.timeScale == 0) {
             return;
         }
-        if (Input.GetButtonDown("Pause"))
-        {
+
+        if (Input.GetButtonDown("Pause")) {
             pauseCanvas.gameObject.SetActive(!pauseCanvas.gameObject.activeSelf);
         }
+
         movementInputDirection = Input.GetAxisRaw("Horizontal");
 
-        if (Input.GetButtonDown("Jump"))
-        {
-            if (isGrounded || (amountOfJumpsLeft > 0 && !isTouchingWall))
-            {
+        if (Input.GetButtonDown("Jump")) {
+            if (isGrounded || (amountOfJumpsLeft > 0 && !isTouchingWall)) {
                 NormalJump();
             }
-            else
-            {
+            else {
                 jumpTimer = jumpTimerSet;
                 isAttemptingToJump = true;
             }
         }
 
-        if (Input.GetButtonDown("Horizontal") && isTouchingWall)
-        {
-            if (!isGrounded && movementInputDirection != facingDirection)
-            {
+        if (Input.GetButtonDown("Horizontal") && isTouchingWall) {
+            if (!isGrounded && movementInputDirection != facingDirection) {
                 canMove = false;
                 canFlip = false;
 
@@ -313,42 +321,35 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if (turnTimer >= 0)
-        {
+        if (turnTimer >= 0) {
             turnTimer -= Time.deltaTime;
 
-            if (turnTimer <= 0)
-            {
+            if (turnTimer <= 0) {
                 canMove = true;
                 canFlip = true;
             }
         }
 
-        if (checkJumpMultiplier && !Input.GetButton("Jump"))
-        {
+        if (checkJumpMultiplier && !Input.GetButton("Jump")) {
             checkJumpMultiplier = false;
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * variableJumpHeightMultiplier);
         }
 
-        if (Input.GetButtonDown("Dash"))
-        {
-            if (Time.time >= (lastDash + dashCoolDown) && canDash && uiRope.numberRopes > 0)
-            {
+        if (Input.GetButtonDown("Dash")) {
+            if (Time.time >= (lastDash + dashCoolDown) && canDash && uiRope.numberRopes > 0) {
                 uiRope.numberRopes--;
                 AttemptToDash();
             }
         }
     }
 
-    private void AttemptToDash()
-    {
+    private void AttemptToDash() {
         isDashing = true;
         lastDash = Time.time;
 
         PlayerAfterImagePool.Instance.GetFromPool();
         lastImageXpos = transform.position.x;
-        if (!lastGrapplinCreated.IsUnityNull())
-        {
+        if (!lastGrapplinCreated.IsUnityNull()) {
             lastGrapplinCreated.Destroy();
         }
 
@@ -358,21 +359,15 @@ public class PlayerController : MonoBehaviour
         // Debug.Log("I am" + lastGrapplinCreated.name);
     }
 
-    public int GetFacingDirection()
-    {
-        return facingDirection;
-    }
+    public int GetFacingDirection() { return facingDirection; }
 
-    private void CheckDash()
-    {
-        if (isDashing)
-        {
-            if (lastGrapplinCreated.grapplinHit)
-            {
+    private void CheckDash() {
+        if (isDashing) {
+            if (lastGrapplinCreated.grapplinHit) {
                 canMove = false;
                 canFlip = false;
-                if ((transform.position - lastGrapplinCreated.grapplinTarget).magnitude < (dashSpeed * Time.deltaTime))
-                {
+                if ((transform.position - lastGrapplinCreated.grapplinTarget).magnitude <
+                    (dashSpeed * Time.deltaTime)) {
                     lastGrapplinCreated.grapplinHit = false;
                     isDashing = false;
                     canMove = true;
@@ -380,12 +375,10 @@ public class PlayerController : MonoBehaviour
                     lastGrapplinCreated.Destroy();
                     rb.velocity = new Vector2(rb.velocity.x * 2, rb.velocity.y / 2);
                 }
-                else
-                {
+                else {
                     rb.velocity = dashSpeed * ((lastGrapplinCreated.grapplinTarget - transform.position).normalized);
 
-                    if (Mathf.Abs(transform.position.x - lastImageXpos) > distanceBetweenImages)
-                    {
+                    if (Mathf.Abs(transform.position.x - lastImageXpos) > distanceBetweenImages) {
                         PlayerAfterImagePool.Instance.GetFromPool();
                         lastImageXpos = transform.position.x;
                     }
@@ -394,49 +387,38 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void CheckJump()
-    {
-        if (jumpTimer > 0)
-        {
+    private void CheckJump() {
+        if (jumpTimer > 0) {
             //WallJump
             if (!isGrounded && isTouchingWall && movementInputDirection != 0 &&
-                movementInputDirection != facingDirection)
-            {
+                movementInputDirection != facingDirection) {
                 WallJump();
             }
-            else if (isGrounded)
-            {
+            else if (isGrounded) {
                 NormalJump();
             }
         }
 
-        if (isAttemptingToJump)
-        {
+        if (isAttemptingToJump) {
             jumpTimer -= Time.deltaTime;
         }
 
-        if (wallJumpTimer > 0)
-        {
-            if (hasWallJumped && movementInputDirection == -lastWallJumpDirection)
-            {
+        if (wallJumpTimer > 0) {
+            if (hasWallJumped && movementInputDirection == -lastWallJumpDirection) {
                 rb.velocity = new Vector2(rb.velocity.x, 0.0f);
                 hasWallJumped = false;
             }
-            else if (wallJumpTimer <= 0)
-            {
+            else if (wallJumpTimer <= 0) {
                 hasWallJumped = false;
             }
-            else
-            {
+            else {
                 wallJumpTimer -= Time.deltaTime;
             }
         }
     }
 
-    private void NormalJump()
-    {
-        if (canNormalJump)
-        {
+    private void NormalJump() {
+        if (canNormalJump) {
             anim.SetBool("isJumping", true);
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             amountOfJumpsLeft--;
@@ -448,10 +430,8 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void WallJump()
-    {
-        if (canWallJump)
-        {
+    private void WallJump() {
+        if (canWallJump) {
             rb.velocity = new Vector2(rb.velocity.x, 0.0f);
             isWallSliding = false;
             amountOfJumpsLeft = amountOfJumps;
@@ -475,50 +455,36 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void ApplyMovement()
-    {
-        if (!isGrounded && !isWallSliding && movementInputDirection == 0 && !knockback)
-        {
+    private void ApplyMovement() {
+        if (!isGrounded && !isWallSliding && movementInputDirection == 0 && !knockback) {
             rb.velocity = new Vector2(rb.velocity.x * airDragMultiplier, rb.velocity.y);
         }
-        else if (canMove && !knockback)
-        {
+        else if (canMove && !knockback) {
             rb.velocity = new Vector2(movementSpeed * movementInputDirection, rb.velocity.y);
         }
 
 
-        if (isWallSliding)
-        {
+        if (isWallSliding) {
             fallStartHeight = transform.position.y;
-            if (rb.velocity.y < -wallSlideSpeed)
-            {
+            if (rb.velocity.y < -wallSlideSpeed) {
                 rb.velocity = new Vector2(rb.velocity.x, -wallSlideSpeed);
             }
         }
     }
 
-    public void DisableFlip()
-    {
-        canFlip = false;
-    }
+    public void DisableFlip() { canFlip = false; }
 
-    public void EnableFlip()
-    {
-        canFlip = true;
-    }
+    public void EnableFlip() { canFlip = true; }
 
-    public void Flip()
-    {
-        if (!isWallSliding && canFlip && !knockback)
-        {
+    public void Flip() {
+        if (!isWallSliding && canFlip && !knockback) {
             facingDirection *= -1;
             isFacingRight = !isFacingRight;
             transform.Rotate(0.0f, 180.0f, 0.0f);
         }
     }
 
-    private void OnDrawGizmos()
-    {
+    private void OnDrawGizmos() {
         Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
 
         Gizmos.DrawLine(wallCheck.position,

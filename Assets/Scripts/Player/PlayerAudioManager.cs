@@ -8,6 +8,11 @@ public class PlayerAudioManager : MonoBehaviour
     [SerializeField] private AudioSource audioSourceLoop;
     
 	[SerializeField] private AudioClip[] jumpSounds;
+	[SerializeField] private AudioClip[] runSounds;
+	[SerializeField] private AudioClip[] hookThrowSounds;
+	[SerializeField] private AudioClip[] dashSounds;
+	[SerializeField] private AudioClip[] landSounds;
+    
 	[SerializeField] private AudioClip edgeClimbSound;
 	[SerializeField] private AudioClip[] wallJumpSounds;
 	[SerializeField] private AudioClip[] attackSounds;
@@ -45,6 +50,26 @@ public class PlayerAudioManager : MonoBehaviour
         audioSource.PlayOneShot(jumpSounds[Random.Range(0, jumpSounds.Length)]);
     }
     
+    public void PlayRunSound()
+    {
+        audioSource.PlayOneShot(runSounds[Random.Range(0, runSounds.Length)]);
+    }
+    
+    public void PlayHookThrowSound()
+    {
+        audioSource.PlayOneShot(hookThrowSounds[Random.Range(0, hookThrowSounds.Length)]);
+    }
+    
+    public void PlayDashSound()
+    {
+        audioSource.PlayOneShot(dashSounds[Random.Range(0, dashSounds.Length)]);
+    }
+    
+    public void PlayLandSound()
+    {
+        audioSource.PlayOneShot(landSounds[Random.Range(0, landSounds.Length)]);
+    }
+    
     public void PlayDamageSound()
     {
         audioSource.PlayOneShot(damageSound[Random.Range(0, damageSound.Length)]);
@@ -54,7 +79,7 @@ public class PlayerAudioManager : MonoBehaviour
     {
         audioSource.PlayOneShot(deathSound[Random.Range(0, deathSound.Length)]);
     }
-
+    
     public void PlayFartSound()
     {
         audioSource.PlayOneShot(fartSound);
