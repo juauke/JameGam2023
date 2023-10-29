@@ -223,7 +223,7 @@ MonoBehaviour:
   wallJumpDirection: {x: 1, y: 0}
   groundCheck: {fileID: 7392416611698935923}
   wallCheck: {fileID: 2122925267028731397}
-  ceilingCheck: {fileID: 0}
+  ceilingCheck: {fileID: 53100297747150031}
   whatIsGround:
     serializedVersion: 2
     m_Bits: 64
@@ -408,7 +408,10 @@ MonoBehaviour:
   speed: 20
   grapplinHit: 0
   grapplinTarget: {x: 0, y: 0, z: 0}
-  grapplinCollider: {fileID: 0}
+  _rope: {fileID: 8528891849794887815}
+  _SpriteRenderer: {fileID: 2980350596381724526}
+  _player: {fileID: 2653349965079110014}
+  grapplinCollider: {fileID: 1996498823566796081}
 --- !u!50 &2713074947927250450
 Rigidbody2D:
   serializedVersion: 4
@@ -468,7 +471,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.16}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -479,7 +482,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.32, y: 0.07}
+  m_Size: {x: 0.07, y: 0.07}
   m_EdgeRadius: 0
 --- !u!1001 &1948141283202031498
 PrefabInstance:
@@ -554,6 +557,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: -8435245712485981826, guid: 635028dc9a802cc4bb70c781137cc8c1, type: 3}
+--- !u!212 &2980350596381724526 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3626916397498700004, guid: 635028dc9a802cc4bb70c781137cc8c1, type: 3}
+  m_PrefabInstance: {fileID: 1948141283202031498}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8528891849794887815 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 635028dc9a802cc4bb70c781137cc8c1, type: 3}
