@@ -3,15 +3,15 @@ using UnityEngine.UI;
 
 [ExecuteInEditMode]
 public class BackgroundScaler : MonoBehaviour {
-    Image backgroundImage;
-    RectTransform rectTransform;
-    float ratio;
+    [SerializeField] private Image backgroundImage;
+    [SerializeField] private RectTransform rectTransform;
+    private float _ratio;
 
     // Start is called before the first frame update
     void Start() {
         backgroundImage = GetComponent<Image>();
         rectTransform = backgroundImage.rectTransform;
-        ratio = backgroundImage.sprite.bounds.size.x / backgroundImage.sprite.bounds.size.y;
+        _ratio = backgroundImage.sprite.bounds.size.x / backgroundImage.sprite.bounds.size.y;
     }
 
     // Update is called once per frame
@@ -19,12 +19,12 @@ public class BackgroundScaler : MonoBehaviour {
         if (!rectTransform)
             return;
 
-        //Scale image proportionally to fit the screen dimensions, while preserving aspect ratio
-        if (Screen.height * ratio >= Screen.width) {
-            rectTransform.sizeDelta = new Vector2(Screen.height * ratio, Screen.height);
+        //Scale image proportionally to fit the screen dimensions, while preserving aspect _ratio
+        if (Screen.height * _ratio >= Screen.width) {
+            rectTransform.sizeDelta = new Vector2(Screen.height * _ratio, Screen.height);
         }
         else {
-            rectTransform.sizeDelta = new Vector2(Screen.width, Screen.width / ratio);
+            rectTransform.sizeDelta = new Vector2(Screen.width, Screen.width / _ratio);
         }
     }
 }
