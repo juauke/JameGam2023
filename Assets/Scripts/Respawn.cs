@@ -6,7 +6,7 @@ using UnityEngine;
 public class Respawn : MonoBehaviour
 {
     [SerializeField] GameObject character;
-    private bool _isRespawning;
+    public bool _isRespawning;
     [SerializeField] LevelTimer levelTimer;
     [SerializeField] private StressBar stressBar;
     [SerializeField] private ViewField viewField;

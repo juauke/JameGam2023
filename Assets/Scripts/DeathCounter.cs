@@ -10,12 +10,12 @@ public class DeathCounter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        text.text = ": 0";
+        text.text = ":0";
     }
 
     // Update is called once per frame
     public void UpdateCount(int n)
     {
-        text.text = ": " + n;
+        text.text = ":" + n;
     }
 }
